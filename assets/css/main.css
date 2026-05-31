@@ -394,10 +394,10 @@ hr.lineer_zero {
 	text-align: right;
 }
 .t_color_r {
-	color: rgba(244, 74, 115, 1);
+	color: rgba(252, 76, 126, 1);
 }
 .t_color_b {
-	color: rgba(77, 195, 247, 1);
+	color: rgba(75, 161, 247, 1);
 }
 .t_color_db {
 	color: rgba(45, 41, 96, 1);
@@ -2081,7 +2081,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: #000;
 }
 #wrapper > .color_Hdb {
-	background-color: rgba(41, 54, 119, 1);
+	background-color: rgba(45, 41, 96, 1);
 }
 #wrapper > .color_Hg10 {
 	background-color: rgba(246, 246, 249, 1);
