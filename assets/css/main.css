@@ -1486,7 +1486,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	padding: 0 1rem;
 }
 .banner.style5 .image {
-	
 }
 }
 .banner.style5.fullscreen {
@@ -1961,7 +1960,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .index > * {
 	border-top-color: rgba(0, 0, 0, 0);
 }
-/* Wrapper */
+/* Wrapper Invert */
 
 #wrapper {
 	background-color: inherit;
@@ -2019,30 +2018,43 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert .box03 {
 	border: 1px solid rgba(255, 255, 255, .15);
 }
-#wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert button, #wrapper > .invert .button {
+#wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
 	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .5);
 	color: #fff !important;
 }
-#wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert button:hover, #wrapper > .invert .button:hover {
+#wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert .button:hover {
 	background-color: rgba(252, 76, 126, 1);
 	box-shadow: none;
 	color: rgba(255, 255, 255, 1);
 }
-#wrapper > .invert input[type="submit"]:active, #wrapper > .invert input[type="reset"]:active, #wrapper > .invert input[type="button"]:active, #wrapper > .invert button:active, #wrapper > .invert .button:active {
+#wrapper > .invert input[type="submit"]:active, #wrapper > .invert input[type="reset"]:active, #wrapper > .invert input[type="button"]:active, #wrapper > .invert .button:active {
 	background-color: rgba(252, 76, 126, 1);
 	box-shadow: none;
 }
-#wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert button.primary, #wrapper > .invert .button.primary {
+#wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert .button.primary {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
 	color: rgba(20, 16, 43, 1) !important;
 }
-#wrapper > .invert input[type="submit"].primary:hover, #wrapper > .invert input[type="reset"].primary:hover, #wrapper > .invert input[type="button"].primary:hover, #wrapper > .invert button.primary:hover, #wrapper > .invert .button.primary:hover {
+#wrapper > .invert input[type="submit"].primary:hover, #wrapper > .invert input[type="reset"].primary:hover, #wrapper > .invert input[type="button"].primary:hover, #wrapper > .invert .button.primary:hover {
 	background-color: rgba(252, 76, 126, 1);
 	color: #fff !important;
 }
-#wrapper > .invert input[type="submit"].primary:active, #wrapper > .invert input[type="reset"].primary:active, #wrapper > .invert input[type="button"].primary:active, #wrapper > .invert button.primary:active, #wrapper > .invert .button.primary:active {
+#wrapper > .invert input[type="submit"].primary:active, #wrapper > .invert input[type="reset"].primary:active, #wrapper > .invert input[type="button"].primary:active, #wrapper > .invert .button.primary:active {
+	background-color: rgba(252, 76, 126, 1);
+	color: rgba(255, 255, 255, 1);
+}
+#wrapper > .invert input[type="submit"].secondary, #wrapper > .invert input[type="reset"].secondary, #wrapper > .invert input[type="button"].secondary, #wrapper > .invert .button.secondary {
+	background-color: rgba(252, 76, 126, 1);
+	box-shadow: none;
+	color: #fff !important;
+}
+#wrapper > .invert input[type="submit"].secondary:hover, #wrapper > .invert input[type="reset"].secondary:hover, #wrapper > .invert input[type="button"].secondary:hover, #wrapper > .invert .button.secondary:hover {
+	background-color: rgba(252, 76, 126, 1);
+	color: #fff !important;
+}
+#wrapper > .invert input[type="submit"].secondary:active, #wrapper > .invert input[type="reset"].secondary:active, #wrapper > .invert input[type="button"].secondary:active, #wrapper > .invert .button.secondary:active {
 	background-color: rgba(252, 76, 126, 1);
 	color: rgba(255, 255, 255, 1);
 }
