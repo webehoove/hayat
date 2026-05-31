@@ -202,7 +202,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: #03072D;
+	color: rgba(15, 25, 55, 1);
 }
 body, input, select, textarea {
 	font-family: 'HAYAT Sans Regular', Helvetica, sans-serif;
@@ -400,7 +400,7 @@ hr.lineer_zero {
 	color: rgba(74, 137, 243, 1);
 }
 .t_color_db {
-	color: rgba(17, 12, 80, 1);
+	color: rgba(41, 54, 119, 1);
 }
 .t_color_65 {
 	opacity: .65;
@@ -1966,7 +1966,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: rgba(3, 7, 45, 1);
+	background-color: rgba(15, 25, 55, 1);
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -2078,7 +2078,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: #000;
 }
 #wrapper > .color_Hdb {
-	background-color: rgba(13, 21, 80, 1);
+	background-color: rgba(41, 54, 119, 1);
 }
 #wrapper > .color_Hg10 {
 	background-color: rgba(246, 246, 249, 1);
