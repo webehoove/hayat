@@ -394,10 +394,10 @@ hr.lineer_zero {
 	text-align: right;
 }
 .t_color_r {
-	color: rgba(247, 67, 102, 1);
+	color: rgba(244, 74, 115, 1);
 }
 .t_color_b {
-	color: rgba(74, 137, 243, 1);
+	color: rgba(77, 195, 247, 1);
 }
 .t_color_db {
 	color: rgba(41, 54, 119, 1);
@@ -514,7 +514,7 @@ h1.special {
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 2.45rem;
+	font-size: 2.35rem;
 	line-height: 1.1;
 }
 h2 {
