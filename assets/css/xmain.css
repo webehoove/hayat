@@ -19,11 +19,10 @@
 	width: 11rem;
 }
 .logotype_lockup_b {
-	width: 11rem;
+	width: 20rem;
 }
-.logotype_sym_b {
-	width: 4rem;
-	margin-bottom: 1.5rem;
+.logotype_wm_b {
+	display: none;
 }
 ul.topmenu {
 	position: relative;
@@ -127,9 +126,6 @@ ul.topmenu li, ul.topmenu_block li {
 #hideitlow {
 	display: none;
 }
-.logotype_sym_b {
-	width: 3rem;
-}
 #logotype_sym {
 	position: relative;
 	width: 3rem;
@@ -145,6 +141,12 @@ ul.topmenu li, ul.topmenu_block li {
 	justify-content: center;
 	align-items: center;
 	width: 96%;
+}
+.logotype_sym_b {
+	width: 3rem;
+}
+.logotype_lockup_b {
+	width: 18rem;
 }
 .offdesk {
 	display: block;
@@ -178,7 +180,11 @@ ul.topmenu li, ul.topmenu_block li {
 #logotype_wm {
 	width: 93%;
 }
-.logotype_sym_b {
+.logotype_lockup_b {
+	display: none;
+}
+.logotype_wm_b {
+	display: block;
 	width: 100%;
 }
 .offmobtext {
