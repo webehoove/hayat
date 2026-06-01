@@ -13,13 +13,13 @@
 }
  @layer base {
   :root {
- --text-1: #0f172a;
- --text-2: #64748b;
- --surface-1: #ffffff;
- --surface-2: #f8fafc;
- --surface-3: #f1f5f9;
- --surface-4: #cbd5e1;
- --surface-5: #64748b;
+ --text-1: #fff;
+ --text-2: #fff;
+ --surface-1: #fff;
+ --surface-2: #fff;
+ --surface-3: #fff;
+ --surface-4: #fff;
+ --surface-5: #fff;
  --surface-translucent: hsla(210 40% 98% / 0.8);
  --border-color: var(--surface-5);
  --border-color-subtle: var(--surface-4);
@@ -81,10 +81,10 @@ scrolly-rail {
 	scrollbar-color: var(--scrollbar-color);
 	padding-inline: var(--_inline-gutter);
 	padding-block: var(--_block-gutter);
- margin-block: calc(var(--_block-gutter) * -1);
+    margin-block: calc(var(--_block-gutter) * -1);
 }
 .btn-scrolly-rail {
- --icon-size: 1.25rem;
+ --icon-size: 1rem;
  --x-offset-direction: 1;
  --_size: calc(var(--icon-size, 1rem) * 2);
  --_x-offset: calc(6px * var(--x-offset-direction));
@@ -138,22 +138,17 @@ x-card {
 	position: relative;
 	display: grid;
 	grid-template-columns: auto 1fr;
-	gap: 1rem;
-	padding: 0;
- &:focus-within {
- outline: 5px auto Highlight;
- outline: 5px auto -webkit-focus-ring-color;
+	gap: 0.5rem;
+	padding: 0 0 1.5rem 0;
 }
 .content {
 	display: grid;
-	gap: 0.4rem;
 }
 }
 .meta {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(min(8rem, 100%), 1fr));
 	justify-items: start;
-	gap: 0.4rem;
  .role {
  grid-column: 1 / -1;
 }
