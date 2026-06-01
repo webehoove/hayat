@@ -10,13 +10,8 @@
 	background-color: rgba(45, 41, 96, 1);
 	transition: 0.3s;
 }
-.logotype_name {
-	font-size: 2rem;
-	line-height: 1.2;
-	letter-spacing: 0;
-}
 .logotype_lockup {
-	width: 11rem;
+	width: 12rem;
 }
 .logotype_lockup_b {
 	width: 20rem;
@@ -62,6 +57,9 @@ ul.topmenu_block li a:hover {
 	border-bottom: none;
 }
 .menumob {
+	display: none;
+}
+.offdesk_img {
 	display: none;
 }
 ul.bottommenu {
@@ -142,9 +140,6 @@ ul.topmenu li, ul.topmenu_block li {
 	align-items: center;
 	width: 96%;
 }
-.logotype_sym_b {
-	width: 3rem;
-}
 .logotype_lockup_b {
 	width: 18rem;
 }
@@ -156,14 +151,8 @@ ul.topmenu li, ul.topmenu_block li {
 }
 }
  @media screen and (max-width: 1080px) {
-.logotype_sym_b {
-	width: 3rem;
-}
 }
  @media screen and (max-width: 820px) {
-.logotype_sym_b {
-	width: 3rem;
-}
 .offdesk, .offdesk_title {
 	display: block;
 }
@@ -189,6 +178,9 @@ ul.topmenu li, ul.topmenu_block li {
 }
 .offmobtext {
 	display: none;
+}
+.offdesk_img {
+	display: block;
 }
 }
  @media screen and (max-width: 736px) {

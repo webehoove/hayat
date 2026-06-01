@@ -285,9 +285,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: 0.075rem;
 }
 p {
-	font-size: 1.25rem;
-	line-height: 1.25;
-	margin-bottom: 1.25rem;
+	font-size: 1.35rem;
+	line-height: 1.35;
+	margin-bottom: 1.35rem;
 }
 h1 {
 	font-size: 2.5rem;
@@ -298,7 +298,7 @@ h1.special {
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 3.5rem;
+	font-size: 4rem;
 	line-height: 1.1;
 }
 h2 {
@@ -374,7 +374,7 @@ hr.block2 {
 }
 hr.lineer {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 1.5rem 0 3rem 0;
+	margin: 4rem 0;
 }
 hr.lineer_small {
 	border-bottom: 1px solid rgba(0, 0, 0, .15);
@@ -413,10 +413,7 @@ h1.special {
 	font-size: 3.5rem;
 }
 h1.special_one {
-	font-size: 3.25rem;
-}
-h1.title {
-	font-size: 3.5rem;
+	font-size: 3.85rem;
 }
 h2 {
 	font-size: 2rem;
@@ -427,10 +424,10 @@ h1 {
 	font-size: 2.35rem;
 }
 h1.special {
-	font-size: 3.35rem;
+	font-size: 3.15rem;
 }
 h1.special_one {
-	font-size: 3rem;
+	font-size: 3.35rem;
 }
 h2 {
 	font-size: 1.75rem;
@@ -441,28 +438,16 @@ h1 {
 	font-size: 2rem;
 }
 h1.special {
-	font-size: 3rem;
+	font-size: 2.75rem;
 }
 h1.special_one {
-	font-size: 2.75rem;
+	font-size: 3rem;
 }
 h2 {
 	font-size: 1.75rem;
 }
 }
  @media screen and (max-width: 1180px) {
-h1 {
-	font-size: 2rem;
-}
-h1.special {
-	font-size: 3rem;
-}
-h1.special_one {
-	font-size: 2.75rem;
-}
-h2 {
-	font-size: 1.75rem;
-}
 hr {
 	margin: 1rem 0;
 }
@@ -475,10 +460,10 @@ h1 {
 	font-size: 2rem;
 }
 h1.special {
-	font-size: 2.5rem;
+	font-size: 2.25rem;
 }
 h1.special_one {
-	font-size: 2.35rem;
+	font-size: 2.5rem;
 }
 h2 {
 	font-size: 1.5rem;
@@ -489,10 +474,10 @@ h1 {
 	font-size: 1.75rem;
 }
 h1.special {
-	font-size: 2.75rem;
+	font-size: 2.5rem;
 }
 h1.special_one {
-	font-size: 2.5rem;
+	font-size: 2.75rem;
 	line-height: 1;
 }
 h2 {
@@ -501,9 +486,9 @@ h2 {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.3rem;
-	line-height: 1.25;
-	margin-bottom: 1.2;
+	font-size: 1.35rem;
+	line-height: 1.35;
+	margin-bottom: 1.35;
 }
 h1 {
 	font-size: 1.75rem;
@@ -543,10 +528,6 @@ hr {
 hr.block {
 	margin: 1rem 0;
 }
-hr.lineer {
-	border-bottom: 1px solid rgba(0, 0, 0, .65);
-	margin: 7rem -1rem 3rem -1rem;
-}
 hr.lineer_small {
 	margin: 0 0 1rem 0;
 }
@@ -563,7 +544,7 @@ a:active, a:visited:active {
 }
 .text_link a {
 	color: inherit;
-	border-bottom: 3px solid rgba(87, 167, 247, 1);
+	border-bottom: 2px solid rgba(20, 16, 43, 1);
 }
 .text_link a:hover {
 	color: rgba(87, 167, 247, 1);
@@ -622,7 +603,7 @@ ul.box_link li {
 	border: 1px solid rgba(0, 0, 0, .15);
 	border-radius: 0.35rem;
 }
-.box_wide {
+.box_news {
 	position: relative;
 	background-color: rgba(3, 31, 48, 1);
 	padding: 2rem;
@@ -631,7 +612,7 @@ ul.box_link li {
 	height: 100%;
 	border-radius: 2rem;
 }
-.box_wide.box_wide_bg_01 {
+.box_news.box_news_bg_01 {
 	position: relative;
 	background-image: url(../../imgs/bnrs/elta_plan_design_2200.jpg);
 	background-clip: padding-box;
@@ -640,7 +621,7 @@ ul.box_link li {
 	background-repeat: no-repeat;
 	color: #fff;
 }
-.box_wide.box_wide_bg_02 {
+.box_news.box_news_bg_02 {
 	position: relative;
 	background-image: url(../../imgs/bnrs/elta_high_worker_one_2400.jpg);
 	background-clip: padding-box;
@@ -649,7 +630,7 @@ ul.box_link li {
 	background-repeat: no-repeat;
 	color: #fff;
 }
-.box_wide.box_wide_bg_03 {
+.box_news.box_news_bg_03 {
 	position: relative;
 	background-image: url(../../imgs/bnrs/elta_maintenance_check_2400.jpg);
 	background-clip: padding-box;
@@ -658,14 +639,14 @@ ul.box_link li {
 	background-repeat: no-repeat;
 	color: #fff;
 }
-.box_wide_text {
+.box_news_text {
 	position: relative;
 	padding-bottom: 2rem;
 	width: 90%;
 	height: 100%;
 	float: left;
 }
-.box_wide_text p {
+.box_news_text p {
 	width: 40%;
 }
 .box_high {
@@ -860,10 +841,10 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	filter: contrast(95%) brightness(100%);
 }
 .rounded img {
-	border-radius: 0.35rem;
+	border-radius: 2rem;
 }
 .rounded video {
-	border-radius: 0.35rem;
+	border-radius: 2rem;
 }
 .image video {
 	display: block;
