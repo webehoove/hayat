@@ -635,7 +635,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 375px) {
 .box_news {
-	width: 42vh;
+	width: 43vh;
 	height: 100%;
 }
 .box_news_but {
