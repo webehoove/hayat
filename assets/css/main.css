@@ -588,31 +588,10 @@ a:active, a:visited:active {
 	transform: scale(1.03);
     transform-origin: 50% 50%;
 }
-.box_news.box_news_bg_01 {
-	position: relative;
-	background-image: url(../../imgs/news/hayat_news_02.jpg);
-	background-repeat: no-repeat;
-	background-clip: padding-box;
-	background-position: top;
-}
-.box_news.box_news_bg_02 {
-	position: relative;
-	background-image: url(../../imgs/news/hayat_news_02.jpg);
-	background-repeat: no-repeat;
-	background-clip: padding-box;
-	background-position: top;
-}
-.box_news.box_news_bg_03 {
-	position: relative;
-	background-image: url(../../imgs/news/hayat_imgs_children_close.jpg);
-	background-repeat: no-repeat;
-	background-clip: padding-box;
-	background-position: top;
-}
 .box_news_text {
 	position: relative;
 	padding: 2rem 1.5rem;
-	height: 24vh;
+	height: 25vh;
 }
 .box_news_but {
 	position: absolute;
