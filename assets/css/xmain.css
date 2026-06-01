@@ -151,6 +151,9 @@ ul.topmenu li, ul.topmenu_block li {
 }
 }
  @media screen and (max-width: 1080px) {
+	 .logotype_lockup_b {
+	width: 14rem;
+}
 }
  @media screen and (max-width: 820px) {
 .offdesk, .offdesk_title {
@@ -175,6 +178,7 @@ ul.topmenu li, ul.topmenu_block li {
 .logotype_wm_b {
 	display: block;
 	width: 100%;
+	padding: 0 0.5rem;
 }
 .offmobtext {
 	display: none;
