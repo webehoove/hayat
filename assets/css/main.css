@@ -547,7 +547,7 @@ a:active, a:visited:active {
 	border-bottom: 2px solid rgba(20, 16, 43, 1);
 }
 .text_link a:hover {
-	color: rgba(255, 59, 126, 1);
+	color: rgba(252, 76, 126, 1);
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(20, 16, 43, 1);
@@ -784,7 +784,7 @@ input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:ac
 	box-shadow: inset 0 0 0 1px rgba(252, 76, 126, 1);
 }
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
-	background-color: rgba(255, 59, 126, 1);
+	background-color: rgba(20, 16, 43, 1);
 	box-shadow: none;
 	color: rgba(255, 255, 255, 1) !important;
 }
@@ -2014,7 +2014,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	box-shadow: none;
 }
 #wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert .button.primary {
-	background-color: rgba(255, 59, 126, 1);
+	background-color: rgba(252, 76, 126, 1);
 	box-shadow: none;
 	color: rgba(20, 16, 43, 1) !important;
 }
