@@ -621,7 +621,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 736px) {
 .box_news {
-	width: 35vh;
+	width: 38vh;
 	height: 100%;
 	border-radius: 2rem;
 }
@@ -635,7 +635,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 375px) {
 .box_news {
-	width: 40vh;
+	width: 42vh;
 	height: 100%;
 }
 .box_news_but {
