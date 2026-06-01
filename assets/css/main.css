@@ -512,7 +512,7 @@ h2 {
 	line-height: 1.35;
 }
 h3 {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	line-height: 1.1;
 }
 h4 {
@@ -642,7 +642,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 375px) {
 .box_news {
-	width: 43vh;
+	width: 45vh;
 	height: 100%;
 }
 .box_news_but {
