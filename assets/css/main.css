@@ -468,6 +468,9 @@ h1.special_one {
 h2 {
 	font-size: 1.5rem;
 }
+h3 {
+	font-size: 1.35rem;
+}
 }
  @media screen and (max-width: 820px) {
 h1 {
@@ -482,6 +485,9 @@ h1.special_one {
 }
 h2 {
 	font-size: 1.75rem;
+}
+h3 {
+	font-size: 2rem;
 }
 }
  @media screen and (max-width: 736px) {
@@ -636,7 +642,7 @@ ul.box_link li {
 }
 .box_news_text {
 	position: relative;
-	padding: 1.5rem;
+	padding: 2rem 1.5rem;
 	height: 20vh;
 }
 .box_news_but {
@@ -692,9 +698,17 @@ ul.box_link_w li a:hover {
 	color: #fff;
 	opacity: .8;
 }
+ @media screen and (max-width: 1180px) {
+.box_news_text {
+	padding: 1.5rem 1rem;
+}
+.box_news_but {
+	bottom: 1rem;
+}
+}
  @media screen and (max-width: 736px) {
 .box_news_text {
-	padding: 1rem;
+	padding: 1.5rem 1rem;
 }
 .box_news_but {
 	bottom: 1rem;

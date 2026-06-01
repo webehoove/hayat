@@ -146,13 +146,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -0.75rem;
+	margin-left: -1.5rem;
 }
 .row > * {
-	padding: 0.75rem 0 0 0.75rem;
+	padding: 1.5rem 0 0 1.5rem;
 }
 .row.gtr-uniform {
-	margin-top: -0.75rem;
+	margin-top: -1.5rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -330,13 +330,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -0.75rem;
+	margin-left: -1.5rem;
 }
 .row > * {
-	padding: 0.75rem 0 0 0.75rem;
+	padding: 1.5rem 0 0 1.5rem;
 }
 .row.gtr-uniform {
-	margin-top: -0.75rem;
+	margin-top: -1.5rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -515,13 +515,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -0.75rem;
+	margin-left: -1.25rem;
 }
 .row > * {
-	padding: 0.75rem 0 0 0.75rem;
+	padding: 1.25rem 0 0 1.25rem;
 }
 .row.gtr-uniform {
-	margin-top: -0.75rem;
+	margin-top: -1.25rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -700,13 +700,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -0.75rem;
+	margin-left: -1rem;
 }
 .row > * {
-	padding: 0.75rem 0 0 0.75rem;
+	padding: 1rem 0 0 1rem;
 }
 .row.gtr-uniform {
-	margin-top: -0.75rem;
+	margin-top: -1rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -885,13 +885,13 @@
 }
 .row {
 	margin-top: 0;
-	margin-left: -1rem;
+	margin-left: -1.5rem;
 }
 .row > * {
-	padding: 1rem 0 0 1rem;
+	padding: 1.5rem 0 0 1.5rem;
 }
 .row.gtr-uniform {
-	margin-top: -1rem;
+	margin-top: -1.5rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -1229,16 +1229,16 @@
 }
 .row.gtr-25 {
 	margin-top: 0;
-	margin-left: -0.5rem;
+	margin-left: -1rem;
 }
 .row.gtr-25 > * {
-	padding: 0 0 0 0.5rem;
+	padding: 0 0 0 1rem;
 }
 .row.gtr-25.gtr-uniform {
-	margin-top: -0.5rem;
+	margin-top: -1rem;
 }
 .row.gtr-25.gtr-uniform > * {
-	padding-top: 0.5rem;
+	padding-top: 1rem;
 }
 .row.gtr-50 {
 	margin-top: 0;
@@ -1414,16 +1414,16 @@
 }
 .row.gtr-25 {
 	margin-top: 0;
-	margin-left: -0.5rem;
+	margin-left: -1rem;
 }
 .row.gtr-25 > * {
-	padding: 0 0 0 0.5rem;
+	padding: 0 0 0 1rem;
 }
 .row.gtr-25.gtr-uniform {
-	margin-top: -0.5rem;
+	margin-top: -1rem;
 }
 .row.gtr-25.gtr-uniform > * {
-	padding-top: 0.5rem;
+	padding-top: 1rem;
 }
 .row.gtr-50 {
 	margin-top: 0;
