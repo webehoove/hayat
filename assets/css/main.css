@@ -666,11 +666,11 @@ ul.box_link_w li a:hover {
  @media screen and (max-width: 736px) {
 .box_news {
 	width: 35vh;
-	height: 45vh;
+	height: 100%;
 	border-radius: 2rem;
 }
 .box_news_text {
-	height: 25vh;
+	height: 22vh;
 	padding: 1.5rem 1rem;
 }
 .box_news_but {
@@ -680,7 +680,7 @@ ul.box_link_w li a:hover {
  @media screen and (max-width: 375px) {
 .box_news {
 	width: 40vh;
-	height: 52vh;
+	height: 100%;
 }
 .box_news_text {
 	height: 30vh;
@@ -745,7 +745,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
 	box-shadow: inset 0 0 0 1px rgba(45, 41, 96, .25);
-	color: rgba(20, 16, 43, 1) !important;
+	color: rgba(45, 41, 96, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
 	background-color: rgba(252, 76, 126, 1);
