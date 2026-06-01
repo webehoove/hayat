@@ -626,7 +626,7 @@ ul.box_link_w li a:hover {
 	border-radius: 2rem;
 }
 .box_news_text {
-	height: 20vh;
+	height: 25vh;
 	padding: 1.25rem 1rem;
 }
 .box_news_but {
@@ -637,9 +637,6 @@ ul.box_link_w li a:hover {
 .box_news {
 	width: 40vh;
 	height: 100%;
-}
-.box_news_text {
-	height: 30vh;
 }
 .box_news_but {
 	bottom: 1.25rem;
