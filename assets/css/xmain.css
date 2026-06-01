@@ -59,9 +59,6 @@ ul.topmenu_block li a:hover {
 .menumob {
 	display: none;
 }
-.offdesk_img {
-	display: none;
-}
 ul.bottommenu {
 	list-style: none;
 	font-size: 0.9rem;
@@ -93,7 +90,10 @@ ul.bottommenu_hor li {
 ul.goup li {
 	padding: 0.25rem 0.5rem 1rem 0;
 }
-.offdesk, .offdesk_title {
+.offdesk, .offdesk_title, .offdesk_all {
+	display: none;
+}
+.off_news_desk{
 	display: none;
 }
  @media screen and (max-width: 1680px) {
@@ -183,8 +183,14 @@ ul.topmenu li, ul.topmenu_block li {
 .offmobtext {
 	display: none;
 }
-.offdesk_img {
+.offdesk_all {
 	display: block;
+}
+.off_news_desk{
+	display: block;
+}
+.off_news_mob{
+	display: none;
 }
 }
  @media screen and (max-width: 736px) {
