@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="assets/css/rowmain.css" />
 <link rel="stylesheet" href="assets/css/xmain.css" />
 <link rel="stylesheet" href="assets/css/topmenu.css" />
+<link rel="stylesheet" href="assets/css/carousel.css" />
 <noscript>
 <link rel="stylesheet" href="assets/css/noscript.css" />
 </noscript>
@@ -236,7 +237,7 @@
           </ul>
         </div>
       </div>
-      <div class="row offdesk_img">
+      <div class="row offdesk_all">
         <div class="col-12 col-12-small">
           <hr>
           <span class="image fit rounded"><img src="imgs/hayat_imgs_children_close.jpg" onContextMenu="return false;" alt="О фонде Хайат" /></span> </div>
@@ -269,37 +270,38 @@
     </div>
   </section>
   
-  <!-- NEWS -->
+  <!-- NEWS DESKTOP -->
   
   <section class="wrapper style1 align-left">
-    <div class="inner">
+    <div class="inner off_news_mob">
       <div class="row">
         <div class="col-4 col-12-small">
-          <div class="box_news"> <span class="image fit"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></span>
+          <div id="img_news_container" class="box_news">
+            <div class="image fit"><a href="#"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></a></div>
             <div class="box_news_text">
-              <h3 class="md_tt">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</h3>
+              <h3 class="md_tt"><a href="#">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</a></h3>
               <ul class="box_news_but">
-                <li><a href="#" class="button primary small upup">Читать дальше</a></li>
+                <li><a href="#" class="button small upup">Читать дальше</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-4 col-12-small">
-          <div class="box_news"> <span class="image fit"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></span>
+          <div id="img_news_container" class="box_news"> <span class="image fit"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></span>
             <div class="box_news_text">
               <h3 class="md_tt">Фонд &laquo;Хайат&raquo;</h3>
               <ul class="box_news_but">
-                <li><a href="#" class="button primary small upup">Читать дальше</a></li>
+                <li><a href="#" class="button small upup">Читать дальше</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="col-4 col-12-small">
-          <div class="box_news"> <span class="image fit"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></span>
+          <div id="img_news_container" class="box_news"> <span class="image fit"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></span>
             <div class="box_news_text">
               <h3 class="md_tt">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</h3>
               <ul class="box_news_but">
-                <li><a href="#" class="button primary small upup">Читать дальше</a></li>
+                <li><a href="#" class="button small upup">Читать дальше</a></li>
               </ul>
             </div>
           </div>
@@ -308,51 +310,80 @@
     </div>
   </section>
   
-  <!-- SERVICES INSTALLATION -->
+  <!-- NEWS MOB -->
   
-  <section class="wrapper style1 align-left">
-    <div class="inner">
+  <section class="wrapper style1 color_Eb_30 align-left">
+    <div class="inner off_news_desk">
       <div class="row">
         <div class="col-12 col-12-small">
-          <div class="box_wide box_wide_bg_02">
-            <div class="box_wide_text">
-              <h6 class="colort_o_00 upup">Установка инженерных систем</h6>
-              <div style="width:100%; position:relative; min-height:40vh;">
-                <div style="position:absolute; top:55%; transform: translate(0%,-50%);">
-                  <h1 class="special_one semibold_tt upup">Монтажные работы</h1>
-                </div>
-              </div>
-              <p class="colort_o_00">Приступая к строительству, важно обеспечить качество при монтаже систем инженерных коммуникаций, поскольку от них зависит комфорт, удобство и безопасность.</p>
-              <ul>
-                <li><a href="https://eltaspb.ru/installation/" class="button secondary large medium_tx upup">Подробнее</a></li>
-              </ul>
+          <main class="layout-stack">
+            <div id="collection-1" class="collection layout-layer">
+              <scrolly-rail data-control-previous="collection-1-btn-previous" data-control-next="collection-1-btn-next">
+                <ul class="collection-list" role="list">
+                  <li>
+                    <x-card>
+                      <div class="content">
+                        <div id="img_news_container" class="box_news">
+                          <div class="image fit"><a href="#"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></a></div>
+                          <div class="box_news_text">
+                            <h3 class="md_tt"><a href="#">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</a></h3>
+                            <ul class="box_news_but">
+                              <li><a href="#" class="button small upup">Читать дальше</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </x-card>
+                  </li>
+                  <li>
+                    <x-card>
+                      <div class="content">
+                        <div id="img_news_container" class="box_news">
+                          <div class="image fit"><a href="#"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></a></div>
+                          <div class="box_news_text">
+                            <h3 class="md_tt"><a href="#">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</a></h3>
+                            <ul class="box_news_but">
+                              <li><a href="#" class="button small upup">Читать дальше</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </x-card>
+                  </li>
+                  <li>
+                    <x-card>
+                      <div class="content">
+                        <div id="img_news_container" class="box_news">
+                          <div class="image fit"><a href="#"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></a></div>
+                          <div class="box_news_text">
+                            <h3 class="md_tt"><a href="#">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</a></h3>
+                            <ul class="box_news_but">
+                              <li><a href="#" class="button small upup">Читать дальше</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </x-card>
+                  </li>
+                  <li>
+                    <x-card>
+                      <div class="content">
+                        <div id="img_news_container" class="box_news">
+                          <div class="image fit"><a href="#"><img src="imgs/news/hayat_news_02.jpg" style="border-radius:2rem 2rem 0 0;" onContextMenu="return false;" alt="Хайат Пресс-центр" /></a></div>
+                          <div class="box_news_text">
+                            <h3 class="md_tt"><a href="#">Фонд &laquo;Хайат&raquo; организовал 2-ю по счету международную конференцию &laquo;Россия-Сирия&raquo;</a></h3>
+                            <ul class="box_news_but">
+                              <li><a href="#" class="button small upup">Читать дальше</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </x-card>
+                  </li>
+                </ul>
+              </scrolly-rail>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- SERVICES MAINTENANCE -->
-  
-  <section class="wrapper style1 align-left">
-    <div class="inner">
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <div class="box_wide box_wide_bg_03">
-            <div class="box_wide_text">
-              <h6 class="colort_o_00 upup">Послегарантийное обслуживание систем</h6>
-              <div style="width:100%; position:relative; min-height:40vh;">
-                <div style="position:absolute; top:55%; transform: translate(0%,-50%);">
-                  <h1 class="special_one semibold_tt upup">Обслуживание систем</h1>
-                </div>
-              </div>
-              <p class="colort_o_00">Все установленное оборудование нуждается в регулярном техническом обслуживании. С нашей помощью вы приведете здание к нормам безопасности и продлите срок службы технического оснащения.</p>
-              <ul>
-                <li><a href="https://eltaspb.ru/maintenance/" class="button secondary large medium_tx upup">Подробнее</a></li>
-              </ul>
-            </div>
-          </div>
+          </main>
         </div>
       </div>
     </div>
@@ -476,25 +507,6 @@
         <div class="col-12 col-12-small">
           <hr class="block">
         </div>
-      </div>
-    </div>
-  </section>
-  
-  <!-- IMG DESK PLUSES -->
-  
-  <section class="wrapper style1 color_Eb_30 align-left">
-    <div class="inner">
-      <div class="row">
-        <div class="col-12 off-12-small">
-          <hr>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-5 off-12-small">
-          <h1 class="special_two medium_tt upup">Потребности наших клиентов лежат в основе всего, что мы делаем</h1>
-        </div>
-        <div class="col-1 off-12-small"> </div>
-        <div class="col-6 off-12-small"> <span class="image fit rounded"><img src="imgs/bnrs/elta_meeting_3people_1400.jpg" onContextMenu="return false;" alt="" /></span> </div>
       </div>
     </div>
   </section>
@@ -736,6 +748,7 @@
 <script src="assets/js/breakpoints.min.js"></script> 
 <script src="assets/js/util.js"></script> 
 <script src="assets/js/main.js"></script> 
+<script src="assets/js/carousel.js"></script> 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script> 
 <script>
 SmoothScroll({
