@@ -1997,6 +1997,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_00 {
 	background-color: #000;
 }
+#wrapper > .color_Hdb_grad {
+	background: #2D2960;
+    background: linear-gradient(180deg,rgba(45, 41, 96, 1) 0%, rgba(20, 16, 43, 1) 100%);
+}
 #wrapper > .color_Hdb {
 	background-color: rgba(45, 41, 96, 1);
 }
