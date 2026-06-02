@@ -748,7 +748,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	line-height: 4rem;
 	width: auto;
 	border-radius: 1.25rem;
-	padding: 0 1.75rem;
+	padding: 0 1.25rem;
 	text-align: center;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
