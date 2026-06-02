@@ -826,18 +826,13 @@ ul {
 	padding: 0;
 	margin: 0;
 }
-ul.alter {
-	list-style: none;
-	padding: 0;
-	margin: 0;
-}
 ul li {
 	display: inline-block;
-	padding-right: 0.25rem;
+	padding-right: 0.15rem;
 }
  @media screen and (max-width: 736px) {
 ul li {
-	padding: 0 0.15rem;
+	padding-right: 0.15rem;
 }
 }
 /* Actions */
@@ -1956,7 +1951,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input[type="submit"].secondary, #wrapper > .invert input[type="reset"].secondary, #wrapper > .invert input[type="button"].secondary, #wrapper > .invert .button.secondary {
-	background-color: rgba(252, 76, 126, 1);
+	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
 	color: #fff !important;
 }
