@@ -7,7 +7,7 @@
 	width: 100%;
 	background: rgba(20, 16, 43, 1);
 	transition: all 0.6s ease-in-out;
-	z-index: 1;
+	z-index: 4;
 	overflow: hidden;
 }
 #active:checked ~ .wrapper_menu {
@@ -18,7 +18,7 @@
 	-webkit-tap-highlight-color: transparent !important;
 	outline: none !important;
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	right: 1rem;
 	/*left: 20px; */
 	top: 2rem;
@@ -32,7 +32,7 @@
 	-webkit-tap-highlight-color: transparent !important;
 	outline: none !important;
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	right: 1rem;
 	/*left: 20px; */
 	top: 2rem;
