@@ -19,6 +19,7 @@
 <link rel="stylesheet" href="assets/css/rowmain.css" />
 <link rel="stylesheet" href="assets/css/xmain.css" />
 <link rel="stylesheet" href="assets/css/topmenu.css" />
+<link rel="stylesheet" href="assets/css/input.css" />
 <link rel="stylesheet" href="assets/css/carousel.css" />
 <noscript>
 <link rel="stylesheet" href="assets/css/noscript.css" />
@@ -103,7 +104,6 @@
           <div id="logotype_wm"> <a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_wm_w.svg" style="width:6.5rem;" onContextMenu="return false;" alt="Фонд Хайат" /></a> </div>
         </div>
         <div class="menumob col-1 col-12-small">
-          <input type="checkbox" id="active">
           <label for="active" id="menubut" class="menu-btn"></label>
           <label for="active" class="close"></label>
           <div class="wrapper_menu requires-no-scroll">
@@ -446,31 +446,57 @@
   
   <!-- CONTACT US -->
   
-  <section class="banner style4 orient-left content-align-left image-position-center onload-image-fade-in onload-content-fade-right">
-    <div class="content">
+  <section class="wrapper style1 color_Hg20 orient-left content-align-left image-position-center onload-image-fade-in onload-content-fade-right">
+    <div class="inner">
       <div class="row">
-        <div class="col-6 col-12-small">
-          <h1 class="special_one md_tx upup">Мы всегда готовы<br>
-            ответить на ваши<br>
-            вопросы</h1>
-        </div>
-        <div class="col-6 col-12-small">
-          <h1 class="special_one md_tx upup">Мы всегда готовы<br>
-            ответить на ваши<br>
-            вопросы</h1>
+        <div class="col-12 col-12-small">
+          <hr class="block">
         </div>
       </div>
-      <div class="row" style="position:absolute; bottom:2rem;">
-        <div class="col-5 col-10-small">
-          <p style="margin-bottom:3rem;">Мы будем рады получить от вас обратную связь, ответить на ваши вопросы и пригласить вас присоединиться к нам в наших усилиях.</p>
-          <ul>
+      <div class="row">
+        <div class="col-5 col-12-small">
+          <h1 class="special_one md_tx upup">Мы всегда готовы<br>
+            ответить на ваши<br>
+            вопросы</h1>
+            <p style="margin:4rem 0; width:90%;">Мы будем рады получить от вас обратную связь, ответить на ваши вопросы и пригласить вас присоединиться к нам в наших усилиях.</p>
+            <ul style="margin-bottom:4rem;">
             <li><a href="https://eltaspb.ru/contact/" class="button primary large upup">Контакты</a></li>
           </ul>
         </div>
+        <div class="col-1 off-12-small"></div>
+        <div class="col-5 col-12-small">
+          <h2 class="md_tt upup" style="margin-bottom:4rem;">Пожалуйста, заполните форму обратной связи. Наши сотрудники свяжутся с вами.</h2>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half upup">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" value="" />
+              </div>
+              <div class="field half upup">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="" />
+              </div>
+              <div class="field upup">
+                <label for="message">Комментарий</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+              </div>
+            </div>
+            <ul class="actions special">
+              <li>
+                <input class="primary small upup" type="submit" name="submit" id="submit" value="Отправить сообщение" />
+              </li>
+              <li>
+                <input class="small upup" type="submit" name="submit" id="submit" value="Прикрепить файл" />
+              </li>
+            </ul>
+          </form>
+        </div>
       </div>
-    </div>
-    <div class="image">
-      <video id="videobg" data-src="imgs/hayat_banner_vid_logo.mp4" data-mobsrc="imgs/hayat_banner_vid_logo.mp4" placeholder="imgs/hayat_banner_vid.jpg" preload="auto" autoplay loop muted="" playsinline="" src="imgs/hayat_banner_vid_logo.mp4" style="filter: brightness(1); filter: invert(0); opacity: 1;"> </video>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <hr class="block">
+        </div>
+      </div>
     </div>
   </section>
   
