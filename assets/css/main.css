@@ -564,7 +564,6 @@ a:active, a:visited:active {
 }
 .text_link a:hover {
 	color: rgba(252, 76, 126, 1);
-	border: none;
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(45, 41, 96, 1);
