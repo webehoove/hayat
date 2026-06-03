@@ -564,6 +564,7 @@ a:active, a:visited:active {
 }
 .text_link a:hover {
 	color: rgba(252, 76, 126, 1);
+	border: none;
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(45, 41, 96, 1);
@@ -778,8 +779,8 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 .image img {
 	display: block;
 }
-.contrast img {
-	filter: contrast(95%) brightness(100%);
+.image_end {
+	padding-bottom: 4rem;
 }
 .rounded img {
 	border-radius: 2rem;
@@ -818,6 +819,11 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 }
 .image.fit video {
 	width: 100%;
+}
+ @media screen and (max-width: 736px) {
+.image_end {
+	padding: 0;
+}
 }
 /* List */
 
