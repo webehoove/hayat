@@ -60,8 +60,7 @@ form > .fields > .field.quarter {
 }
 label {
 	display: block;
-	font-size: 0.9rem;
-	font-weight: 400;
+	font-size: 1rem;
 	margin: 0 0 1rem 0;
 }
 input[type="text"],  input[type="password"],  input[type="email"],  input[type="tel"],  input[type="search"],  input[type="url"],  select,  textarea {
@@ -139,8 +138,6 @@ input[type="checkbox"] + label:before,  input[type="radio"] + label:before {
 	text-rendering: auto;
 	line-height: 1;
 	text-transform: none !important;
-	font-family: 'Font Awesome 5 Free';
-	font-weight: 900;
 }
 input[type="checkbox"] + label:before,  input[type="radio"] + label:before {
 	border-radius: 4px;
@@ -182,14 +179,14 @@ input[type="radio"] + label:before {
  opacity: 1.0;
 }
 label {
-	color: #000000;
+	color: rgba(45, 41, 96, 1);
 }
 input[type="text"],  input[type="password"],  input[type="email"],  input[type="tel"],  input[type="search"],  input[type="url"],  select,  textarea {
 	border-color: rgba(0, 0, 0, 0.2);
 }
 input[type="text"]:focus,  input[type="password"]:focus,  input[type="email"]:focus,  input[type="tel"]:focus,  input[type="search"]:focus,  input[type="url"]:focus,  select:focus,  textarea:focus {
-	border-color: #47D3E5;
-	box-shadow: 0 0 0 1px #47D3E5;
+	border-color: rgba(45, 41, 96, 1);
+	box-shadow: 0 0 0 1px rgba(45, 41, 96, 1);
 }
 select {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(0, 0, 0, 0.2)' /%3E%3C/svg%3E");
@@ -205,13 +202,13 @@ input[type="checkbox"] + label:before,  input[type="radio"] + label:before {
 	border-color: rgba(0, 0, 0, 0.2);
 }
 input[type="checkbox"]:checked + label:before,  input[type="radio"]:checked + label:before {
-	background-color: #000000;
-	border-color: #000000;
+	background-color: rgba(45, 41, 96, 1);
+	border-color: rgba(45, 41, 96, 1);
 	color: #ffffff;
 }
 input[type="checkbox"]:focus + label:before,  input[type="radio"]:focus + label:before {
-	border-color: #47D3E5;
-	box-shadow: 0 0 0 1px #47D3E5;
+	border-color: rgba(45, 41, 96, 1);
+	box-shadow: 0 0 0 1px rgba(45, 41, 96, 1);
 }
 
 	::-webkit-input-placeholder {
