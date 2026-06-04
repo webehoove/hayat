@@ -567,9 +567,11 @@ a:active, a:visited:active {
 }
 .text_link a:hover {
 	color: rgba(252, 76, 126, 1);
+	border-bottom: 2px solid rgba(252, 76, 126, 1);
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(45, 41, 96, 1);
+	border-bottom: 2px solid rgba(45, 41, 96, 1);
 }
 /* Box */
 
@@ -1896,7 +1898,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert a {
-	color: rgba(255, 255, 255, .6);
+	color: rgba(255, 255, 255, .5);
 }
 #wrapper > .invert a:hover {
 	color: rgba(255, 255, 255, 1);
