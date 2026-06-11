@@ -187,7 +187,12 @@ html {
 	font-size: 13px;
 }
 }
- @media screen and (max-width: 390px) {
+ @media screen and (max-width: 395px) {
+html {
+	font-size: 12px;
+}
+}
+ @media screen and (max-width: 360px) {
 html {
 	font-size: 12px;
 }
