@@ -268,17 +268,14 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .bd_tt {
 	font-family: 'HAYAT Serif Bold', serif;
 	font-weight: normal;
-	letter-spacing: 0.075rem;
 }
 .eb_tt {
 	font-family: 'HAYAT Serif ExtraBold', serif;
 	font-weight: normal;
-	letter-spacing: 0.075rem;
 }
 .black_tt {
 	font-family: 'HAYAT Serif Black', serif;
 	font-weight: normal;
-	letter-spacing: 0.075rem;
 }
 p {
 	font-size: 1.35rem;
@@ -509,11 +506,11 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2.25rem;
+	font-size: 2.15rem;
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 2.5rem;
+	font-size: 2.35rem;
 	line-height: 1.1;
 }
 h2 {
