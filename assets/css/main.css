@@ -410,8 +410,8 @@ hr.lineer_zero {
 .t_color_db {
 	color: rgba(20, 16, 43, 1);
 }
-.t_color_65 {
-	opacity: .65;
+.t_color_50 {
+	opacity: .5;
 }
  @media screen and (max-width: 1680px) {
 h1 {
@@ -651,7 +651,7 @@ ul.box_link_w li a:hover {
 	border-radius: 2rem;
 }
 .box_news_text {
-	height: 27vh;
+	height: 25vh;
 	padding: 1.25rem 1rem;
 }
 .box_news_but {
