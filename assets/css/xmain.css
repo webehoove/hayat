@@ -22,16 +22,17 @@
 ul.topmenu {
 	position: relative;
 	list-style: none;
-	font-size: 0.9rem;
+	font-size: 0.75rem;
 	padding: 0;
 	margin: 0;
 	top: 0.35rem;
 }
 ul.topmenu li {
 	display: inline-block;
-	padding-right: 2rem;
+	padding-right: 1.25rem;
 }
 ul.topmenu li a {
+	font-size: 0.9rem;
 }
 ul.topmenu li a:hover {
 	border-bottom: none;
@@ -42,16 +43,16 @@ ul.topmenu li:first-child {
 ul.topmenu_block {
 	position: relative;
 	list-style: none;
-	font-size: 0.9rem;
 	padding: 0;
 	margin: 0;
 	top: 0.35rem;
 }
 ul.topmenu_block li {
 	display: block;
-	margin-bottom: 0.35rem;
+	margin-bottom: 0.75rem;
 }
 ul.topmenu_block li a {
+	font-size: 0.9rem;
 }
 ul.topmenu_block li a:hover {
 	border-bottom: none;
@@ -61,7 +62,6 @@ ul.topmenu_block li a:hover {
 }
 ul.bottommenu {
 	list-style: none;
-	font-size: 0.9rem;
 	line-height: 1.2;
 	padding: 0;
 	margin: 0;
@@ -71,8 +71,8 @@ ul.bottommenu li {
 	margin-bottom: 1rem;
 }
 ul.bottommenu_hor {
-	list-style: none;
 	font-size: 0.9rem;
+	list-style: none;
 	line-height: 0.9;
 	padding: 0;
 	margin: 0;
@@ -109,10 +109,10 @@ ul.topmenu li, ul.topmenu_block li {
 	width: 10rem;
 }
 ul.topmenu, ul.topmenu_block {
-	font-size: 0.85rem;
+	font-size: 0.75rem;
 }
 ul.topmenu li, ul.topmenu_block li {
-	padding-right: 1.15rem;
+	padding-right: 0.75rem;
 }
 }
  @media screen and (max-width: 1180px) {

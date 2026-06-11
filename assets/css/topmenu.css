@@ -154,6 +154,9 @@
 	transition: all 0.3s ease;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
+.wrapper_menu ul li h2 a {
+	font-size: 2.25rem;
+}
 input[type="checkbox"] {
 	display: none;
 }
