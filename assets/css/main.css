@@ -362,23 +362,15 @@ hr.block2 {
 	margin: 3rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 4rem 0;
-}
-hr.lineer {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 1px solid rgba(45, 41, 96, .25);
 	margin: 4rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 1px solid rgba(45, 41, 96, .25);
 	margin: 1rem 0;
 }
-hr.lineer_medium {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
-	margin: 1.5rem 0 2.5rem 0;
-}
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(0, 0, 0, .15);
+	border-bottom: 1px solid rgba(45, 41, 96, .25);
 	margin: 1rem 0;
 }
 .align-left {
@@ -1779,7 +1771,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
  @media screen and (max-width: 1180px) {
 .wrapper.style2 > .inner {
 	position: fixed;
-	padding: 1rem;
+	padding: 0.5rem 1rem 1rem 1rem;
 }
 }
  @media screen and (max-width: 980px) {
@@ -1789,7 +1781,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 820px) {
 .wrapper.style2 > .inner {
-	padding: 0.5rem 1rem 1rem 1rem;
+	padding: 0.35rem 1rem 1rem 1rem;
 }
 }
  @media screen and (max-width: 768px) {
