@@ -97,6 +97,9 @@ ul.bottommenu_hor li {
 .goup a:hover {
 	opacity: 1;
 }
+.goup a:active .goup a:visited {
+	opacity: .6;
+}
 .sm_sym a {
 	-moz-transition: 0.2s ease-in-out;
 	-webkit-transition: 0.2s ease-in-out;
@@ -106,6 +109,9 @@ ul.bottommenu_hor li {
 }
 .sm_sym a:hover {
 	opacity: .6;
+}
+.sm_sym a:active .goup a:visited {
+	opacity: 1;
 }
 ul.goup li {
 	padding: 0.25rem 0.5rem 1rem 0;
@@ -218,5 +224,10 @@ ul.bottommenu li {
 	font-size: 1.05rem;
 	line-height: 1.2;
 	margin-bottom: 1rem;
+}
+}
+ @media screen and (max-width: 395px) {
+#logotype_wm {
+	margin-top: 0.15rem;
 }
 }

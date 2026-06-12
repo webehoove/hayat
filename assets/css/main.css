@@ -556,6 +556,18 @@ a:active, a:visited:active {
 }
 /* Box */
 
+.box_text {
+	overflow: hidden;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+	position: relative;
+	background: none;
+	border: 1px solid rgba(45, 41, 96, 1);
+	margin: 0;
+	padding: 1.75rem 1.5rem;
+	width: 100%;
+	border-radius: 2rem;
+}
 .box_news {
 	overflow: hidden;
     -ms-flex-positive: 1;
@@ -1554,6 +1566,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert .topmenu a:hover, #wrapper > .invert .topmenu_block a:hover {
 	color: rgba(255, 255, 255, .7);
 }
+#wrapper > .invert .box_text {
+	border: 1px solid rgba(255, 255, 255, .5);
+}
 #wrapper > .invert ul.box_link_w li a {
 	color: rgba(255, 255, 255, 1);
 }
@@ -1567,28 +1582,15 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert p {
 	color: rgba(255, 255, 255, 0.95);
 }
-#wrapper > .invert blockquote {
-	border-left-color: white;
-}
-#wrapper > .invert code {
-	background: rgba(255, 255, 255, 0.125);
-	border-color: white;
-}
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small {
 	border-bottom-color: rgba(255, 255, 255, 0.15);
 }
 #wrapper > .invert hr.lineer_zero {
 	border-bottom-color: rgba(255, 255, 255, 0.5);
 }
-#wrapper > .invert .box02 {
-	border-color: rgba(255, 255, 255, 0.85);
-}
-#wrapper > .invert .box03 {
-	border: 1px solid rgba(255, 255, 255, .15);
-}
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .5);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .35);
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert .button:hover {
@@ -1667,8 +1669,8 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_Hdb {
 	background-color: rgba(45, 41, 96, 1);
 }
-#wrapper > .color_Hr {
-	background-color: rgba(252, 76, 126, 1);
+#wrapper > .color_Hdr {
+	background-color: rgba(132, 40, 73, 1);
 }
 #wrapper > .color_Hg20 {
 	background-color: rgba(230, 232, 237, 1);
