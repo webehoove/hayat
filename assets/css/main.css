@@ -554,6 +554,33 @@ a:active, a:visited:active {
 	color: rgba(45, 41, 96, 1);
 	border-bottom: 2px solid rgba(45, 41, 96, 1);
 }
+.text_link_arrow {
+	position: relative;
+	display: flex;
+    align-items: center;
+	width: 50%;
+	height: 4rem;
+}
+.text_link_arrow li.a_right {
+	margin-left: 1rem;
+}
+.text_link_arrow li.a_right img.l_arrow {
+	width: 1.5rem;
+}
+ @media screen and (max-width: 736px) {
+.text_link_arrow {
+	width: 100%;
+}
+.text_link_arrow li.a_right {
+	margin-left: auto;
+    order: 2;
+}
+.text_link_arrow li.a_right img.l_arrow {
+	position: relative;
+	top: -0.25rem;
+	width: 2.5rem;
+}
+}
 /* Box */
 
 .box_text {
@@ -687,7 +714,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	line-height: 3.5rem;
 	width: auto;
 	border-radius: 1.25rem;
-	padding: 0 1.5rem;
+	padding: 0 1.25rem;
 	text-align: center;
 }
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
@@ -739,7 +766,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	line-height: 4rem;
 	width: auto;
 	border-radius: 1.25rem;
-	padding: 0 1.5rem;
+	padding: 0 1.25rem;
 	text-align: center;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
@@ -1560,6 +1587,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert a:hover {
 	color: rgba(255, 255, 255, 1);
 }
+#wrapper > .invert a:visited {
+	color: rgba(255, 255, 255, .5);
+}
 #wrapper > .invert .topmenu a, #wrapper > .invert .topmenu_block a {
 	color: rgba(255, 255, 255, 1);
 }
@@ -1580,13 +1610,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert p {
-	color: rgba(255, 255, 255, 0.95);
+	color: rgba(255, 255, 255, 1);
 }
-#wrapper > .invert hr, #wrapper > .invert hr.lineer_small {
-	border-bottom-color: rgba(255, 255, 255, 0.15);
-}
-#wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, 0.5);
+#wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
+	border-bottom-color: rgba(255, 255, 255, .2);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
