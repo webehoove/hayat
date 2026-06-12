@@ -280,7 +280,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 p {
 	font-size: 1.35rem;
 	line-height: 1.35;
-	margin-bottom: 1.35rem;
 }
 h1 {
 	font-size: 2.5rem;
@@ -494,15 +493,14 @@ h3 {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.35rem;
-	line-height: 1.25;
-	margin-bottom: 1.25rem;
+	line-height: 1.35;
 }
 h1 {
 	font-size: 1.75rem;
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2rem;
+	font-size: 2.15rem;
 	line-height: 1.1;
 }
 h1.special_one {
@@ -510,8 +508,8 @@ h1.special_one {
 	line-height: 1.1;
 }
 h2 {
-	font-size: 1.75rem;
-	line-height: 1.35;
+	font-size: 2rem;
+	line-height: 1.2;
 }
 h3 {
 	font-size: 1.5rem;
@@ -533,7 +531,7 @@ hr {
 	margin: 1.75rem 0;
 }
 hr.block {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 }
 hr.block2 {
 	margin: 2rem 0;
