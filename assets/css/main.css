@@ -494,8 +494,8 @@ h3 {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.35rem;
-	line-height: 1.35;
-	margin-bottom: 1.35rem;
+	line-height: 1.25;
+	margin-bottom: 1.25rem;
 }
 h1 {
 	font-size: 1.75rem;
@@ -739,7 +739,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 button.secondary, .button.secondary {
 	background-color: rgba(45, 41, 96, .1);
 	box-shadow: none;
-	color: rgba(20, 16, 43, 1) !important;
+	color: rgba(45, 41, 96, 1) !important;
 }
 button.secondary:hover, .button.secondary:hover {
 	background-color: rgba(252, 76, 126, 1);
