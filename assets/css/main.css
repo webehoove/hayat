@@ -350,11 +350,7 @@ pre code {
 }
 hr {
 	border: 0;
-	margin: 2rem 0;
-}
-hr.end {
-	border: 0;
-	margin: 0.5rem 0;
+	margin: 1.25rem 0;
 }
 hr.block {
 	border: 0;
@@ -508,7 +504,7 @@ h1.special_one {
 	line-height: 1.1;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 1.85rem;
 	line-height: 1.2;
 }
 h3 {
@@ -528,10 +524,10 @@ h6 {
 	line-height: 1;
 }
 hr {
-	margin: 1.75rem 0;
+	margin: 0.5rem 0;
 }
 hr.block {
-	margin: 0.5rem 0;
+	margin: 1.5rem 0;
 }
 hr.block2 {
 	margin: 2rem 0;
@@ -775,9 +771,6 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 .image img {
 	display: block;
 }
-.image_end {
-	padding-bottom: 4rem;
-}
 .rounded img {
 	border-radius: 2rem;
 }
@@ -817,9 +810,6 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	width: 100%;
 }
  @media screen and (max-width: 736px) {
-.image_end {
-	padding: 0;
-}
 }
 /* List */
 
