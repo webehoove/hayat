@@ -14,7 +14,7 @@
 	width: 12rem;
 }
 .logotype_lockup_b {
-	width: 20rem;
+	width: 18rem;
 }
 .logotype_wm_b {
 	display: none;
@@ -25,7 +25,7 @@ ul.topmenu {
 	font-size: 0.75rem;
 	padding: 0;
 	margin: 0;
-	top: 0.35rem;
+	top: 0;
 }
 ul.topmenu li {
 	display: inline-block;
@@ -45,7 +45,7 @@ ul.topmenu_block {
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	top: 0.35rem;
+	top: 0;
 }
 ul.topmenu_block li {
 	display: block;
@@ -87,13 +87,33 @@ ul.bottommenu_hor li {
 	width: 2.25rem;
 	bottom: 0.7rem;
 }
+.goup a {
+	-moz-transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	opacity: .6;
+}
+.goup a:hover {
+	opacity: 1;
+}
+.sm_sym a {
+	-moz-transition: 0.2s ease-in-out;
+	-webkit-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+	opacity: 1;
+}
+.sm_sym a:hover {
+	opacity: .6;
+}
 ul.goup li {
 	padding: 0.25rem 0.5rem 1rem 0;
 }
 .offdesk, .offdesk_title, .offdesk_all {
 	display: none;
 }
-.off_news_desk{
+.off_news_desk {
 	display: none;
 }
  @media screen and (max-width: 1680px) {
@@ -106,7 +126,10 @@ ul.topmenu li, ul.topmenu_block li {
 }
  @media screen and (max-width: 1366px) {
 .logotype_lockup {
-	width: 10rem;
+	width: 12rem;
+}
+.logotype_lockup_b {
+	width: 16rem;
 }
 ul.topmenu, ul.topmenu_block {
 	font-size: 0.75rem;
@@ -126,9 +149,9 @@ ul.topmenu li, ul.topmenu_block li {
 }
 #logotype_sym {
 	position: relative;
-	width: 3rem;
+	width: 2.8rem;
 	float: left;
-	top: -0.15rem;
+	top: -0.25rem;
 	left: 0;
 	z-index: 4;
 }
@@ -141,7 +164,7 @@ ul.topmenu li, ul.topmenu_block li {
 	width: 96%;
 }
 .logotype_lockup_b {
-	width: 18rem;
+	width: 16rem;
 }
 .offdesk {
 	display: block;
@@ -151,8 +174,11 @@ ul.topmenu li, ul.topmenu_block li {
 }
 }
  @media screen and (max-width: 1080px) {
-	 .logotype_lockup_b {
+.logotype_lockup_b {
 	width: 14rem;
+}
+#logotype_sym {
+	top: -0.1rem;
 }
 }
  @media screen and (max-width: 820px) {
@@ -162,15 +188,10 @@ ul.topmenu li, ul.topmenu_block li {
 }
  @media screen and (max-width: 768px) {
 #logotype_sym {
-	position: relative;
-	width: 3.35rem;
-	float: left;
-	top: -0.5rem;
-	left: 0;
-	z-index: 4;
+	top: -0.1rem;
 }
 #logotype_wm {
-	width: 93%;
+	width: 95%;
 }
 .logotype_lockup_b {
 	display: none;
@@ -185,10 +206,10 @@ ul.topmenu li, ul.topmenu_block li {
 .offdesk_all {
 	display: block;
 }
-.off_news_desk{
+.off_news_desk {
 	display: block;
 }
-.off_news_mob{
+.off_news_mob {
 	display: none;
 }
 }
