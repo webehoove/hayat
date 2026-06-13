@@ -208,6 +208,7 @@ body, input, select, textarea {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
+	font-feature-settings: "ss02" 1;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -226,6 +227,7 @@ a:hover {
 strong, b {
 	font-family: "HAYAT Sans Bd", Helvetica, sans-serif;
 	font-weight: normal;
+	font-feature-settings: "ss02" 1;
 }
 em, i {
 	font-style: italic;
@@ -240,18 +242,22 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .lt_tx {
 	font-family: 'HAYAT Sans Light', Helvetica, sans-serif;
 	font-weight: normal;
+	font-feature-settings: "ss02" 1;
 }
 .rg_tx {
 	font-family: 'HAYAT Sans Regular', Helvetica, sans-serif;
 	font-weight: normal;
+	font-feature-settings: "ss02" 1;
 }
 .md_tx {
 	font-family: 'HAYAT Sans Medium', Helvetica, sans-serif;
 	font-weight: normal;
+	font-feature-settings: "ss02" 1;
 }
 .bd_tx {
 	font-family: 'HAYAT Sans Bold', Helvetica, sans-serif;
 	font-weight: normal;
+	font-feature-settings: "ss02" 1;
 }
 .rg_tt {
 	font-family: 'HAYAT Serif Rg', sans-serif;
@@ -272,7 +278,6 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .eb_tt {
 	font-family: 'HAYAT Serif ExtraBold', serif;
 	font-weight: normal;
-	letter-spacing: 0.025rem;
 }
 .black_tt {
 	font-family: 'HAYAT Serif Black', serif;
@@ -284,27 +289,27 @@ p {
 }
 h1 {
 	font-size: 3rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h1.special {
 	font-size: 3.75rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h1.special_one {
 	font-size: 4rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h2 {
 	font-size: 2.15rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h3 {
 	font-size: 1.5rem;
-	line-height: 1.05;
+	line-height: 1.2;
 }
 h4 {
 	font-size: 1.15rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h5 {
 	font-size: 1rem;
@@ -470,7 +475,6 @@ h1.special {
 }
 h1.special_one {
 	font-size: 2.75rem;
-	line-height: 1;
 }
 h2 {
 	font-size: 1.75rem;
@@ -486,27 +490,27 @@ p {
 }
 h1 {
 	font-size: 1.75rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h1.special {
-	font-size: 2.15rem;
-	line-height: 1.1;
+	font-size: 2rem;
+	line-height: 1.2;
 }
 h1.special_one {
-	font-size: 2.25rem;
-	line-height: 1.1;
+	font-size: 2.15rem;
+	line-height: 1.2;
 }
 h2 {
-	font-size: 1.85rem;
-	line-height: 1.2;
+	font-size: 1.75rem;
+	line-height: 1.35;
 }
 h3 {
 	font-size: 1.5rem;
-	line-height: 1.1;
+	line-height: 1.2;
 }
 h4 {
 	font-size: 1.25rem;
-	line-height: 1.15;
+	line-height: 1.2;
 }
 h5 {
 	font-size: 1rem;
@@ -577,8 +581,8 @@ a:active, a:visited:active {
 }
 .text_link_arrow li.a_right img.l_arrow {
 	position: relative;
-	top: -0.25rem;
-	width: 2.5rem;
+	top: -0.15rem;
+	width: 2.15rem;
 }
 }
 /* Box */
