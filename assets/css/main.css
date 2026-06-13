@@ -358,6 +358,10 @@ hr {
 	border: 0;
 	margin: 1.25rem 0;
 }
+hr.block_start {
+	border: 0;
+	margin: 2rem 0;
+}
 hr.block {
 	border: 0;
 	margin: 2rem 0;
@@ -692,7 +696,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	text-decoration: none;
 	white-space: nowrap;
 	font-size: 1rem;
-	letter-spacing: 0.035rem;
+	letter-spacing: 0.025rem;
 	width: auto;
 	height: 2.5rem;
 	line-height: 2.5;
@@ -710,10 +714,10 @@ input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, but
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.75rem;
 	width: auto;
-	height: 2.15rem;
-	line-height: 3;
-	border-radius: 1.5rem;
-	padding: 0 1rem;
+	height: 2.3rem;
+	line-height: 3.25;
+	border-radius: 1.15rem;
+	padding: 0 0.75rem;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 0.8rem;
@@ -767,22 +771,22 @@ button.secondary:active, .button.secondary:active {
 	background-color: rgba(252, 76, 126, 1);
 }
  @media screen and (max-width: 736px) {
+input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
+	font-size: 0.85rem;
+	width: auto;
+	height: 2.6rem;
+	line-height: 3.15;
+	border-radius: 1.35rem;
+	padding: 0 0.8rem;
+}
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 0.9rem;
 	height: 4rem;
 	line-height: 4rem;
 	width: auto;
 	border-radius: 1.25rem;
-	padding: 0 1.25rem;
+	padding: 0 1.35rem;
 	text-align: center;
-}
-input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
-	font-size: 0.85rem;
-	width: auto;
-	height: 2.5rem;
-	line-height: 3.15;
-	border-radius: 1.25rem;
-	padding: 0 0.8rem;
 }
 }
 /* Image */
