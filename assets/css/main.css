@@ -695,12 +695,12 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
-	font-size: 1rem;
+	font-size: 0.9rem;
 	width: auto;
-	height: 2.5rem;
-	line-height: 2.5;
-	border-radius: 1.25rem;
-	padding: 0 1rem;
+	height: 3.5rem;
+	line-height: 4;
+	border-radius: 1.75rem;
+	padding: 0 1.35rem;
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
@@ -1520,7 +1520,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .wrapper.style2 > .inner {
-	padding: 0.5rem 1rem 0 1rem;
+	padding: 0.75rem 1.25rem 0.25rem 1.25rem;
 }
 }
 /* Index */

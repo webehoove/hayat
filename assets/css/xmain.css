@@ -191,6 +191,9 @@ ul.topmenu li, ul.topmenu_block li {
 .offdesk, .offdesk_title {
 	display: block;
 }
+.offmob_title {
+	display: none;
+}
 }
  @media screen and (max-width: 768px) {
 #logotype_sym {
@@ -220,6 +223,9 @@ ul.topmenu li, ul.topmenu_block li {
 }
 }
  @media screen and (max-width: 736px) {
+#logotype_wm {
+	width: 90%;
+}
 ul.bottommenu li {
 	font-size: 1.05rem;
 	line-height: 1.2;
