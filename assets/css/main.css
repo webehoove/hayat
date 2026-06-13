@@ -199,7 +199,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: rgba(20, 16, 43, 1);
+	color: rgba(45, 41, 96, 1);
 }
 body, input, select, textarea {
 	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
@@ -523,6 +523,9 @@ h6 {
 hr {
 	margin: 1rem 0;
 }
+hr.block_start {
+	margin: 0.75rem 0;
+}
 hr.block {
 	margin: 2rem 0;
 }
@@ -530,7 +533,7 @@ hr.block2 {
 	margin: 3rem 0;
 }
 hr.lineer {
-	margin: 3rem 0;
+	margin: 2rem 0;
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
@@ -581,8 +584,8 @@ a:active, a:visited:active {
 }
 .text_link_arrow li.a_right img.l_arrow {
 	position: relative;
-	top: -0.15rem;
-	width: 2.15rem;
+	top: 0;
+	width: 2rem;
 }
 }
 /* Box */
@@ -726,7 +729,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 1px rgba(45, 41, 96, .25);
+	box-shadow: inset 0 0 0 1px rgba(45, 41, 96, .15);
 	color: rgba(45, 41, 96, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
@@ -1398,7 +1401,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .banner.style5 {
-	padding: 0 1rem;
+	padding: 0 1.5rem;
 }
 .banner.style5 .image {
 }
@@ -1467,7 +1470,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 768px) {
 .wrapper.style1 > .inner {
-	padding: 1rem 1rem 0 1rem;
+	padding: 0 1.5rem;
 }
 .wrapper.style1 > .inner.medium {
 	width: 100%;
