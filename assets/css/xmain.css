@@ -7,8 +7,8 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: rgba(255, 255, 255, 1);
-	transition: 0.2s;
+	background-color: rgba(230, 232, 237, 1);
+	transition: 0.3s;
 }
 .logotype_lockup {
 	width: 9rem;
@@ -157,7 +157,7 @@ ul.topmenu li, ul.topmenu_block li {
 	position: relative;
 	width: 2.5rem;
 	float: left;
-	top: -0.25rem;
+	top: -0.5rem;
 	left: 0;
 	z-index: 4;
 }
@@ -168,14 +168,15 @@ ul.topmenu li, ul.topmenu_block li {
 	justify-content: center;
 	align-items: center;
 	width: 96%;
-	font-size: 2.35rem;
+	font-size: 2.25rem;
 	letter-spacing: -0.015rem;
+	line-height: 0.8;
 }
 ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_r {
-	color: rgba(252, 39, 63, 1);
+	color: rgba(33, 35, 65, 1);
 }
 .logotype_lockup_b {
 	width: 16rem;
@@ -201,6 +202,9 @@ ul li .logotype_wm_r {
 }
 .offmob_title {
 	display: none;
+}
+#logotype_wm {
+	line-height: 1.2;
 }
 }
  @media screen and (max-width: 768px) {
