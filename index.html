@@ -101,7 +101,7 @@
         <div class="col-12 col-12-small">
           <div id="logotype_sym" style="z-index:100;"> <a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_symbol_w.svg" class="logo" onContextMenu="return false;" alt="Фонд Хайат" /></a> </div>
           <ul id="logotype_wm" class="bd_tx">
-            <li><span id="logo_wm" class="logotype_wm_w">hayat</span></li>
+            <li><span id="logo_wm" class="logotype_wm_w">Hayat</span></li>
           </ul>
         </div>
         <div class="menumob col-1 col-12-small">
@@ -358,7 +358,7 @@
   
   <!-- HOW-WE-HELP FOOD -->
   
-  <section class="wrapper style1 invert color_Hdb align-left">
+  <section class="wrapper style1 invert color_Hmb align-left">
     <div class="inner">
       <div class="row align-center">
         <div class="col-12 col-12-small">
@@ -406,7 +406,7 @@
   
   <!-- HOW-WE-HELP DONBAS -->
   
-  <section class="wrapper style1 invert align-left">
+  <section class="wrapper style1 color_Hdb invert align-left">
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small">
@@ -714,7 +714,7 @@ $(function() {
   
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 50) {
+        if (scroll >= 60) {
             header.addClass("scrolled");
         } else {
             header.removeClass("scrolled");
@@ -726,7 +726,7 @@ var initialSrc = "imgs/brand/hayat_symbol_w.svg";
 var scrollSrc = "imgs/brand/hayat_symbol_c.svg";
 $(window).scroll(function() {
    var value = $(this).scrollTop();
-   if (value > 50)
+   if (value > 60)
       $(".logo").attr("src", scrollSrc);
    else
       $(".logo").attr("src", initialSrc);
@@ -736,10 +736,10 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 50) {
-            header.removeClass('logotype_wm_w').addClass("logotype_wm_r");
+        if (scroll >= 60) {
+            header.removeClass('logotype_wm_w').addClass("logotype_wm_b");
         } else {
-            header.removeClass("logotype_wm_r").addClass('logotype_wm_w');
+            header.removeClass("logotype_wm_b").addClass('logotype_wm_w');
         }
     });
 });
@@ -748,7 +748,7 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 50) {
+        if (scroll >= 60) {
             header.removeClass('menu-btn').addClass("menu-btnb");
         } else {
             header.removeClass("menu-btnb").addClass('menu-btn');
