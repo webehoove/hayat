@@ -375,15 +375,15 @@ hr.block2 {
 	margin: 3rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(45, 41, 96, .25);
+	border-bottom: 1px solid rgba(10, 12, 26, .5);
 	margin: 4rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(45, 41, 96, .25);
+	border-bottom: 1px solid rgba(10, 12, 26, .5);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(45, 41, 96, .25);
+	border-bottom: 1px solid rgba(10, 12, 26, .5);
 	margin: 1rem 0;
 }
 .align-left {

@@ -155,7 +155,7 @@ ul.topmenu li, ul.topmenu_block li {
 }
 #logotype_sym {
 	position: relative;
-	width: 2.5rem;
+	width: 3rem;
 	float: left;
 	top: -0.5rem;
 	left: 0;
@@ -168,15 +168,12 @@ ul.topmenu li, ul.topmenu_block li {
 	justify-content: center;
 	align-items: center;
 	width: 96%;
-	font-size: 2.25rem;
-	letter-spacing: -0.015rem;
+	font-size: 2.75rem;
 	line-height: 0.8;
+	letter-spacing: -0.015rem;
 }
 ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
-}
-ul li .logotype_wm_b {
-	color: rgba(10, 12, 26, 1);
 }
 ul li .logotype_wm_r {
 	color: rgba(252, 39, 63, 1);
@@ -210,7 +207,6 @@ ul li .logotype_wm_r {
 	display: none;
 }
 #logotype_wm {
-	font-size: 2.35rem;
 	line-height: 1.2;
 }
 }
@@ -219,8 +215,7 @@ ul li .logotype_wm_r {
 	top: -0.1rem;
 }
 #logotype_wm {
-	width: 95%;
-	font-size: 2.35rem;
+	width: 97%;
 	line-height: 1;
 }
 .logotype_lockup_b {
@@ -245,16 +240,16 @@ ul li .logotype_wm_r {
 }
  @media screen and (max-width: 736px) {
 #logotype_wm {
-	width: 92%;
+	width: 93%;
 }
 ul.bottommenu li {
 	font-size: 1.15rem;
-	line-height: 1.2;
+	line-height: 1.1;
 	margin-bottom: 1rem;
 }
 }
  @media screen and (max-width: 395px) {
 #logotype_wm {
-	
+	width: 91%;
 }
 }
