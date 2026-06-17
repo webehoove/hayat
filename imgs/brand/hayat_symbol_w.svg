@@ -17,7 +17,7 @@
 </g>
 <rect x="0" y="500" class="st1" width="250" height="250"/>
 <rect x="250" y="250" class="st2" width="250" height="250"/>
-<path class="st3" d="M0,500h250v250l0,0C111.9,750,0,638.1,0,500L0,500z"/>
+<path class="st3" d="M0,750V500h250l0,0C250,638.1,138.1,750,0,750L0,750z"/>
 <path class="st4" d="M250,250h250v250l0,0C361.9,500,250,388.1,250,250L250,250z"/>
 <rect x="500" y="500" class="st1" width="250" height="250"/>
 <path class="st3" d="M750,750H500V500l0,0C638.1,500,750,611.9,750,750L750,750z"/>
