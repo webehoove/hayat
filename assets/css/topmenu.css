@@ -68,12 +68,12 @@
 }
 @media screen and (max-width: 736px) {
 .menu-btn, .menu-btnb {
-	top: 3rem;
+	top: 3.15rem;
 }
 }
 @media screen and (max-width: 360px) {
 .menu-btn, .menu-btnb {
-	top: 3.1rem;
+	top: 3.15rem;
 }
 }
 .menu-btn span, .menu-btn:before, .menu-btn:after {
