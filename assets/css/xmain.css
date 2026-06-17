@@ -176,7 +176,7 @@ ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_b {
-	color: rgba(43, 34, 109, 1);
+	color: rgba(10, 12, 26, 1);
 }
 ul li .logotype_wm_r {
 	color: rgba(252, 39, 63, 1);
@@ -248,7 +248,7 @@ ul li .logotype_wm_r {
 	width: 92%;
 }
 ul.bottommenu li {
-	font-size: 1.05rem;
+	font-size: 1.15rem;
 	line-height: 1.2;
 	margin-bottom: 1rem;
 }
