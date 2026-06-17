@@ -4,52 +4,28 @@
 	 viewBox="0 0 750 750" style="enable-background:new 0 0 750 750;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#D19B9F;}
-	.st1{fill:#4682FA;}
-	.st2{fill:#FC273F;}
-	.st3{fill:#2B226D;}
-	.st4{fill:#FFFFFF;}
-	.st5{fill:#E6E8ED;}
+	.st1{fill:#FA9CA3;}
+	.st2{fill:#5044D5;}
+	.st3{fill:#FC273F;}
+	.st4{fill:#4682FA;}
+	.st5{fill:#FFFFFF;}
 </style>
-<g>
-	<g>
-		<path class="st0" d="M1182.1,578.1c1.9,0,1.9-3,0-3S1180.2,578.1,1182.1,578.1L1182.1,578.1z"/>
-	</g>
-</g>
-<rect x="881.2" y="500" class="st1" width="250" height="250"/>
-<rect x="1131.2" y="250" class="st1" width="250" height="250"/>
-<path class="st2" d="M1131.2,750h-250V500l0,0C1019.3,500,1131.2,611.9,1131.2,750L1131.2,750z"/>
-<path class="st3" d="M1131.2,250h250v250l0,0C1243.1,500,1131.2,388.1,1131.2,250L1131.2,250z"/>
-<rect x="1381.2" y="500" class="st2" width="250" height="250"/>
-<path class="st2" d="M1381.2,500h250v250l0,0C1493.1,750,1381.2,638.1,1381.2,500L1381.2,500z"/>
-<rect x="881.2" y="250" class="st3" width="250" height="250"/>
-<rect x="1381.2" y="250" class="st2" width="250" height="250"/>
-<rect x="1381.2" y="0" class="st1" width="250" height="250"/>
-<path class="st4" d="M1381.2,0h250v250l0,0C1493.1,250,1381.2,138.1,1381.2,0L1381.2,0z"/>
-<path class="st1" d="M1131.2,500h-250l0,0c0-138.1,111.9-250,250-250l0,0V500z"/>
-<g>
-	<g>
-		<path class="st0" d="M1182.1,78.1c1.9,0,1.9-3,0-3S1180.2,78.1,1182.1,78.1L1182.1,78.1z"/>
-	</g>
-</g>
-<rect x="881.2" y="0" class="st4" width="250" height="250"/>
-<path class="st4" d="M881.2,0h250v250l0,0C993.1,250,881.2,138.1,881.2,0L881.2,0z"/>
-<path class="st3" d="M1381.2,250h250l0,0c0,138.1-111.9,250-250,250l0,0V250z"/>
 <g>
 	<g>
 		<path class="st0" d="M300.9,578.1c1.9,0,1.9-3,0-3S299,578.1,300.9,578.1L300.9,578.1z"/>
 	</g>
 </g>
-<rect x="0" y="500" class="st3" width="250" height="250"/>
-<rect x="250" y="250" class="st3" width="250" height="250"/>
-<path class="st2" d="M250,750H0V500l0,0C138.1,500,250,611.9,250,750L250,750z"/>
-<path class="st1" d="M250,250h250v250l0,0C361.9,500,250,388.1,250,250L250,250z"/>
-<rect x="500" y="500" class="st2" width="250" height="250"/>
-<path class="st2" d="M500,500h250v250l0,0C611.9,750,500,638.1,500,500L500,500z"/>
-<rect x="0" y="250" class="st1" width="250" height="250"/>
-<rect x="500" y="250" class="st2" width="250" height="250"/>
-<rect x="500" y="0" class="st3" width="250" height="250"/>
+<rect x="0" y="500" class="st1" width="250" height="250"/>
+<rect x="250" y="250" class="st2" width="250" height="250"/>
+<path class="st3" d="M0,500h250v250l0,0C111.9,750,0,638.1,0,500L0,500z"/>
+<path class="st4" d="M250,250h250v250l0,0C361.9,500,250,388.1,250,250L250,250z"/>
+<rect x="500" y="500" class="st1" width="250" height="250"/>
+<path class="st3" d="M750,750H500V500l0,0C638.1,500,750,611.9,750,750L750,750z"/>
+<rect x="0" y="250" class="st5" width="250" height="250"/>
+<rect x="500" y="250" class="st1" width="250" height="250"/>
+<rect x="500" y="0" class="st4" width="250" height="250"/>
 <path class="st5" d="M500,0h250v250l0,0C611.9,250,500,138.1,500,0L500,0z"/>
-<path class="st3" d="M250,500H0l0,0c0-138.1,111.9-250,250-250l0,0V500z"/>
+<path class="st2" d="M250,500H0l0,0c0-138.1,111.9-250,250-250l0,0V500z"/>
 <g>
 	<g>
 		<path class="st0" d="M300.9,78.1c1.9,0,1.9-3,0-3S299,78.1,300.9,78.1L300.9,78.1z"/>
@@ -57,5 +33,5 @@
 </g>
 <rect x="0" y="0" class="st5" width="250" height="250"/>
 <path class="st5" d="M0,0h250v250l0,0C111.9,250,0,138.1,0,0L0,0z"/>
-<path class="st1" d="M500,250h250l0,0c0,138.1-111.9,250-250,250l0,0V250z"/>
+<path class="st4" d="M500,250h250l0,0c0,138.1-111.9,250-250,250l0,0V250z"/>
 </svg>
