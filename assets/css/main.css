@@ -204,7 +204,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: rgba(40, 34, 80, 1);
+	color: rgba(32, 34, 84, 1);
 }
 body, input, select, textarea {
 	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
@@ -1800,11 +1800,11 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: #000;
 }
 #wrapper > .color_Hdb_grad {
-	background: #2D2960;
-    background: linear-gradient(180deg,rgba(45, 41, 96, 1) 0%, rgba(20, 16, 43, 1) 100%);
+	background: rgba(32, 34, 84, 1);
+    background: linear-gradient(180deg,rgba(80, 56, 213, 1) 0%, rgba(32, 34, 84, 1) 100%);
 }
 #wrapper > .color_Hdb {
-	background-color: rgba(40, 34, 80, 1);
+	background-color: rgba(32, 34, 84, 1);
 }
 #wrapper > .color_Hmb {
 	background-color: rgba(80, 56, 213, 1);
