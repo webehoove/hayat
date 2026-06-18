@@ -492,8 +492,8 @@ h1 {
 	line-height: 1.2;
 }
 h1.special {
-	font-size: 2rem;
-	line-height: 1.2;
+	font-size: 2.15rem;
+	line-height: 1;
 }
 h1.special_one {
 	font-size: 2.35rem;
@@ -694,7 +694,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	width: auto;
 	height: 3.5rem;
 	line-height: 4;
-	border-radius: 1.75rem;
+	border-radius: 0;
 	padding: 0 1.35rem;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -718,7 +718,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	height: 3.5rem;
 	line-height: 4.5;
 	width: auto;
-	border-radius: 1.75rem;
+	border-radius: 0;
 	padding: 0 1.25rem;
 	text-align: center;
 }
@@ -788,7 +788,6 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 0.9rem;
 	height: 4rem;
-	border-radius: 2rem;
 	line-height: 4.5;
 	width: auto;
 	padding: 0 1.35rem;
@@ -1614,7 +1613,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .wrapper.style2 > .inner {
-	padding: 0.75rem 1.25rem 0.5rem 1.25rem;
+	padding: 0.75rem 1rem 0.5rem 1rem;
 }
 }
  @media screen and (max-width: 360px) {
