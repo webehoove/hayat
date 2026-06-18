@@ -727,7 +727,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 2px rgba(30, 34, 84, .15);
+	box-shadow: inset 0 0 0 2px rgba(30, 34, 84, .1);
 	color: rgba(30, 34, 84, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
@@ -1726,7 +1726,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .5);
+	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .6);
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert .button:hover {
