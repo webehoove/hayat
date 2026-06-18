@@ -300,8 +300,8 @@ h1.special {
 	line-height: 1;
 }
 h1.special_one {
-	font-size: 3.35rem;
-	line-height: 1.05;
+	font-size: 4rem;
+	line-height: 1;
 }
 h2 {
 	font-size: 2.25rem;
@@ -496,8 +496,8 @@ h1.special {
 	line-height: 1.2;
 }
 h1.special_one {
-	font-size: 2.25rem;
-	line-height: 1.1;
+	font-size: 2.35rem;
+	line-height: 1;
 }
 h2 {
 	font-size: 1.75rem;
@@ -612,7 +612,7 @@ a:active, a:visited:active {
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 0;
+	border-radius: 2.25rem;
 }
 .box_news.img_news_container {
 	overflow: hidden;
@@ -727,7 +727,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 1px rgba(8, 11, 38, .25);
+	box-shadow: inset 0 0 0 1px rgba(43, 34, 109, .25);
 	color: rgba(8, 11, 38, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
@@ -753,9 +753,9 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.secondary, .button.secondary {
-	background-color: rgba(8, 11, 38, .1);
+	background-color: rgba(43, 34, 109, .1);
 	box-shadow: none;
-	color: rgba(8, 11, 38, 1) !important;
+	color: rgba(43, 34, 109, 1) !important;
 }
 button.secondary:hover, .button.secondary:hover {
 	background-color: rgba(252, 39, 63, 1);
@@ -767,7 +767,7 @@ button.secondary:active, .button.secondary:active {
 button.secondary, .button.third {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
-	color: rgba(8, 11, 38, 1) !important;
+	color: rgba(43, 34, 109, 1) !important;
 }
 button.secondary:hover, .button.third:hover {
 	background-color: rgba(252, 39, 63, 1);
@@ -806,10 +806,10 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	display: block;
 }
 .rounded img {
-	border-radius: 2.5rem;
+	border-radius: 2.25rem;
 }
 .rounded video {
-	border-radius: 2.5rem;
+	border-radius: 2.25rem;
 }
 .image video {
 	display: block;
@@ -1465,6 +1465,18 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: 100%;
 	opacity: 1;
 	z-index: 1;
+}
+.banner.style5 .image.smooth-video {
+    /* Triggers GPU hardware acceleration to force hardware anti-aliasing */
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+    /* Forces high-quality scaling algorithms when video size changes */
+    image-rendering: auto;
+    
+    /* Extra optimization for Webkit/Blink browsers */
+    will-change: transform;
 }
  @media screen and (max-width: 1680px) {
 }
