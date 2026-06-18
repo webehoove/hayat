@@ -204,7 +204,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: rgba(32, 34, 84, 1);
+	color: rgba(23, 27, 75, 1);
 }
 body, input, select, textarea {
 	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
@@ -1804,7 +1804,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
     background: linear-gradient(180deg,rgba(80, 56, 213, 1) 0%, rgba(32, 34, 84, 1) 100%);
 }
 #wrapper > .color_Hdb {
-	background-color: rgba(32, 34, 84, 1);
+	background-color: rgba(23, 27, 75, 1);
 }
 #wrapper > .color_Hmb {
 	background-color: rgba(80, 56, 213, 1);
