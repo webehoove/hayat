@@ -11,7 +11,7 @@
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 9rem;
+	width: 16rem;
 }
 .logotype_lockup_b {
 	width: 18rem;
@@ -170,7 +170,7 @@ ul.topmenu li, ul.topmenu_block li {
 	width: 96%;
 	font-size: 2.75rem;
 	line-height: 0.8;
-	letter-spacing: -0.015rem;
+	letter-spacing: -0.025rem;
 }
 ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);

@@ -204,7 +204,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: rgba(10, 12, 26, 1);
+	color: rgba(43, 34, 109, 1);
 }
 body, input, select, textarea {
 	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
@@ -1344,9 +1344,30 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	z-index: 2;
 }
 .banner.style1 .content .image_wide img {
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
 	display: block;
 	width: 100%;
 }
+.banner.style1 .content .image_wide video {
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+	display: block;
+	width: 100%;
+}
+
  @media screen and (max-width: 1680px) {
 }
  @media screen and (max-width: 1366px) {
