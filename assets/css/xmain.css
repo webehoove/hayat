@@ -165,8 +165,8 @@ ul.topmenu li, ul.topmenu_block li {
 	justify-content: center;
 	align-items: center;
 	width: 96%;
-	font-size: 2.5rem;
-	line-height: 1.2;
+	font-size: 2.35rem;
+	line-height: 1.25;
 	letter-spacing: -0.025rem;
 }
 ul li .logotype_wm_w {
@@ -210,7 +210,7 @@ ul li .logotype_wm_db {
 }
 #logotype_wm {
 	width: 97%;
-	line-height: 1;
+	line-height: 1.2;
 }
 .logotype_wm_b {
 	display: block;
@@ -232,7 +232,6 @@ ul li .logotype_wm_db {
  @media screen and (max-width: 736px) {
 #logotype_wm {
 	width: 93%;
-	line-height: 1.2;
 }
 ul.bottommenu li {
 	font-size: 1.15rem;
