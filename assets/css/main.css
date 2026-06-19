@@ -1735,7 +1735,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert .button.primary {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
-	color: rgba(30, 34, 84, 1) !important;
+	color: rgba(10, 12, 26, 1) !important;
 }
 #wrapper > .invert input[type="submit"].primary:hover, #wrapper > .invert input[type="reset"].primary:hover, #wrapper > .invert input[type="button"].primary:hover, #wrapper > .invert .button.primary:hover {
 	background-color: rgba(252, 39, 63, 1);
