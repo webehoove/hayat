@@ -488,11 +488,11 @@ p {
 	line-height: 1.25;
 }
 h1 {
-	font-size: 2.25rem;
+	font-size: 2.35rem;
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2.15rem;
+	font-size: 2.25rem;
 	line-height: 1.15;
 }
 h1.special_one {
@@ -500,7 +500,7 @@ h1.special_one {
 	line-height: 1;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 2.25rem;
 	line-height: 1.35;
 }
 h3 {
@@ -710,11 +710,11 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 0.8rem;
-	height: 3.5rem;
-	line-height: 4.5;
+	height: 4rem;
+	line-height: 5;
 	width: auto;
 	border-radius: 0;
-	padding: 0 1.15rem;
+	padding: 0 1rem;
 	text-align: center;
 }
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
@@ -785,7 +785,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	height: 4rem;
 	line-height: 4.5;
 	width: auto;
-	padding: 0 1.35rem;
+	padding: 0 1.15rem;
 	text-align: center;
 }
 }
