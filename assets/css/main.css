@@ -493,7 +493,7 @@ h1 {
 }
 h1.special {
 	font-size: 2.25rem;
-	line-height: 1.15;
+	line-height: 1.1;
 }
 h1.special_one {
 	font-size: 2.35rem;
@@ -601,13 +601,13 @@ a:active, a:visited:active {
     -ms-flex-positive: 1;
     flex-grow: 1;
 	position: relative;
-	background: rgba(230, 232, 237, 1);
+	background: rgba(246, 246, 248, 1);
 	background-size: auto 50%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 2.25rem;
+	border-radius: 2.15rem;
 }
 .box_news.img_news_container {
 	overflow: hidden;
@@ -785,7 +785,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	height: 4rem;
 	line-height: 4.5;
 	width: auto;
-	padding: 0 1.15rem;
+	padding: 0 1.2rem;
 	text-align: center;
 }
 }
@@ -800,10 +800,10 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	display: block;
 }
 .rounded img {
-	border-radius: 2.25rem;
+	border-radius: 2.15rem;
 }
 .rounded video {
-	border-radius: 2.25rem;
+	border-radius: 2.15rem;
 }
 .image video {
 	display: block;
@@ -1823,6 +1823,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_Hr {
 	background-color: rgba(252, 39, 63, 1);
+}
+#wrapper > .color_Hg10 {
+	background-color: rgba(246, 246, 249, 1);
 }
 #wrapper > .color_Hg20 {
 	background-color: rgba(230, 232, 237, 1);
