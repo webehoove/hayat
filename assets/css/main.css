@@ -1805,12 +1805,8 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_00 {
 	background-color: #000;
 }
-#wrapper > .color_Hdb_grad {
-	background: rgba(32, 34, 84, 1);
-    background: linear-gradient(180deg,rgba(80, 56, 213, 1) 0%, rgba(32, 34, 84, 1) 100%);
-}
 #wrapper > .color_Hdb {
-	background-color: rgba(43, 34, 109, 1);
+	background-color: rgba(34, 34, 84, 1);
 }
 #wrapper > .color_Hmb {
 	background-color: rgba(67, 68, 213, 1);
