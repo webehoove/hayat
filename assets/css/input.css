@@ -118,7 +118,7 @@ label {
 	color: rgba(10, 12, 26, 1);
 }
 input[type="text"],  input[type="password"],  input[type="email"],  input[type="tel"],  input[type="search"],  input[type="url"],  select,  textarea {
-	border-color: rgba(10, 12, 26, .15);
+	border-color: rgba(10, 12, 26, .1);
 }
 input[type="text"]:focus,  input[type="password"]:focus,  input[type="email"]:focus,  input[type="tel"]:focus,  input[type="search"]:focus,  input[type="url"]:focus,  select:focus,  textarea:focus {
 	border-color: rgba(10, 12, 26, 1);
