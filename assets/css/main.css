@@ -492,7 +492,7 @@ p {
 }
 h1 {
 	font-size: 2.35rem;
-	line-height: 1.1;
+	line-height: 1;
 }
 h1.special {
 	font-size: 3rem;
@@ -515,7 +515,7 @@ h4 {
 	line-height: 1.2;
 }
 h5 {
-	font-size: 1rem;
+	font-size: 0.85rem;
 	line-height: 1.2;
 }
 h6 {
@@ -1724,7 +1724,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, .25);
+	border-bottom-color: rgba(255, 255, 255, .5);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;

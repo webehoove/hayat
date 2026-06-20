@@ -76,6 +76,7 @@ ul.bottommenu_hor {
 ul.bottommenu_hor li {
 	display: inline-block;
 	margin-bottom: 3rem;
+	padding-right: 2rem;
 }
 .goup {
 	position: relative;
@@ -171,9 +172,6 @@ ul li .logotype_wm_w {
 ul li .logotype_wm_db {
 	color: rgba(10, 12, 26, 1);
 }
-.logotype_lockup_b {
-	width: 16rem;
-}
 .offdesk {
 	display: block;
 }
@@ -209,8 +207,9 @@ ul li .logotype_wm_db {
 	line-height: 1.2;
 }
 ul.bottommenu_hor li {
-	font-size: 1.15rem;
-	margin-bottom: 2rem;
+	display: block;
+	font-size: 1.1rem;
+	margin: 0 0 1rem 0;
 }
 .offmobtext {
 	display: none;
