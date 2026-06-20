@@ -19,7 +19,7 @@
 ul.topmenu {
 	position: relative;
 	list-style: none;
-	font-size: 0.75rem;
+	font-size: 0.85rem;
 	padding: 0;
 	margin: 0;
 	top: 0;
@@ -29,7 +29,7 @@ ul.topmenu li {
 	padding-right: 1.25rem;
 }
 ul.topmenu li a {
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 }
 ul.topmenu li a:hover {
 	border-bottom: none;
@@ -46,10 +46,10 @@ ul.topmenu_block {
 }
 ul.topmenu_block li {
 	display: block;
-	margin-bottom: 0.75rem;
+	margin-bottom: 0.85rem;
 }
 ul.topmenu_block li a {
-	font-size: 0.9rem;
+	font-size: 0.85rem;
 }
 ul.topmenu_block li a:hover {
 	border-bottom: none;
@@ -68,15 +68,14 @@ ul.bottommenu li {
 	margin-bottom: 1rem;
 }
 ul.bottommenu_hor {
-	font-size: 0.9rem;
+	font-size: 1rem;
 	list-style: none;
-	line-height: 0.9;
 	padding: 0;
 	margin: 0;
 }
 ul.bottommenu_hor li {
 	display: inline-block;
-	margin-bottom: 1rem;
+	margin-bottom: 3rem;
 }
 .goup {
 	position: relative;
@@ -89,7 +88,7 @@ ul.bottommenu_hor li {
 	-webkit-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-	opacity: .6;
+	opacity: .45;
 }
 .goup a:hover {
 	opacity: 1;
@@ -212,9 +211,9 @@ ul li .logotype_wm_db {
 	width: 97%;
 	line-height: 1.2;
 }
-.logotype_wm_b {
-	display: block;
-	width: 100%;
+ul.bottommenu_hor li {
+	font-size: 1.15rem;
+	margin-bottom: 2rem;
 }
 .offmobtext {
 	display: none;

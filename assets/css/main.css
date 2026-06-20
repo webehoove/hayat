@@ -714,7 +714,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	line-height: 5;
 	width: auto;
 	border-radius: 0;
-	padding: 0 1rem;
+	padding: 0 1.15rem;
 	text-align: center;
 }
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
@@ -1716,7 +1716,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, .2);
+	border-bottom-color: rgba(255, 255, 255, .25);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
@@ -1751,12 +1751,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"].secondary:hover, #wrapper > .invert input[type="reset"].secondary:hover, #wrapper > .invert input[type="button"].secondary:hover, #wrapper > .invert .button.secondary:hover {
-	background-color: rgba(252, 76, 126, 1);
+	background-color: rgba(252, 39, 63, 1);
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"].secondary:active, #wrapper > .invert input[type="reset"].secondary:active, #wrapper > .invert input[type="button"].secondary:active, #wrapper > .invert .button.secondary:active {
-	background-color: rgba(252, 76, 126, 1);
-	color: rgba(255, 255, 255, 1);
+	background-color: rgba(252, 39, 63, 1);
+	color: rgba(10, 12, 26, 1);
 }
 #wrapper > .invert input[type="submit"].third, #wrapper > .invert input[type="reset"].third, #wrapper > .invert input[type="button"].third, #wrapper > .invert .button.third {
 	background-color: rgba(45, 41, 96, 1);
