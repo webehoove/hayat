@@ -306,6 +306,9 @@ h1.special_one {
 	font-size: 3.25rem;
 	line-height: 1;
 }
+h1.special_two {
+	font-size: 8rem;
+}
 h2 {
 	font-size: 2.25rem;
 	line-height: 1.25;
@@ -492,15 +495,15 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2.25rem;
-	line-height: 1.1;
+	font-size: 3rem;
+	line-height: 1;
 }
 h1.special_one {
-	font-size: 2.35rem;
+	font-size: 2.5rem;
 	line-height: 1;
 }
 h2 {
-	font-size: 2.25rem;
+	font-size: 2.15rem;
 	line-height: 1.35;
 }
 h3 {
@@ -601,13 +604,13 @@ a:active, a:visited:active {
     -ms-flex-positive: 1;
     flex-grow: 1;
 	position: relative;
-	background: rgba(246, 246, 248, 1);
+	background: rgba(230, 232, 237, 1);
 	background-size: auto 50%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 2.15rem;
+	border-radius: 0;
 }
 .box_news.img_news_container {
 	overflow: hidden;
@@ -722,7 +725,7 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 2px rgba(10, 12, 26, .075);
+	box-shadow: inset 0 0 0 2px rgba(10, 12, 26, .08);
 	color: rgba(10, 12, 26, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
@@ -1566,6 +1569,11 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .wrapper.style1 > .inner.medium {
 	width: 100%;
+}
+}
+ @media screen and (max-width: 390px) {
+.wrapper.style1 > .inner {
+	padding: 0 1rem;
 }
 }
 /* Wrapper (style2) */
