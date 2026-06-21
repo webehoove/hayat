@@ -499,7 +499,7 @@ h1.special {
 	line-height: 1;
 }
 h1.special_one {
-	font-size: 2.5rem;
+	font-size: 2.35rem;
 	line-height: 1;
 }
 h2 {
@@ -691,6 +691,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	width: auto;
 	height: 3.5rem;
 	line-height: 4;
+	letter-spacing: 0.025rem;
 	border-radius: 0;
 	padding: 0 1.35rem;
 	text-overflow: ellipsis;
