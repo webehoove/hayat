@@ -7,11 +7,11 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: rgba(230, 232, 237, 1);
+	background-color: rgba(219, 220, 224, 1);
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 13rem;
+	width: 10rem;
 }
 .logotype_wm_b {
 	display: none;
@@ -170,7 +170,7 @@ ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_db {
-	color: rgba(10, 12, 26, 1);
+	color: rgba(255, 255, 255, 1);
 }
 .offdesk {
 	display: block;

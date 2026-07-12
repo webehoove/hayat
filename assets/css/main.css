@@ -300,11 +300,11 @@ h1 {
 }
 h1.special {
 	font-size: 3rem;
-	line-height: 1;
+	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 3.25rem;
-	line-height: 1;
+	font-size: 3.5rem;
+	line-height: 1.1;
 }
 h1.special_two {
 	font-size: 8rem;
@@ -370,11 +370,11 @@ hr {
 }
 hr.block {
 	border: 0;
-	margin: 2rem 0;
+	margin: 3rem 0;
 }
 hr.block2 {
 	border: 0;
-	margin: 4rem 0;
+	margin: 5rem 0;
 }
 hr.lineer {
 	border-bottom: 2px solid rgba(10, 12, 26, .25);
@@ -499,11 +499,11 @@ h1.special_one {
 	line-height: 1;
 }
 h2 {
-	font-size: 2.15rem;
+	font-size: 1.85rem;
 	line-height: 1.35;
 }
 h3 {
-	font-size: 1.7rem;
+	font-size: 1.65rem;
 	line-height: 1.15;
 }
 h4 {
@@ -584,25 +584,32 @@ a:active, a:visited:active {
     -ms-flex-positive: 1;
     flex-grow: 1;
 	position: relative;
-	background: none;
-	border: 2px solid rgba(10, 12, 26, 0.5);
+	background-color: inherit;
 	margin: 0;
 	padding: 1.75rem 1.5rem;
 	width: 100%;
-	border-radius: 0;
+	border: none;
+	border-radius: 1.75rem;
+}
+.color_box_lb {
+	background-color: rgba(70, 130, 250, 1);
+}
+.color_box_mb {
+	background-color: rgba(66, 68, 213, 1);
 }
 .box_news {
 	overflow: hidden;
     -ms-flex-positive: 1;
     flex-grow: 1;
 	position: relative;
-	background: rgba(230, 232, 237, 1);
+	background-color: rgba(230, 232, 237, 1);
 	background-size: auto 50%;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 0;
+	border: none;
+	border-radius: 1.75rem;
 }
 .box_news.img_news_container {
 	overflow: hidden;
@@ -796,10 +803,10 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	display: block;
 }
 .rounded img {
-	border-radius: 2.15rem;
+	border-radius: 1.75rem;
 }
 .rounded video {
-	border-radius: 2.15rem;
+	border-radius: 1.75rem;
 }
 .image video {
 	display: block;
@@ -1699,9 +1706,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert .topmenu a:hover, #wrapper > .invert .topmenu_block a:hover {
 	color: rgba(255, 255, 255, .7);
-}
-#wrapper > .invert .box_text {
-	border: 2px solid rgba(255, 255, 255, .25);
 }
 #wrapper > .invert ul.box_link_w li a {
 	color: rgba(255, 255, 255, 1);

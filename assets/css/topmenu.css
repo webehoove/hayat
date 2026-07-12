@@ -93,7 +93,7 @@
 	position: absolute;
 	top: 0;
 	width: 60%;
-	border-bottom: 2px solid rgba(10, 12, 26, 1);
+	border-bottom: 2px solid #ffffff;
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btn:before {
