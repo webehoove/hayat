@@ -368,10 +368,6 @@ hr {
 	border: 0;
 	margin: 1.25rem 0;
 }
-hr.block_start {
-	border: 0;
-	margin: 2rem 0;
-}
 hr.block {
 	border: 0;
 	margin: 2rem 0;
@@ -381,15 +377,15 @@ hr.block2 {
 	margin: 4rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(10, 12, 26, .5);
+	border-bottom: 2px solid rgba(10, 12, 26, .25);
 	margin: 4rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(10, 12, 26, .5);
+	border-bottom: 2px solid rgba(10, 12, 26, .25);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(10, 12, 26, .5);
+	border-bottom: 2px solid rgba(10, 12, 26, .25);
 	margin: 1rem 0;
 }
 .align-left {
@@ -495,11 +491,11 @@ h1 {
 	line-height: 1;
 }
 h1.special {
-	font-size: 2.75rem;
+	font-size: 2.5rem;
 	line-height: 1;
 }
 h1.special_one {
-	font-size: 2.35rem;
+	font-size: 2.75rem;
 	line-height: 1;
 }
 h2 {
@@ -525,14 +521,11 @@ h6 {
 hr {
 	margin: 1rem 0;
 }
-hr.block_start {
-	margin: 0.85rem 0;
-}
 hr.block {
 	margin: 2rem 0;
 }
 hr.block2 {
-	margin: 3rem 0;
+	margin: 4rem 0;
 }
 hr.lineer {
 	margin: 2rem 0;
@@ -1724,7 +1717,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, .5);
+	border-bottom-color: rgba(255, 255, 255, .15);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
