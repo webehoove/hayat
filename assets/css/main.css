@@ -531,7 +531,7 @@ hr.block2 {
 	margin: 4rem 0;
 }
 hr.lineer {
-	margin: 3rem 0;
+	margin: 4rem 0;
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
@@ -602,7 +602,7 @@ a:active, a:visited:active {
 	position: relative;
 	background-color: inherit;
 	margin: 0;
-	padding: 1.75rem 1.5rem;
+	padding: 2rem 1.5rem;
 	width: 100%;
 	border: none;
 	border-radius: 1.75rem;
@@ -612,6 +612,9 @@ a:active, a:visited:active {
 }
 .color_box_mb {
 	background-color: rgba(66, 68, 213, 1);
+}
+.color_box_g10 {
+	background-color: rgba(246, 246, 249, 1);
 }
 .box_news {
 	overflow: hidden;
