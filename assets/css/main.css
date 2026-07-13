@@ -204,7 +204,7 @@ html {
 }
 body {
 	background-color: #FFF;
-	color: rgba(10, 12, 26, 1);
+	color: rgba(4, 30, 66, 1);
 }
 body, input, select, textarea {
 	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
@@ -1596,7 +1596,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
  @media screen and (max-width: 1180px) {
 .wrapper.style2 > .inner {
 	position: fixed;
-	padding: 0 1.5rem 1rem 1.5rem;
+	padding: 0 1.5rem 1.25rem 1.5rem;
 }
 }
  @media screen and (max-width: 1080px) {
@@ -1686,7 +1686,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: rgba(10, 12, 26, 1);
+	background-color: rgba(4, 30, 66, 1);
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {

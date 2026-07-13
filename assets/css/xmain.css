@@ -7,7 +7,7 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: rgba(3, 22, 48, 1);
+	background-color: rgba(4, 30, 66, 1);
 	transition: 0.3s;
 }
 .logotype_lockup {
@@ -151,7 +151,7 @@ ul.topmenu li, ul.topmenu_block li {
 	position: relative;
 	width: 3rem;
 	float: left;
-	top: 0;
+	top: -0.25rem;
 	left: 0;
 	z-index: 4;
 }
@@ -163,7 +163,7 @@ ul.topmenu li, ul.topmenu_block li {
 	align-items: center;
 	width: 96%;
 	font-size: 2.35rem;
-	line-height: 1.25;
+	line-height: 1;
 	letter-spacing: -0.025rem;
 }
 ul li .logotype_wm_w {
@@ -180,9 +180,6 @@ ul li .logotype_wm_db {
 }
 }
  @media screen and (max-width: 1080px) {
-#logotype_sym {
-	top: -0.1rem;
-}
 #logotype_wm {
 	line-height: 1.1;
 }
@@ -193,6 +190,9 @@ ul li .logotype_wm_db {
 }
 .offmob_title {
 	display: none;
+}
+#logotype_sym {
+	top: 0;
 }
 #logotype_wm {
 	line-height: 1.2;
