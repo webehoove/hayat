@@ -531,7 +531,7 @@ hr.block2 {
 	margin: 4rem 0;
 }
 hr.lineer {
-	margin: 2rem 0;
+	margin: 3rem 0;
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
@@ -618,7 +618,7 @@ a:active, a:visited:active {
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 	position: relative;
-	background-color: rgba(246, 246, 249, 1);
+	background-color: rgba(230, 232, 237, 1);
 	background-size: auto 50%;
 	margin: 0;
 	padding: 0;
@@ -1730,11 +1730,8 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
 	color: rgba(255, 255, 255, 1);
 }
-#wrapper > .invert p {
-	color: rgba(255, 255, 255, 1);
-}
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, .15);
+	border-bottom-color: rgba(255, 255, 255, .25);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
@@ -1775,7 +1772,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(10, 12, 26, 1);
 }
 #wrapper > .invert input[type="submit"].third, #wrapper > .invert input[type="reset"].third, #wrapper > .invert input[type="button"].third, #wrapper > .invert .button.third {
-	background-color: rgba(45, 41, 96, 1);
+	background-color: rgba(4, 30, 66, 1);
 	box-shadow: none;
 	color: #fff !important;
 }
@@ -1833,9 +1830,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_00 {
 	background-color: #000;
-}
-#wrapper > .color_Hdb {
-	background-color: rgba(34, 34, 84, 1);
 }
 #wrapper > .color_Hmb {
 	background-color: rgba(67, 68, 213, 1);
