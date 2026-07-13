@@ -377,15 +377,15 @@ hr.block2 {
 	margin: 5rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(4, 30, 66, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .35);
 	margin: 4rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(4, 30, 66, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .35);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(4, 30, 66, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .35);
 	margin: 1rem 0;
 }
 .align-left {
@@ -403,8 +403,8 @@ hr.lineer_zero {
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
 }
-.t_color_50 {
-	opacity: .5;
+.t_color_60 {
+	opacity: .6;
 }
  @media screen and (max-width: 1680px) {
 h1 {
@@ -506,7 +506,7 @@ h2 {
 	line-height: 1.35;
 }
 h3 {
-	font-size: 1.65rem;
+	font-size: 1.75rem;
 	line-height: 1.15;
 }
 h4 {
@@ -549,11 +549,11 @@ a:active, a:visited:active {
 }
 .text_link a {
 	color: inherit;
-	border-bottom: 2px solid rgba(4, 30, 66, 1);
+	border-bottom: 1px solid rgba(4, 30, 66, 1);
 }
 .text_link a:hover {
 	color: rgba(70, 130, 250, 1);
-	border-bottom: 2px solid rgba(4, 30, 66, 1);
+	border-bottom: 1px solid rgba(4, 30, 66, 1);
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(70, 130, 250, 1);
@@ -586,7 +586,7 @@ a:active, a:visited:active {
 	overflow: hidden;
 	position: relative;
 	background: inherit;
-	background-position:center;
+	background-position: center;
 	background-size: cover;
 	margin: 0;
 	padding: 1.75rem 1.5rem;
