@@ -502,7 +502,7 @@ h1.special_one {
 	line-height: 1;
 }
 h2 {
-	font-size: 2rem;
+	font-size: 2.15rem;
 	line-height: 1.35;
 }
 h3 {
@@ -614,14 +614,14 @@ a:active, a:visited:active {
 	background-color: rgba(66, 68, 213, 1);
 }
 .color_box_g10 {
-	background-color: rgba(246, 246, 249, 1);
+	background-color: rgba(236, 238, 246, 1);
 }
 .box_news {
 	overflow: hidden;
 	-ms-flex-positive: 1;
 	flex-grow: 1;
 	position: relative;
-	background-color: rgba(230, 232, 237, 1);
+	background-color: rgba(236, 238, 246, 1);
 	background-size: auto 50%;
 	margin: 0;
 	padding: 0;
@@ -1702,7 +1702,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: rgba(4, 30, 66, 1);
+	background-color: rgba(3, 6, 10, 1);
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {
@@ -1752,7 +1752,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert input[type="submit"].primary, #wrapper > .invert input[type="reset"].primary, #wrapper > .invert input[type="button"].primary, #wrapper > .invert .button.primary {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
-	color: rgba(10, 12, 26, 1) !important;
+	color: rgba(4, 30, 66, 1) !important;
 }
 #wrapper > .invert input[type="submit"].primary:hover, #wrapper > .invert input[type="reset"].primary:hover, #wrapper > .invert input[type="button"].primary:hover, #wrapper > .invert .button.primary:hover {
 	background-color: rgba(70, 130, 250, 1);
@@ -1834,6 +1834,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_00 {
 	background-color: #000;
 }
+#wrapper > .color_Hdb {
+	background-color: rgba(4, 30, 66, 1);
+}
 #wrapper > .color_Hmb {
 	background-color: rgba(67, 68, 213, 1);
 }
@@ -1847,7 +1850,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: rgba(252, 39, 63, 1);
 }
 #wrapper > .color_Hg10 {
-	background-color: rgba(246, 246, 249, 1);
+	background-color: rgba(236, 238, 246, 1);
 }
 #wrapper > .color_Hg20 {
 	background-color: rgba(230, 232, 237, 1);
