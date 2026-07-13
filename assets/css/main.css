@@ -237,7 +237,7 @@ em, i {
 	font-style: italic;
 }
 .nobr {
-  white-space: nowrap;
+	white-space: nowrap;
 }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	color: inherit;
@@ -303,7 +303,7 @@ h1.special {
 	line-height: 1.1;
 }
 h1.special_one {
-	font-size: 3.5rem;
+	font-size: 3.75rem;
 	line-height: 1.1;
 }
 h1.special_two {
@@ -377,15 +377,15 @@ hr.block2 {
 	margin: 5rem 0;
 }
 hr.lineer {
-	border-bottom: 2px solid rgba(10, 12, 26, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .25);
 	margin: 4rem 0;
 }
 hr.lineer_small {
-	border-bottom: 2px solid rgba(10, 12, 26, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .25);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 2px solid rgba(10, 12, 26, .25);
+	border-bottom: 1px solid rgba(4, 30, 66, .25);
 	margin: 1rem 0;
 }
 .align-left {
@@ -399,6 +399,9 @@ hr.lineer_zero {
 }
 .t_color_b {
 	color: rgba(70, 130, 250, 1);
+}
+.t_color_w {
+	color: rgba(255, 255, 255, 1);
 }
 .t_color_50 {
 	opacity: .5;
@@ -499,7 +502,7 @@ h1.special_one {
 	line-height: 1;
 }
 h2 {
-	font-size: 1.85rem;
+	font-size: 2rem;
 	line-height: 1.35;
 }
 h3 {
@@ -546,11 +549,11 @@ a:active, a:visited:active {
 }
 .text_link a {
 	color: inherit;
-	border-bottom: 2px solid rgba(10, 12, 26, 1);
+	border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 .text_link a:hover {
 	color: rgba(70, 130, 250, 1);
-	border-bottom: 2px solid rgba(10, 12, 26, 1);
+	border-bottom: 2px solid rgba(4, 30, 66, 1);
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(70, 130, 250, 1);
@@ -558,7 +561,7 @@ a:active, a:visited:active {
 .text_link_arrow {
 	position: relative;
 	display: flex;
-    align-items: center;
+	align-items: center;
 	width: 50%;
 	height: 4rem;
 }
@@ -579,10 +582,23 @@ a:active, a:visited:active {
 }
 /* Box */
 
+.box_banner {
+	overflow: hidden;
+	position: relative;
+	background: inherit;
+	background-position:center;
+	background-size: cover;
+	margin: 0;
+	padding: 1.75rem 1.5rem;
+	width: 100%;
+	height: 100svh;
+	border: none;
+	border-radius: 1.75rem;
+}
 .box_text {
 	overflow: hidden;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
 	position: relative;
 	background-color: inherit;
 	margin: 0;
@@ -599,8 +615,8 @@ a:active, a:visited:active {
 }
 .box_news {
 	overflow: hidden;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
 	position: relative;
 	background-color: rgba(230, 232, 237, 1);
 	background-size: auto 50%;
@@ -616,11 +632,11 @@ a:active, a:visited:active {
 }
 #img_news_container img {
 	display: block;
-    transition: transform .4s;
+	transition: transform .4s;
 }
 #img_news_container:hover img {
 	transform: scale(1.03);
-    transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
 }
 .box_news_text {
 	position: relative;
@@ -716,7 +732,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	height: 4rem;
 	line-height: 5;
 	width: auto;
-	border-radius: 2rem;
+	border-radius: 1rem;
 	padding: 0 1.15rem;
 	text-align: center;
 }
@@ -725,25 +741,25 @@ input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 2px rgba(10, 12, 26, .08);
+	box-shadow: inset 0 0 0 1px rgba(4, 30, 66, .25);
 	color: rgba(10, 12, 26, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
 	background-color: rgba(70, 130, 250, 1);
-	box-shadow: inset 0 0 0 2px rgba(70, 130, 250, 1);
+	box-shadow: inset 0 0 0 1px rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1) !important;
 }
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
 	background-color: rgba(70, 130, 250, 1);
-	box-shadow: inset 0 0 0 2px rgba(70, 130, 250, 1);
+	box-shadow: inset 0 0 0 1px rgba(70, 130, 250, 1);
 }
 input[type="submit"].primary, input[type="reset"].primary, input[type="button"].primary, button.primary, .button.primary {
-	background-color: rgba(30, 34, 84, 1);
+	background-color: rgba(4, 30, 66, 1);
 	box-shadow: none;
 	color: rgba(255, 255, 255, 1) !important;
 }
 input[type="submit"].primary:hover, input[type="reset"].primary:hover, input[type="button"].primary:hover, button.primary:hover, .button.primary:hover {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1) !important;
 }
 input[type="submit"].primary:active, input[type="reset"].primary:active, input[type="button"].primary:active, button.primary:active, .button.primary:active {
@@ -751,7 +767,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.secondary, .button.secondary {
-	background-color: rgba(10, 12, 26, .075);
+	background-color: rgba(4, 30, 66, .075);
 	box-shadow: none;
 	color: rgba(10, 12, 26, 1) !important;
 }
@@ -768,11 +784,11 @@ button.secondary, .button.third {
 	color: rgba(30, 34, 84, 1) !important;
 }
 button.secondary:hover, .button.third:hover {
-	background-color: rgba(252, 39, 63, 1);
+	background-color: rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.secondary:active, .button.third:active {
-	background-color: rgba(252, 76, 126, 1);
+	background-color: rgba(70, 130, 250, 1);
 }
  @media screen and (max-width: 736px) {
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
@@ -1364,7 +1380,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	display: block;
 	width: 100%;
 }
-
  @media screen and (max-width: 1680px) {
 }
  @media screen and (max-width: 1366px) {
@@ -1464,16 +1479,14 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	z-index: 1;
 }
 .banner.style5 .image.smooth-video {
-    /* Triggers GPU hardware acceleration to force hardware anti-aliasing */
-    transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-
-    /* Forces high-quality scaling algorithms when video size changes */
-    image-rendering: auto;
-    
-    /* Extra optimization for Webkit/Blink browsers */
-    will-change: transform;
+	/* Triggers GPU hardware acceleration to force hardware anti-aliasing */
+	transform: translateZ(0);
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	/* Forces high-quality scaling algorithms when video size changes */
+	image-rendering: auto;
+	/* Extra optimization for Webkit/Blink browsers */
+	will-change: transform;
 }
  @media screen and (max-width: 1680px) {
 }
@@ -1725,7 +1738,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 2px rgba(255, 255, 255, .35);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .5);
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"]:hover, #wrapper > .invert input[type="reset"]:hover, #wrapper > .invert input[type="button"]:hover, #wrapper > .invert .button:hover {
@@ -1767,11 +1780,24 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"].third:hover, #wrapper > .invert input[type="reset"].third:hover, #wrapper > .invert input[type="button"].third:hover, #wrapper > .invert .button.third:hover {
-	background-color: rgba(252, 76, 126, 1);
+	background-color: rgba(70, 130, 250, 1);
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"].third:active, #wrapper > .invert input[type="reset"].third:active, #wrapper > .invert input[type="button"].third:active, #wrapper > .invert .button.third:active {
-	background-color: rgba(252, 76, 126, 1);
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1);
+}
+#wrapper > .invert input[type="submit"].forth, #wrapper > .invert input[type="reset"].forth, #wrapper > .invert input[type="button"].forth, #wrapper > .invert .button.forth {
+	background-color: transparent;
+	box-shadow: none;
+	color: #fff !important;
+}
+#wrapper > .invert input[type="submit"].forth:hover, #wrapper > .invert input[type="reset"].forth:hover, #wrapper > .invert input[type="button"].forth:hover, #wrapper > .invert .button.forth:hover {
+	background-color: rgba(70, 130, 250, 1);
+	color: #fff !important;
+}
+#wrapper > .invert input[type="submit"].forth:active, #wrapper > .invert input[type="reset"].forth:active, #wrapper > .invert input[type="button"].forth:active, #wrapper > .invert .button.forth:active {
+	background-color: rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert label {

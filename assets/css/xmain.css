@@ -11,7 +11,7 @@
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 10rem;
+	width: 11rem;
 }
 .logotype_wm_b {
 	display: none;
@@ -23,10 +23,10 @@ ul.topmenu {
 	padding: 0;
 	margin: 0;
 	top: 0;
+	float: right;
 }
 ul.topmenu li {
 	display: inline-block;
-	padding-right: 1.25rem;
 }
 ul.topmenu li a {
 	font-size: 0.85rem;
@@ -36,23 +36,6 @@ ul.topmenu li a:hover {
 }
 ul.topmenu li:first-child {
 	padding-left: 0;
-}
-ul.topmenu_block {
-	position: relative;
-	list-style: none;
-	padding: 0;
-	margin: 0;
-	top: 0;
-}
-ul.topmenu_block li {
-	display: block;
-	margin-bottom: 0.85rem;
-}
-ul.topmenu_block li a {
-	font-size: 0.85rem;
-}
-ul.topmenu_block li a:hover {
-	border-bottom: none;
 }
 .menumob {
 	display: none;
@@ -119,23 +102,10 @@ ul.goup li {
 .off_news_desk {
 	display: none;
 }
- @media screen and (max-width: 1680px) {
-ul.topmenu, ul.topmenu_block {
-	font-size: 0.9rem;
-}
-ul.topmenu li, ul.topmenu_block li {
-	padding-right: 1rem;
-}
 }
  @media screen and (max-width: 1366px) {
 .logotype_lockup {
 	width: 8rem;
-}
-ul.topmenu, ul.topmenu_block {
-	font-size: 0.75rem;
-}
-ul.topmenu li, ul.topmenu_block li {
-	padding-right: 0.75rem;
 }
 }
  @media screen and (max-width: 1180px) {
