@@ -494,7 +494,7 @@ h1 {
 }
 h1.special {
 	font-size: 2.5rem;
-	line-height: 1.1;
+	line-height: 1.25;
 }
 h1.special_one {
 	font-size: 2.75rem;
@@ -534,7 +534,7 @@ hr.block2 {
 	margin: 3rem 0;
 }
 hr.lineer {
-	margin: 1rem 0;
+	margin: 0.5rem 0;
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
@@ -596,7 +596,7 @@ a:active, a:visited:active {
 	width: 100%;
 	height: 100svh;
 	border: none;
-	border-radius: 1.75rem;
+	border-radius: 2rem;
 }
 .box_text {
 	overflow: hidden;
@@ -608,7 +608,7 @@ a:active, a:visited:active {
 	padding: 2rem 1.5rem;
 	width: 100%;
 	border: none;
-	border-radius: 1.75rem;
+	border-radius: 2rem;
 }
 .color_box_lb {
 	background-color: rgba(70, 130, 250, 1);
@@ -634,7 +634,7 @@ a:active, a:visited:active {
 	width: 100%;
 	height: 100%;
 	border: none;
-	border-radius: 1.75rem;
+	border-radius: 2rem;
 }
 .box_news.img_news_container {
 	overflow: hidden;
@@ -650,7 +650,7 @@ a:active, a:visited:active {
 .box_news_text {
 	position: relative;
 	padding: 1.75rem 1.5rem;
-	height: 28vh;
+	height: 30vh;
 }
 .box_news_but {
 	position: absolute;
@@ -828,10 +828,10 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	display: block;
 }
 .rounded img {
-	border-radius: 1.75rem;
+	border-radius: 2rem;
 }
 .rounded video {
-	border-radius: 1.75rem;
+	border-radius: 2rem;
 }
 .image video {
 	display: block;
@@ -1736,9 +1736,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	border-color: rgba(255, 255, 255, .5);
 	opacity: .8;
 }
-#wrapper > .invert h1, #wrapper > .invert h2, #wrapper > .invert h3, #wrapper > .invert h4, #wrapper > .invert h5, #wrapper > .invert h6 {
-	color: rgba(255, 255, 255, 1);
-}
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
 	border-bottom-color: rgba(255, 255, 255, .25);
 }
@@ -1778,7 +1775,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert input[type="submit"].secondary:active, #wrapper > .invert input[type="reset"].secondary:active, #wrapper > .invert input[type="button"].secondary:active, #wrapper > .invert .button.secondary:active {
 	background-color: rgba(70, 130, 250, 1);
-	color: rgba(10, 12, 26, 1);
+	color: rgba(4, 30, 66, 1);
 }
 #wrapper > .invert input[type="submit"].third, #wrapper > .invert input[type="reset"].third, #wrapper > .invert input[type="button"].third, #wrapper > .invert .button.third {
 	background-color: rgba(4, 30, 66, 1);
