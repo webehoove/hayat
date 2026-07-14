@@ -213,7 +213,6 @@ body, input, select, textarea {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-feature-settings: "ss01" 1;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -249,22 +248,18 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .lt_tx {
 	font-family: 'HAYAT Sans Light', Helvetica, sans-serif;
 	font-weight: normal;
-	font-feature-settings: "ss01" 1;
 }
 .rg_tx {
 	font-family: 'HAYAT Sans Regular', Helvetica, sans-serif;
 	font-weight: normal;
-	font-feature-settings: "ss01" 1;
 }
 .md_tx {
 	font-family: 'HAYAT Sans Medium', Helvetica, sans-serif;
 	font-weight: normal;
-	font-feature-settings: "ss01" 1;
 }
 .bd_tx {
 	font-family: 'HAYAT Sans Bold', Helvetica, sans-serif;
 	font-weight: normal;
-	font-feature-settings: "ss01" 1;
 }
 .rg_tt {
 	font-family: 'HAYAT Serif Rg', sans-serif;
@@ -291,7 +286,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight: normal;
 }
 p {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	line-height: 1.35;
 }
 h1 {
@@ -299,18 +294,19 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 3rem;
-	line-height: 1.1;
+	font-size: 3.5rem;
+	line-height: 1.2;
 }
 h1.special_one {
 	font-size: 3.75rem;
 	line-height: 1.1;
 }
-h1.special_two {
-	font-size: 8rem;
+h1.title {
+	font-size: 2rem;
+	line-height: 1.2;
 }
 h2 {
-	font-size: 2.25rem;
+	font-size: 2.5rem;
 	line-height: 1.25;
 }
 h3 {
@@ -377,15 +373,15 @@ hr.block2 {
 	margin: 5rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(4, 30, 66, .35);
-	margin: 4rem 0;
+	border-bottom: 1px solid rgba(4, 30, 66, .5);
+	margin: 1rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(4, 30, 66, .35);
+	border-bottom: 1px solid rgba(4, 30, 66, .5);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(4, 30, 66, .35);
+	border-bottom: 1px solid rgba(4, 30, 66, .5);
 	margin: 1rem 0;
 }
 .align-left {
@@ -399,6 +395,9 @@ hr.lineer_zero {
 }
 .t_color_b {
 	color: rgba(70, 130, 250, 1);
+}
+.t_color_r {
+	color: rgba(255, 61, 69, 1);
 }
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
@@ -495,11 +494,15 @@ h1 {
 }
 h1.special {
 	font-size: 2.5rem;
-	line-height: 1;
+	line-height: 1.25;
 }
 h1.special_one {
 	font-size: 2.75rem;
 	line-height: 1;
+}
+h1.title {
+	font-size: 1.5rem;
+	line-height: 1.1;
 }
 h2 {
 	font-size: 2.15rem;
@@ -531,7 +534,7 @@ hr.block2 {
 	margin: 4rem 0;
 }
 hr.lineer {
-	margin: 4rem 0;
+	margin: 1rem 0;
 }
 hr.lineer_small {
 	margin: 0 0 1rem 0;
@@ -616,6 +619,9 @@ a:active, a:visited:active {
 .color_box_g10 {
 	background-color: rgba(236, 238, 246, 1);
 }
+.color_box_g20 {
+	background-color: rgba(217, 220, 230, 1);
+}
 .box_news {
 	overflow: hidden;
 	-ms-flex-positive: 1;
@@ -677,7 +683,7 @@ ul.box_link_w li a:hover {
 	height: 100%;
 }
 .box_news_text {
-	height: 27vh;
+	height: 28vh;
 	padding: 1.25rem 1rem;
 }
 .box_news_but {
@@ -1558,7 +1564,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	width: 100%;
 }
 .wrapper.style1 > .inner.medium {
-	width: 60%;
+	width: 85%;
 }
  @media screen and (max-width: 1680px) {
 .wrapper.style1 > .inner {
@@ -1847,7 +1853,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: rgba(121, 15, 53, 1);
 }
 #wrapper > .color_Hr {
-	background-color: rgba(252, 39, 63, 1);
+	background-color: rgba(255, 61, 69, 1);
 }
 #wrapper > .color_Hg10 {
 	background-color: rgba(236, 238, 246, 1);
