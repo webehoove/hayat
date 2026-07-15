@@ -720,7 +720,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 736px) {
 .box_banner {
-	height: 80svh;
+	height: 95svh;
 }
 .box_news {
 	height: 100%;
