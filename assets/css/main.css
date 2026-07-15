@@ -346,7 +346,7 @@ h5 {
 	line-height: 1.2;
 }
 h6 {
-	font-size: 1.35rem;
+	font-size: 1rem;
 	line-height: 1.2;
 }
 sub {
@@ -646,6 +646,12 @@ a:active, a:visited:active {
 }
 .color_box_mb {
 	background-color: rgba(66, 68, 213, 1);
+}
+.color_box_b {
+	background-color: rgba(18, 35, 119, 1);
+}
+.color_box_db {
+	background-color: rgba(4, 30, 66, 1);
 }
 .color_box_g10 {
 	background-color: rgba(236, 238, 246, 1);
@@ -1877,10 +1883,13 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_Hdb {
 	background-color: rgba(4, 30, 66, 1);
 }
+#wrapper > .color_Hb {
+	background-color: rgba(18, 35, 119, 1);
+}
 #wrapper > .color_Hmb {
 	background-color: rgba(67, 68, 213, 1);
 }
-#wrapper > .color_Hb {
+#wrapper > .color_Hlb {
 	background-color: rgba(70, 130, 250, 1);
 }
 #wrapper > .color_Hdr {
