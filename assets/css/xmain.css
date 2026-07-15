@@ -13,6 +13,9 @@
 .logotype_lockup {
 	width: 11rem;
 }
+.logotype_lockup_b {
+	width: 20rem;
+}
 .logotype_wm_b {
 	display: none;
 }
@@ -47,6 +50,7 @@ ul.bottommenu {
 	margin: 0;
 }
 ul.bottommenu li {
+	font-size: 1.15rem;
 	display: block;
 	margin-bottom: 1rem;
 }
@@ -72,10 +76,10 @@ ul.bottommenu_hor li {
 	-webkit-transition: 0.2s ease-in-out;
 	-ms-transition: 0.2s ease-in-out;
 	transition: 0.2s ease-in-out;
-	opacity: .45;
+	opacity: 1;
 }
 .goup a:hover {
-	opacity: 1;
+	opacity: .5;
 }
 .goup a:active .goup a:visited {
 	opacity: .6;
@@ -175,6 +179,9 @@ ul li .logotype_wm_db {
 #logotype_wm {
 	width: 97%;
 	line-height: 1.2;
+}
+.logotype_lockup_b {
+	width: 12rem;
 }
 ul.bottommenu_hor li {
 	display: block;
