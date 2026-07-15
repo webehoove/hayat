@@ -656,6 +656,9 @@ a:active, a:visited:active {
 .color_box_ar {
 	background-color: rgba(255, 199, 207, 1);
 }
+.color_box_r {
+	background-color: rgba(255, 61, 69, 1);
+}
 .color_box_db {
 	background-color: rgba(4, 30, 70, 1);
 }
