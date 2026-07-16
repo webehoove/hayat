@@ -48,6 +48,13 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: "HAYAT Sans V Rg";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff2) format('woff2');
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
 	font-family: "HAYAT Serif Rg";
 	src: url(../webfonts/h_serif/Gutofic-Rg.woff2) format('woff2');
 	font-display: swap;
@@ -287,6 +294,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .f_s_tx {
 	font-family: 'HAYAT Sans S Fn', Helvetica, sans-serif;
 	font-weight: normal;
+}
+.bd_v_tx {
+	font-family: 'HAYAT Sans V Rg', Helvetica, sans-serif;
+	font-weight: 600;
 }
 .rg_tt {
 	font-family: 'HAYAT Serif Rg', sans-serif;
