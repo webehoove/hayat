@@ -445,8 +445,8 @@ hr.lineer_zero {
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
 }
-.t_color_60 {
-	opacity: .6;
+.t_color_70 {
+	opacity: .7;
 }
  @media screen and (max-width: 1680px) {
 h1 {
@@ -548,7 +548,7 @@ h1.special_sign {
 	line-height: 1;
 }
 h1.title {
-	font-size: 1.5rem;
+	font-size: 1.75rem;
 	line-height: 1.1;
 }
 h2 {
@@ -556,7 +556,7 @@ h2 {
 	line-height: 1.35;
 }
 h3 {
-	font-size: 2rem;
+	font-size: 1.75rem;
 	line-height: 1.15;
 }
 h4 {
@@ -862,7 +862,7 @@ input[type="submit"].primary:active, input[type="reset"].primary:active, input[t
 button.secondary, .button.secondary {
 	background-color: rgba(4, 30, 70, .075);
 	box-shadow: none;
-	color: rgba(10, 12, 26, 1) !important;
+	color: rgba(4, 30, 70, 1) !important;
 }
 button.secondary:hover, .button.secondary:hover {
 	background-color: rgba(70, 130, 250, 1);
@@ -874,7 +874,7 @@ button.secondary:active, .button.secondary:active {
 button.third, .button.third {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: none;
-	color: rgba(30, 34, 84, 1) !important;
+	color: rgba(4, 30, 70, 1) !important;
 }
 button.third:hover, .button.third:hover {
 	background-color: rgba(70, 130, 250, 1);
@@ -911,7 +911,7 @@ button.fifth:active, .button.fifth:active {
  @media screen and (max-width: 736px) {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
-	letter-spacing: 0.075rem;
+	letter-spacing: 0.05rem;
 	height: 4.5rem;
 	line-height: 4.65;
 	padding: 0 1.35rem;
