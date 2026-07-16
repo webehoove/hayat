@@ -11,34 +11,13 @@
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 11rem;
+	width: 12rem;
 }
 .logotype_lockup_b {
 	width: 19rem;
 }
 .logotype_wm_b {
 	display: none;
-}
-ul.topmenu {
-	position: relative;
-	list-style: none;
-	font-size: 0.85rem;
-	padding: 0;
-	margin: 0;
-	top: 0;
-	float: right;
-}
-ul.topmenu li {
-	display: inline-block;
-}
-ul.topmenu li a {
-	font-size: 0.85rem;
-}
-ul.topmenu li a:hover {
-	border-bottom: none;
-}
-ul.topmenu li:first-child {
-	padding-left: 0;
 }
 .menumob {
 	display: none;
@@ -50,12 +29,12 @@ ul.bottommenu {
 	margin: 0;
 }
 ul.bottommenu li {
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 	display: block;
 	margin-bottom: 1rem;
 }
 ul.bottommenu_hor {
-	font-size: 1rem;
+	font-size: 1.15rem;
 	list-style: none;
 	padding: 0;
 	margin: 0;
@@ -181,11 +160,16 @@ ul li .logotype_wm_db {
 	line-height: 1.2;
 }
 .logotype_lockup_b {
-	width: 12rem;
+	width: 13.5rem;
+}
+ul.bottommenu li {
+	font-size: 1.35rem;
+	line-height: 1.35;
+	margin-bottom: 1rem;
 }
 ul.bottommenu_hor li {
 	display: block;
-	font-size: 1.1rem;
+	font-size: 1.15rem;
 	margin: 0 0 1rem 0;
 }
 .offmobtext {
@@ -204,11 +188,6 @@ ul.bottommenu_hor li {
  @media screen and (max-width: 736px) {
 #logotype_wm {
 	width: 93%;
-}
-ul.bottommenu li {
-	font-size: 1.25rem;
-	line-height: 1.35;
-	margin-bottom: 1rem;
 }
 }
  @media screen and (max-width: 395px) {

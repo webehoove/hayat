@@ -330,7 +330,7 @@ p {
 	line-height: 1.15;
 }
 h1 {
-	font-size: 3rem;
+	font-size: 3.25rem;
 	line-height: 1.1;
 }
 h1.special {
@@ -1814,7 +1814,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert a {
-	color: rgba(255, 255, 255, .5);
+	color: rgba(255, 255, 255, .8);
 }
 #wrapper > .invert a:hover {
 	color: rgba(255, 255, 255, 1);
@@ -1836,7 +1836,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	opacity: .8;
 }
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
-	border-bottom-color: rgba(255, 255, 255, .25);
+	border-bottom-color: rgba(255, 255, 255, .35);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
