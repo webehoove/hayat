@@ -228,7 +228,7 @@ body, input, select, textarea {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-feature-settings: "ss01" 1;
+	font-feature-settings: "ss01" 1, "ss02" 1;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -339,7 +339,7 @@ h1.special {
 }
 h1.special_one {
 	font-size: 4rem;
-	line-height: 1.1;
+	line-height: 1.05;
 }
 h1.title {
 	font-size: 2.5rem;
@@ -435,6 +435,9 @@ hr.lineer_zero {
 }
 .t_color_db {
 	color: rgba(4, 30, 70, 1);
+}
+.t_color_mb {
+	color: rgba(66, 68, 213, 1);
 }
 .t_color_b {
 	color: rgba(70, 130, 250, 1);
@@ -564,7 +567,7 @@ h4 {
 	line-height: 1.2;
 }
 h5 {
-	font-size: 1.25rem;
+	font-size: 1.35rem;
 	line-height: 1.2;
 }
 h6 {
@@ -616,7 +619,7 @@ a:active, a:visited:active {
 	height: 4rem;
 }
 .text_link_arrow li.a_right {
-	margin-left: 0.5rem;
+	margin-left: 1rem;
 }
 .text_link_arrow li.a_right img.l_arrow {
 	width: 1.15rem;
