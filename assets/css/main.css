@@ -41,6 +41,14 @@
 	font-style: normal;
 }
 @font-face {
+	font-family: "HAYAT Sans S Fn";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-SpatialFine.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-SpatialFine.woff2) format('woff2');
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
 	font-family: "HAYAT Serif Rg";
 	src: url(../webfonts/h_serif/Gutofic-Rg.woff2) format('woff2');
 	font-display: swap;
@@ -277,6 +285,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'HAYAT Sans W Bk', Helvetica, sans-serif;
 	font-weight: normal;
 }
+.f_s_tx {
+	font-family: 'HAYAT Sans S Fn', Helvetica, sans-serif;
+	font-weight: normal;
+}
 .rg_tt {
 	font-family: 'HAYAT Serif Rg', sans-serif;
 	font-weight: normal;
@@ -315,7 +327,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 p {
 	font-size: 1.75rem;
-	line-height: 1.05;
+	line-height: 1.15;
 }
 h1 {
 	font-size: 3rem;
@@ -338,11 +350,11 @@ h2 {
 	line-height: 1.25;
 }
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.85rem;
 	line-height: 1.25;
 }
 h4 {
-	font-size: 1.75rem;
+	font-size: 1.35rem;
 	line-height: 1.2;
 }
 h5 {
@@ -401,15 +413,15 @@ hr.block2 {
 	margin: 5rem 0;
 }
 hr.lineer {
-	border-bottom: 1px solid rgba(4, 30, 70, 1);
+	border-bottom: 1px solid rgba(4, 30, 70, .5);
 	margin: 1rem 0;
 }
 hr.lineer_small {
-	border-bottom: 1px solid rgba(4, 30, 70, 1);
+	border-bottom: 1px solid rgba(4, 30, 70, .5);
 	margin: 1rem 0;
 }
 hr.lineer_zero {
-	border-bottom: 1px solid rgba(4, 30, 70, 1);
+	border-bottom: 1px solid rgba(4, 30, 70, .5);
 	margin: 1rem 0;
 }
 .align-left {
@@ -524,7 +536,7 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 3rem;
+	font-size: 2.75rem;
 	line-height: 1.25;
 }
 h1.special_one {
@@ -544,11 +556,11 @@ h2 {
 	line-height: 1.35;
 }
 h3 {
-	font-size: 1.75rem;
+	font-size: 2rem;
 	line-height: 1.15;
 }
 h4 {
-	font-size: 1.35rem;
+	font-size: 1.5rem;
 	line-height: 1.2;
 }
 h5 {
@@ -700,7 +712,7 @@ a:active, a:visited:active {
 .box_news_text {
 	position: relative;
 	padding: 1.75rem 1.5rem;
-	height: 30vh;
+	height: 34vh;
 }
 .box_news_but {
 	position: absolute;
@@ -750,6 +762,9 @@ ul.box_link_w li a:hover {
 }
 }
  @media screen and (max-width: 375px) {
+.box_news_text {
+	height: 35vh;
+}
 .box_news_but {
 	bottom: 1.25rem;
 }
@@ -773,7 +788,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	white-space: nowrap;
 	font-size: 0.9rem;
 	width: auto;
-	height: 3.5rem;
+	height: 3.25rem;
 	line-height: 4;
 	letter-spacing: 0.025rem;
 	border-radius: 0;
@@ -787,14 +802,6 @@ input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="b
 input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, button.fit, .button.fit {
 	width: 100%;
 }
-input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
-	font-size: 0.75rem;
-	width: auto;
-	height: 2.3rem;
-	line-height: 3.25;
-	border-radius: 1.15rem;
-	padding: 0 0.75rem;
-}
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
 	height: 4.5rem;
@@ -804,12 +811,29 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	padding: 0 1.5rem;
 	text-align: center;
 }
+input[type="submit"].medium, input[type="reset"].medium, input[type="button"].medium, button.medium, .button.medium {
+	font-size: 0.9rem;
+	height: 3.5rem;
+	line-height: 4;
+	width: auto;
+	border-radius: 0.25rem;
+	padding: 0 1.35rem;
+	text-align: center;
+}
+input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
+	font-size: 0.75rem;
+	width: auto;
+	height: 2.5rem;
+	line-height: 3.5;
+	border-radius: 1.25rem;
+	padding: 0 1rem;
+}
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
 	pointer-events: none;
 }
 input[type="submit"], input[type="reset"], input[type="button"], button, .button {
 	background-color: inherit;
-	box-shadow: inset 0 0 0 1px rgba(4, 30, 70, .25);
+	box-shadow: inset 0 0 0 1px rgba(4, 30, 70, .35);
 	color: rgba(4, 30, 70, 1) !important;
 }
 input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, button:hover, .button:hover {
@@ -859,22 +883,46 @@ button.third:hover, .button.third:hover {
 button.third:active, .button.third:active {
 	background-color: rgba(70, 130, 250, 1);
 }
- @media screen and (max-width: 736px) {
-input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
-	font-size: 0.85rem;
-	width: auto;
-	height: 2.65rem;
-	border-radius: 1.3rem;
-	line-height: 3.15;
-	padding: 0 0.8rem;
+button.forth, .button.forth {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: none;
+	color: rgba(30, 34, 84, 1) !important;
 }
+button.forth:hover, .button.forth:hover {
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+button.forth:active, .button.forth:active {
+	background-color: rgba(70, 130, 250, 1);
+}
+button.fifth, .button.fifth {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: none;
+	color: rgba(30, 34, 84, 1) !important;
+	border-radius: 1.75rem !important;
+}
+button.fifth:hover, .button.fifth:hover {
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+button.fifth:active, .button.fifth:active {
+	background-color: rgba(70, 130, 250, 1);
+}
+ @media screen and (max-width: 736px) {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
+	letter-spacing: 0.075rem;
 	height: 4.5rem;
 	line-height: 4.65;
-	width: auto;
 	padding: 0 1.35rem;
-	text-align: center;
+}
+input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
+	font-size: 0.85rem;
+	letter-spacing: 0.05rem;
+	height: 2.7rem;
+	line-height: 3.25;
+	border-radius: 1.35rem;
+	padding: 0 1rem;
 }
 }
 /* Image */
@@ -1860,6 +1908,19 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	color: #fff !important;
 }
 #wrapper > .invert input[type="submit"].forth:active, #wrapper > .invert input[type="reset"].forth:active, #wrapper > .invert input[type="button"].forth:active, #wrapper > .invert .button.forth:active {
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1);
+}
+#wrapper > .invert input[type="submit"].fifth, #wrapper > .invert input[type="reset"].fifth, #wrapper > .invert input[type="button"].fifth, #wrapper > .invert .button.fifth {
+	background-color: rgba(255, 255, 255, 1);
+	box-shadow: none;
+	color: rgba(4, 30, 70, 1) !important;
+}
+#wrapper > .invert input[type="submit"].fifth:hover, #wrapper > .invert input[type="reset"].fifth:hover, #wrapper > .invert input[type="button"].fifth:hover, #wrapper > .invert .button.fifth:hover {
+	background-color: rgba(70, 130, 250, 1);
+	color: #fff !important;
+}
+#wrapper > .invert input[type="submit"].fifth:active, #wrapper > .invert input[type="reset"].fifth:active, #wrapper > .invert input[type="button"].fifth:active, #wrapper > .invert .button.fifth:active {
 	background-color: rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1);
 }
