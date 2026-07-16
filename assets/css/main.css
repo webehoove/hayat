@@ -756,6 +756,13 @@ input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="b
 input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, button.fit, .button.fit {
 	width: 100%;
 }
+button.blur, .button.blur {
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(20px);
+	transition: background 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
+}
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
 	height: 4.5rem;
@@ -826,9 +833,9 @@ button.secondary:active, .button.secondary:active {
 	background-color: rgba(70, 130, 250, 1);
 }
 button.third, .button.third {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, .35);
 	box-shadow: none;
-	color: rgba(4, 30, 70, 1) !important;
+	color: rgba(255, 255, 255, 1) !important;
 }
 button.third:hover, .button.third:hover {
 	background-color: rgba(70, 130, 250, 1);
