@@ -295,9 +295,13 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'HAYAT Sans S Fn', Helvetica, sans-serif;
 	font-weight: normal;
 }
+.rg_v_tx {
+	font-family: 'HAYAT Sans V Rg', Helvetica, sans-serif;
+	font-weight: 370;
+}
 .bd_v_tx {
 	font-family: 'HAYAT Sans V Rg', Helvetica, sans-serif;
-	font-weight: 600;
+	font-weight: 580;
 }
 .rg_tt {
 	font-family: 'HAYAT Serif Rg', sans-serif;
