@@ -1,43 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 @font-face {
-	font-family: "HAYAT Sans Light";
-	src: url(../webfonts/AeonikPro-Light.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Sans Regular";
-	src: url(../webfonts/AeonikPro-Regular.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Sans Medium";
-	src: url(../webfonts/AeonikPro-Medium.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Sans Bold";
-	src: url(../webfonts/AeonikPro-Bold.woff2) format('woff2');
+	font-family: "HAYAT Sans Lt";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Light.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Light.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
 }
 @font-face {
 	font-family: "HAYAT Sans Rg";
-	src: url(../webfonts/h_sans/PPNeueMontreal-Book.woff2) format('woff2');
+	src: url(../webfonts/h_pp_sans/PPRightGroteskText-Regular.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGroteskText-Regular.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
 }
 @font-face {
 	font-family: "HAYAT Sans Md";
-	src: url(../webfonts/h_sans/PPNeueMontreal-Medium.woff2) format('woff2');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Medium.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Medium.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
 }
 @font-face {
-	font-family: "HAYAT Sans Bd";
-	src: url(../webfonts/h_sans/PPNeueMontreal-Bold.woff2) format('woff2');
+	font-family: "HAYAT Sans W Md";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideMedium.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideMedium.woff2) format('woff2');
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: "HAYAT Sans C Dk";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CompactDark.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CompactDark.woff2) format('woff2');
+	font-display: swap;
+	font-style: normal;
+}
+@font-face {
+	font-family: "HAYAT Sans W Bk";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideBlack.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideBlack.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
 }
@@ -215,12 +214,13 @@ body {
 	color: rgba(4, 30, 70, 1);
 }
 body, input, select, textarea {
-	font-family: "HAYAT Sans Regular", Helvetica, sans-serif;
+	font-family: "HAYAT Sans Rg", Helvetica, sans-serif;
 	letter-spacing: normal;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
+	font-feature-settings: "ss01" 1;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -254,23 +254,27 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-transform: uppercase;
 }
 .lt_tx {
-	font-family: 'HAYAT Sans Light', Helvetica, sans-serif;
+	font-family: 'HAYAT Sans Lt', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .rg_tx {
-	font-family: 'HAYAT Sans Regular', Helvetica, sans-serif;
+	font-family: 'HAYAT Sans Rg', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .md_tx {
-	font-family: 'HAYAT Sans Medium', Helvetica, sans-serif;
+	font-family: 'HAYAT Sans Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.bd_tx {
-	font-family: 'HAYAT Sans Bold', Helvetica, sans-serif;
+.md_w_tx {
+	font-family: 'HAYAT Sans W Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.rg_tt_r {
-	font-family: 'HAYAT Serif Rg R', sans-serif;
+.d_c_tx {
+	font-family: 'HAYAT Sans C Dk', Helvetica, sans-serif;
+	font-weight: normal;
+}
+.b_w_tx {
+	font-family: 'HAYAT Sans W Bk', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .rg_tt {
@@ -310,8 +314,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-style: normal;
 }
 p {
-	font-size: 1.5rem;
-	line-height: 1.35;
+	font-size: 1.75rem;
+	line-height: 1.05;
 }
 h1 {
 	font-size: 3rem;
@@ -322,11 +326,11 @@ h1.special {
 	line-height: 1.2;
 }
 h1.special_one {
-	font-size: 3.75rem;
+	font-size: 4rem;
 	line-height: 1.1;
 }
 h1.title {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	line-height: 1.2;
 }
 h2 {
@@ -512,7 +516,7 @@ h2 {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.5rem;
+	font-size: 1.65rem;
 	line-height: 1.25;
 }
 h1 {
@@ -520,7 +524,7 @@ h1 {
 	line-height: 1.1;
 }
 h1.special {
-	font-size: 2.5rem;
+	font-size: 3rem;
 	line-height: 1.25;
 }
 h1.special_one {
@@ -757,10 +761,10 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-	-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-	-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-	-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+	-moz-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out border-radius 0.3s ease;
+	-webkit-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out border-radius 0.3s ease;
+	-ms-transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, color 0.3s ease-in-out border-radius 0.3s ease;
+	transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out, border-radius 0.3s ease;
 	border: 0;
 	cursor: pointer;
 	display: inline-block;
@@ -792,12 +796,12 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	padding: 0 0.75rem;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
-	font-size: 0.8rem;
-	height: 4rem;
-	line-height: 5;
+	font-size: 1rem;
+	height: 4.5rem;
+	line-height: 4.65;
 	width: auto;
 	border-radius: 1rem;
-	padding: 0 1.15rem;
+	padding: 0 1.5rem;
 	text-align: center;
 }
 input[type="submit"].disabled, input[type="submit"]:disabled, input[type="reset"].disabled, input[type="reset"]:disabled, input[type="button"].disabled, input[type="button"]:disabled, button.disabled, button:disabled, .button.disabled, .button:disabled {
@@ -812,6 +816,7 @@ input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hove
 	background-color: rgba(70, 130, 250, 1);
 	box-shadow: inset 0 0 0 1px rgba(70, 130, 250, 1);
 	color: rgba(255, 255, 255, 1) !important;
+	border-radius: 2.25rem;
 }
 input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active, button:active, .button:active {
 	background-color: rgba(70, 130, 250, 1);
@@ -858,17 +863,17 @@ button.third:active, .button.third:active {
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.85rem;
 	width: auto;
-	height: 2.6rem;
+	height: 2.65rem;
 	border-radius: 1.3rem;
 	line-height: 3.15;
 	padding: 0 0.8rem;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
-	font-size: 0.9rem;
-	height: 4rem;
-	line-height: 4.5;
+	font-size: 1rem;
+	height: 4.5rem;
+	line-height: 4.65;
 	width: auto;
-	padding: 0 1.2rem;
+	padding: 0 1.35rem;
 	text-align: center;
 }
 }
