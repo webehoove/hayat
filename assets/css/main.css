@@ -341,10 +341,6 @@ h1.special_one {
 	font-size: 4rem;
 	line-height: 1.05;
 }
-h1.title {
-	font-size: 2.5rem;
-	line-height: 1.2;
-}
 h2 {
 	font-size: 2.5rem;
 	line-height: 1.25;
@@ -543,15 +539,11 @@ h1.special {
 	line-height: 1;
 }
 h1.special_one {
-	font-size: 3.4rem;
+	font-size: 3.35rem;
 	line-height: 1;
 }
-h1.title {
-	font-size: 1.75rem;
-	line-height: 1.1;
-}
 h2 {
-	font-size: 2.15rem;
+	font-size: 2.25rem;
 	line-height: 1.35;
 }
 h3 {
@@ -577,7 +569,7 @@ hr.block {
 	margin: 2rem 0;
 }
 hr.block2 {
-	margin: 3rem 0;
+	margin: 3.5rem 0;
 }
 hr.lineer {
 	margin: 0.5rem 0;
