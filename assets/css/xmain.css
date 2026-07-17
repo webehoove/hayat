@@ -115,15 +115,21 @@ ul.goup li {
 	justify-content: center;
 	align-items: center;
 	width: 96%;
-	font-size: 2.35rem;
-	line-height: 1;
-	letter-spacing: -0.025rem;
+	font-size: 2rem;
+	top: 1.25rem;
 }
 ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_db {
 	color: rgba(4, 30, 70, 1);
+}
+ul li .logotype_wm_tag {
+	position: relative;
+	font-size: 1.2rem;
+	letter-spacing: 0.025rem;
+	padding: 0;
+	top: -1.1rem;
 }
 .offdesk {
 	display: block;
