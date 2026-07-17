@@ -48,54 +48,20 @@
 	font-style: normal;
 }
 @font-face {
-	font-family: "HAYAT Sans V Rg";
+	font-family: "HAYAT Sans V W";
 	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff) format('woff');
 	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
+	font-optical-sizing: auto;
 }
 @font-face {
-	font-family: "HAYAT Serif Rg";
-	src: url(../webfonts/h_serif/Gutofic-Rg.woff2) format('woff2');
+	font-family: "HAYAT Sans V C";
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CasualVariable.woff) format('woff');
+	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CasualVariable.woff2) format('woff2');
 	font-display: swap;
 	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif It";
-	src: url(../webfonts/h_serif/Gutofic-It.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif Medium";
-	src: url(../webfonts/h_serif/Gutofic-Medium.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif Bold";
-	src: url(../webfonts/h_serif/Gutofic-Bold.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif ExtraBold";
-	src: url(../webfonts/h_serif/Gutofic-ExtraBold.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif Black";
-	src: url(../webfonts/h_serif/Gutofic-Black.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
-}
-@font-face {
-	font-family: "HAYAT Serif Rg R";
-	src: url(../webfonts/h_serif/RoslindaleCyrillicText-Regular.woff) format('woff');
-	src: url(../webfonts/h_serif/RoslindaleCyrillicText-Regular.woff2) format('woff2');
-	font-display: swap;
-	font-style: normal;
+	font-optical-sizing: auto;
 }
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -291,53 +257,23 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'HAYAT Sans W Bk', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.f_s_tx {
-	font-family: 'HAYAT Sans S Fn', Helvetica, sans-serif;
-	font-weight: normal;
-}
 .rg_v_tx {
-	font-family: 'HAYAT Sans V Rg', Helvetica, sans-serif;
-	font-weight: 370;
+	font-family: 'HAYAT Sans V W', Helvetica, sans-serif;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-weight: 360;
 }
 .bd_v_tx {
-	font-family: 'HAYAT Sans V Rg', Helvetica, sans-serif;
-	font-weight: 580;
-}
-.rg_tt {
-	font-family: 'HAYAT Serif Rg', sans-serif;
-	font-weight: normal;
-}
-.it_tt {
-	font-family: 'HAYAT Serif It', serif;
-	font-weight: normal;
-}
-.md_tt {
-	font-family: 'HAYAT Serif Medium', serif;
-	font-weight: normal;
-}
-.bd_tt {
-	font-family: 'HAYAT Serif Bold', serif;
-	font-weight: normal;
-}
-.eb_tt {
-	font-family: 'HAYAT Serif ExtraBold', serif;
-	font-weight: normal;
-}
-.black_tt {
-	font-family: 'HAYAT Serif Black', serif;
-	font-weight: normal;
-}
-.rg_s {
-	font-family: "STIX Two Text", serif;
+	font-family: 'HAYAT Sans V W', Helvetica, sans-serif;
 	font-optical-sizing: auto;
-	font-weight: 400;
 	font-style: normal;
+	font-weight: 520;
 }
-.md_s {
-	font-family: "STIX Two Text", serif;
+.rg_v_c_tx {
+	font-family: 'HAYAT Sans V C', Helvetica, sans-serif;
 	font-optical-sizing: auto;
-	font-weight: 500;
 	font-style: normal;
+	font-weight: 320;
 }
 p {
 	font-size: 1.75rem;
