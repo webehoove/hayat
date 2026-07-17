@@ -219,7 +219,7 @@
         <div class="col-12 col-12-small">
           <div class="box_banner color_box_db" style="background-image:url(imgs/hayat_box_banner.jpg); background-position:top;">
             <h1 class="special_one lt_tx t_color_w" style="position:absolute; width:100%; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 2rem;">Продвижение ценностей<br>
-              <span class="bd_v_tx">помощи, доброты и участия.</span></h1>
+              <span class="md_w_tx">помощи и доброты.</span></h1>
             <ul style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">
               <li><a href="https://webehoove.github.io/hayat/mission/" class="button large blur md_tx upup">Миссия нашего Фонда</a></li>
             </ul>
@@ -959,6 +959,24 @@ for (i = 0; i < coll.length; i++) {
     } 
   });
 }
+</script>
+<script>
+const textElement = document.getElementById("dynamic-text");
+const words = ["Hayat", "Хайат", "Жизнь"];
+let index = 0;
+
+function changeTextSmoothly() {
+  textElement.classList.add("fade");
+
+  setTimeout(() => {
+    index = (index + 1) % words.length;
+    textElement.textContent = words[index];
+    
+   textElement.classList.remove("fade");
+  }, 400); 
+}
+
+setInterval(changeTextSmoothly, 2000);
 </script>
 </body>
 </html>
