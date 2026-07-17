@@ -7,7 +7,7 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: rgba(4, 30, 70, 1);
+	background-color: rgba(255, 255, 255, 1);
 	transition: 0.3s;
 }
 .logotype_lockup {
@@ -123,7 +123,7 @@ ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_db {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(4, 30, 70, 1);
 }
 .offdesk {
 	display: block;

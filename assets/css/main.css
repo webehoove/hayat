@@ -393,7 +393,7 @@ hr.lineer_zero {
 	color: rgba(70, 130, 250, 1);
 }
 .t_color_r {
-	color: rgba(255, 61, 69, 1);
+	color: rgba(255, 80, 93, 1);
 }
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
@@ -582,13 +582,13 @@ a:active, a:visited:active {
 	background-color: rgba(66, 68, 213, 1);
 }
 .color_box_b {
-	background-color: rgba(18, 35, 119, 1);
+	background-color: rgba(28, 46, 114, 1);
 }
 .color_box_ar {
 	background-color: rgba(255, 199, 207, 1);
 }
 .color_box_r {
-	background-color: rgba(255, 61, 69, 1);
+	background-color: rgba(255, 80, 93, 1);
 }
 .color_box_db {
 	background-color: rgba(4, 30, 70, 1);
@@ -1885,7 +1885,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: rgba(4, 30, 70, 1);
 }
 #wrapper > .color_Hb {
-	background-color: rgba(18, 35, 119, 1);
+	background-color: rgba(28, 46, 114, 1);
 }
 #wrapper > .color_Hmb {
 	background-color: rgba(67, 68, 213, 1);
