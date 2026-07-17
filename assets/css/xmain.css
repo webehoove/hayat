@@ -7,7 +7,7 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: rgba(4, 30, 70, 1);
+	background-color: rgba(255, 255, 255, 1);
 	transition: 0.3s;
 }
 .logotype_lockup {
@@ -106,7 +106,7 @@ ul.goup li {
 	float: left;
 	top: -0.25rem;
 	left: 0;
-	z-index: 4;
+	z-index: 6;
 }
 #logotype_wm {
 	position: absolute;
@@ -123,7 +123,7 @@ ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_db {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(4, 30, 70, 1);
 }
 .offdesk {
 	display: block;
@@ -153,14 +153,15 @@ ul li .logotype_wm_db {
 }
  @media screen and (max-width: 768px) {
 #logotype_sym {
+	width: 3rem;
 	top: -0.1rem;
 }
 #logotype_wm {
 	width: 97%;
-	line-height: 1.2;
+	line-height: 1.3;
 }
 .logotype_lockup_b {
-	width: 18rem;
+	width: 13rem;
 }
 ul.bottommenu li {
 	font-size: 1.35rem;

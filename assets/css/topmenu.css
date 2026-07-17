@@ -5,7 +5,7 @@
 	right: -100%;
 	height: 100%;
 	width: 100%;
-	background: rgba(4, 30, 70, 1);
+	background: rgba(255, 255, 255, 1);
 	transition: all 0.6s ease-in-out;
 	z-index: 4;
 	overflow: hidden;
@@ -83,7 +83,7 @@
 	position: absolute;
 	top: 0;
 	width: 60%;
-	border-bottom: 2px solid #ffffff;
+	border-bottom: 2px solid rgba(4, 30, 70, 1);
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btnb span, .menu-btnb:before, .menu-btnb:after {
@@ -93,7 +93,7 @@
 	position: absolute;
 	top: 0;
 	width: 60%;
-	border-bottom: 2px solid rgba(255, 255, 255, 1);
+	border-bottom: 2px solid rgba(4, 30, 70, 1);
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .menu-btn:before {
@@ -124,11 +124,11 @@
 }
 #active:checked + .menu-btn:before {
 	transform: rotate(45deg);
-	border-color: #fff;
+	border-color: rgba(4, 30, 70, 1);
 }
 #active:checked + .menu-btn:after {
 	transform: rotate(-45deg);
-	border-color: #fff;
+	border-color: rgba(4, 30, 70, 1);
 }
 /* closing animation */
 #active:checked + .menu-btnb span {
@@ -136,15 +136,15 @@
 }
 #active:checked + .menu-btnb:before {
 	transform: rotate(45deg);
-	border-color: #fff;
+	border-color: rgba(4, 30, 70, 1);
 }
 #active:checked + .menu-btnb:after {
 	transform: rotate(-45deg);
-	border-color: #fff;
+	border-color: rgba(4, 30, 70, 1);
 }
 .wrapper_menu ul {
 	position: relative;
-	top: 7rem;
+	top: 5rem;
 	left: 1rem;
 	padding: 1rem 0 1.5rem 0;
 	margin-right: 0;
@@ -158,7 +158,7 @@
 .wrapper_menu ul li a {
 	-webkit-tap-highlight-color: transparent !important;
 	outline: none !important;
-	color: rgba(255, 255, 255, .8);
+	color: rgba(4, 30, 70, .8);
 	text-decoration: none;
 	font-size: 1.45rem;
 	padding: 0;
@@ -170,7 +170,7 @@
 	transition: transform .6s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .wrapper_menu ul li a:hover {
-	color: rgba(255, 255, 255, 1);
+	color: rgba(4, 30, 70, 1);
 }
 .wrapper_menu ul li h2 a {
 	font-size: 2.25rem;
