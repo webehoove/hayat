@@ -556,12 +556,41 @@ a:active, a:visited:active {
 	background: inherit;
 	background-position: center;
 	background-size: cover;
+	object-fit: cover;
+    object-position: center;
+    justify-content: center;
+    align-items: center;
 	margin: 0;
-	padding: 1.75rem 1.5rem;
+	padding: 0;
 	width: 100%;
 	height: 100svh;
 	border: none;
 	border-radius: 2rem;
+	z-index: 1;
+}
+.box_banner.content {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	z-index: 2;
+}
+.box_banner .videobg video {
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+	position: absolute;
+	height: 100svh;
+	top: 0;
+	left: 0;
+	object-position: center;
+    justify-content: center;
+    align-items: center;
+	z-index: -1;
 }
 .box_text {
 	overflow: hidden;
@@ -1520,16 +1549,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: 100%;
 	opacity: 1;
 	z-index: 1;
-}
-.banner.style5 .image.smooth-video {
-	/* Triggers GPU hardware acceleration to force hardware anti-aliasing */
-	transform: translateZ(0);
-	-webkit-backface-visibility: hidden;
-	backface-visibility: hidden;
-	/* Forces high-quality scaling algorithms when video size changes */
-	image-rendering: auto;
-	/* Extra optimization for Webkit/Blink browsers */
-	will-change: transform;
 }
  @media screen and (max-width: 1680px) {
 }
