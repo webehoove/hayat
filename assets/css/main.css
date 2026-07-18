@@ -604,8 +604,11 @@ a:active, a:visited:active {
 	border: none;
 	border-radius: 2rem;
 }
+.box_text .icons img {
+	width: 6rem;
+}
 .color_box_ab {
-	background-color: rgba(207, 224, 255, 1);
+	background-color: rgba(225, 237, 255, 1);
 }
 .color_box_lb {
 	background-color: rgba(70, 130, 250, 1);
@@ -617,13 +620,16 @@ a:active, a:visited:active {
 	background-color: rgba(28, 46, 114, 1);
 }
 .color_box_ar {
-	background-color: rgba(255, 199, 207, 1);
+	background-color: rgba(255, 225, 232, 1);
 }
 .color_box_r {
 	background-color: rgba(255, 80, 93, 1);
 }
-.color_box_db {
-	background-color: rgba(4, 30, 70, 1);
+.color_box_agn {
+	background-color: rgba(211, 239, 224, 1);
+}
+.color_box_gn {
+	background-color: rgba(0, 119, 96, 1);
 }
 .color_box_g10 {
 	background-color: rgba(236, 238, 246, 1);
@@ -694,12 +700,18 @@ ul.box_link_w li a:hover {
 .box_banner {
 	height: 95svh;
 }
-.box_news {
-	height: 100%;
+.box_news_text {
+	height: 24vh;
+}
+.box_text .icons img {
+	width: 5rem;
 }
 .box_news_text {
 	height: 28vh;
 	padding: 1.25rem 1rem;
+}
+.box_news {
+	height: 100%;
 }
 .box_news_but {
 	bottom: 1rem;
