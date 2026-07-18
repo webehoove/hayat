@@ -202,6 +202,13 @@ ul li .logotype_wm_tag {
 .logotype_lockup_b {
 	width: 13rem;
 }
+.logotype_lockup_b_d li.symbol_b {
+	width: 4.25rem;
+	padding-right: 1rem;
+}
+.logotype_lockup_b_d li.wm_b {
+	font-size: 3.5rem;
+}
 ul.bottommenu li {
 	font-size: 1.35rem;
 	line-height: 1.35;
