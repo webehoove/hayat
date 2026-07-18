@@ -584,7 +584,7 @@ a:active, a:visited:active {
 	-ms-flex-shrink: 0;
 	flex-shrink: 0;
 	position: absolute;
-	height: 100svh;
+	width: 100%;
 	top: 0;
 	left: 0;
 	object-position: center;
@@ -618,6 +618,9 @@ a:active, a:visited:active {
 }
 .color_box_b {
 	background-color: rgba(28, 46, 114, 1);
+}
+.color_box_db {
+	background-color: rgba(4, 30, 70, 1);
 }
 .color_box_ar {
 	background-color: rgba(255, 225, 232, 1);
@@ -700,6 +703,10 @@ ul.box_link_w li a:hover {
 .box_banner {
 	height: 95svh;
 }
+.box_banner .videobg video {
+	width: auto;
+	height: 100svh;
+}
 .box_news_text {
 	height: 24vh;
 }
@@ -721,6 +728,10 @@ ul.box_link_w li a:hover {
 }
 }
  @media screen and (max-width: 375px) {
+.box_banner .videobg video {
+	width: auto;
+	height: 101svh;
+}
 .box_news_text {
 	height: 35vh;
 }
