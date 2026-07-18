@@ -16,10 +16,20 @@
 .logotype_lockup_b {
 	width: 19rem;
 }
-.logotype_wm_b {
-	display: none;
+.logotype_lockup_b_d {
+	position: relative;
+	display: flex;
+	align-items: center;
 }
-
+.logotype_lockup_b_d li.symbol_b {
+	width: 5.35rem;
+	padding-right: 1.25rem;
+}
+.logotype_lockup_b_d li.wm_b {
+	position: relative;
+	font-size: 4.75rem;
+	letter-spacing: -0.025rem;
+}
 ul.topmenu {
 	position: relative;
 	list-style: none;
