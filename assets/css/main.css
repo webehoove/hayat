@@ -428,6 +428,10 @@ h2 {
 h3 {
 	font-size: 1.5rem;
 }
+hr {
+	border: 0;
+	margin: 1.25rem 0;
+}
 }
  @media screen and (max-width: 1080px) {
 h1 {
@@ -612,6 +616,9 @@ a:active, a:visited:active {
 	border: none;
 	border-radius: 2rem;
 }
+.box_text.heigh_fix_50 {
+	height: 60svh;
+}
 .box_text .icons img {
 	width: 6rem;
 }
@@ -692,8 +699,19 @@ ul.box_link_w li a:hover {
 	opacity: .8;
 }
 .block_shift_left {
-	margin-left: 2rem;
+	margin-left: 3rem;
 }
+ @media screen and (max-width: 1366px) {
+.box_banner {
+	height: 80svh;
+}
+.box_news_text {
+	height: 26vh;
+}
+.box_news_but {
+	bottom: 1rem;
+}
+ }
  @media screen and (max-width: 1180px) {
 .box_news_text {
 	padding: 1.5rem 1rem;
@@ -704,18 +722,25 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 1024px) {
 .box_banner {
-	height: 95svh;
+	height: 60svh;
 }
 .box_banner .videobg video {
 	width: auto;
 	height: 100svh;
 }
+}
+ @media screen and (max-width: 768px) {
+.box_banner {
+	height: 60svh;
+}
 .box_news_text {
-	height: 25vh;
+	height: 20vh;
 }
 }
  @media screen and (max-width: 736px) {
-
+.box_banner {
+	height: 85svh;
+}
 .box_news_text {
 	height: 24vh;
 }
@@ -723,11 +748,8 @@ ul.box_link_w li a:hover {
 	width: 6rem;
 }
 .box_news_text {
-	height: 28vh;
+	min-height: 26svh;
 	padding: 1.25rem 1rem;
-}
-.box_news {
-	height: 100%;
 }
 .box_news_but {
 	bottom: 1rem;
@@ -742,10 +764,15 @@ ul.box_link_w li a:hover {
 	height: 101svh;
 }
 .box_news_text {
-	height: 35vh;
+	height: auto;
 }
 .box_news_but {
 	bottom: 1.25rem;
+}
+}
+ @media screen and (max-width: 360px) {
+.box_news_text {
+	height: 38svh;
 }
 }
 /* Button */
@@ -900,7 +927,7 @@ button.fifth:active, .button.fifth:active {
  @media screen and (max-width: 736px) {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
-	height: 4.5rem;
+	height: 4.25rem;
 	line-height: 4.65;
 	padding: 0 1.35rem;
 }
@@ -1598,6 +1625,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
  @media screen and (max-width: 1080px) {
 }
  @media screen and (max-width: 1024px) {
+	 
+.banner.style2 .content {
+	height: 60svh;
+}
 }
  @media screen and (max-width: 980px) {
 }
