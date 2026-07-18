@@ -11,10 +11,18 @@
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 13rem;
+	width: 12rem;
 }
 .logotype_lockup_b {
 	width: 19rem;
+}
+#dynamic-text {
+  opacity: 1;
+  transition: opacity 0.4s ease-in-out;
+  display: inline-block;
+}
+#dynamic-text.fade {
+  opacity: 0;
 }
 .logotype_lockup_b_d {
 	position: relative;
@@ -28,7 +36,6 @@
 .logotype_lockup_b_d li.wm_b {
 	position: relative;
 	font-size: 4.75rem;
-	letter-spacing: -0.025rem;
 }
 ul.topmenu {
 	position: relative;
@@ -155,13 +162,12 @@ ul li .logotype_wm_tag {
 	font-size: 1.1rem;
 	padding: 0;
 }
-#dynamic-text {
-  opacity: 1;
-  transition: opacity 0.4s ease-in-out;
-  display: inline-block;
+.logotype_lockup_b_d li.symbol_b {
+	width: 5rem;
+	padding-right: 1.25rem;
 }
-#dynamic-text.fade {
-  opacity: 0;
+.logotype_lockup_b_d li.wm_b {
+	font-size: 4.25rem;
 }
 .offdesk {
 	display: block;
@@ -202,7 +208,7 @@ ul li .logotype_wm_tag {
 }
 ul li .logotype_wm_tag {
 	font-size: 1rem;
-	letter-spacing: 0.035rem;
+	letter-spacing: 0.015rem;
 }
 .logotype_lockup_b {
 	width: 13rem;
@@ -212,7 +218,7 @@ ul li .logotype_wm_tag {
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	font-size: 3.2rem;
+	display: none;
 }
 ul.bottommenu li {
 	font-size: 1.35rem;

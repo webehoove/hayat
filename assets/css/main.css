@@ -459,7 +459,7 @@ h2 {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.75rem;
+	font-size: 1.6rem;
 	line-height: 1.25;
 }
 h1 {
@@ -1470,6 +1470,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	flex-shrink: 0;
 	display: block;
 	width: 100%;
+	z-index: 1;
 }
 .banner.style1 .content .image_wide video {
 	-moz-flex-grow: 0;
@@ -1482,6 +1483,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	flex-shrink: 0;
 	display: block;
 	width: 100%;
+	z-index: 1;
 }
  @media screen and (max-width: 1680px) {
 }
@@ -1496,6 +1498,139 @@ body.is-preload .banner.onload-image-fade-in .image img {
  @media screen and (max-width: 980px) {
 }
  @media screen and (max-width: 736px) {
+}
+/* Banner (style2) */
+
+.banner.style2 {
+	padding: 0 2rem;
+	margin: 0 auto;
+	width: 100%;
+	-moz-align-items: left;
+	-webkit-align-items: left;
+	-ms-align-items: left;
+	align-items: left;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: left;
+	-webkit-justify-content: left;
+	-ms-justify-content: left;
+	justify-content: left;
+	background-color: inherit;
+	position: relative;
+	overflow-x: hidden;
+}
+.banner.style2 .content {
+	position: relative;
+	width: 100%;
+	height: 85svh;
+	overflow: hidden;
+	z-index: 2;
+}
+.banner.style2 .content .block_bottom {
+	position: absolute;
+	bottom: 2rem;
+}
+.banner.style2 .image {
+	-moz-flex-grow: 0;
+	-webkit-flex-grow: 0;
+	-ms-flex-grow: 0;
+	flex-grow: 0;
+	-moz-flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	-ms-flex-shrink: 0;
+	flex-shrink: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+.banner.style2 .image img {
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
+	-ms-object-fit: cover;
+	object-fit: cover;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: center;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+.banner.style2 .image video {
+	-webkit-appearance: none;
+	-moz-object-fit: cover;
+	-webkit-object-fit: cover;
+	-ms-object-fit: cover;
+	object-fit: cover;
+	-moz-object-position: center;
+	-webkit-object-position: center;
+	-ms-object-position: center;
+	object-position: center;
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+ @media screen and (max-width: 1680px) {
+}
+ @media screen and (max-width: 1366px) {
+.banner.style2 {
+	padding: 0 1.5rem;
+}
+.banner.style2 .content .block_bottom {
+	bottom: 1.5rem;
+}
+}
+ @media screen and (max-width: 1280px) {
+}
+ @media screen and (max-width: 1080px) {
+}
+ @media screen and (max-width: 1024px) {
+}
+ @media screen and (max-width: 980px) {
+}
+ @media screen and (max-width: 736px) {
+.banner.style2 {
+	padding: 0 1rem;
+}
+.banner.style2 .content {
+	height: 75svh;
+}
+.banner.style2 .content .block_bottom {
+	bottom: 0.5rem;
+}
+}
+.banner.style2.fullscreen {
+	min-height: 100vh;
+}
+.banner.style2.content-align-left {
+	text-align: left;
+}
+.banner.style2.content-align-right {
+	text-align: right;
+}
+.banner.style2.image-position-left .image img {
+	-moz-object-position: left;
+	-webkit-object-position: left;
+	-ms-object-position: left;
+	object-position: left;
+}
+.banner.style2.image-position-right .image img {
+	-moz-object-position: right;
+	-webkit-object-position: right;
+	-ms-object-position: right;
+	object-position: right;
 }
 /* Banner (style5) */
 
@@ -1544,7 +1679,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: 100%;
 	top: 0;
 	left: 0;
-	opacity: 1;
 }
 .banner.style5 .image img {
 	-moz-object-fit: cover;
@@ -1561,6 +1695,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	left: 0;
 	width: 100%;
 	height: 100%;
+	z-index: 1;
 }
 .banner.style5 .image video {
 	-webkit-appearance: none;
@@ -1578,7 +1713,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	opacity: 1;
 	z-index: 1;
 }
  @media screen and (max-width: 1680px) {
