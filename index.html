@@ -37,11 +37,13 @@
 	-moz-transition: opacity .2s ease-out;
 	-webkit-transition: opacity .2s ease-out;
 	-o-transition: opacity .2s ease-out;
-	background-color: rgba(62, 63, 65, 1);
-	border-radius: 0.35rem;
+	position: relative;
+	background-color: rgba(66, 73, 193, 1);
+	border-radius: 1rem;
 	color: #FFF;
 	cursor: pointer;
 	padding: 1.5rem;
+	margin-top: 0;
 	width: 100%;
 	border: none;
 	text-align: left;
@@ -55,7 +57,7 @@
 	position: relative;
 	content: 'открыть';
 	color: #FFF;
-	font-size: 0.9rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 	float: right;
 	bottom: 1.2rem;
@@ -63,12 +65,15 @@
 }
 .active:after {
 	content: "закрыть";
-	font-size: 0.9rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 }
 .coltext {
+	position: relative;
+	top: 0;
+	color: rgba(4, 30, 70, 1);
 	background-color: #FFF;
-	border-radius: 0.35rem;
+	border-radius: 1rem;
 	padding: 0 1.5rem 0 1.5rem;
 	margin: 0 0 1rem 0;
 	max-height: 0;
@@ -83,10 +88,10 @@
 	opacity: 1;
 }
 .collapsible:after {
-	font-size: 0.85rem;
+	font-size: 1rem;
 	float: left;
 	top: 1rem;
-	bottom: 0.5rem;
+	bottom: 1rem;
 }
 .h1.coltitle {
 	bottom: 1rem;
@@ -231,7 +236,7 @@
           <div class="box_banner color_box_db" style="background-image:url(imgs/hayat_box_banner.jpg); background-position:top;">
             <h1 class="special_one lt_tx t_color_w" style="position:absolute; width:100%; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 2rem;">Продвижение ценностей<br>
               <span class="md_w_tx">помощи и доброты.</span></h1>
-            <ul style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">
+            <ul style="position:absolute; bottom:2rem; width:100%; left:50%; transform: translate(-50%,0%);">
               <li><a href="https://webehoove.github.io/hayat/mission/" class="button large blur md_tx upup">Миссия нашего Фонда</a></li>
             </ul>
           </div>
@@ -359,7 +364,7 @@
           <div class="box_banner color_box_db" style="background-image:url(imgs/hayat_box_banner4.jpg);">
             <h1 class="special_one lt_tx t_color_w" style="position:absolute; width:100%; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 2rem;">Каждая семья должна быть в<br>
               <span class="bd_v_tx">безопасности, сильной и ценной.</span></h1>
-            <ul style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">
+            <ul style="position:absolute; bottom:2rem; width:100%; left:50%; transform: translate(-50%,0%);">
               <li><a href="https://webehoove.github.io/hayat/mission/" class="button large blur md_tx upup">Программы фонда</a></li>
             </ul>
           </div>
@@ -414,7 +419,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 col-12-small"><span class="image fit rounded"><img src="imgs/hayat_imgs_how-we-help_culture.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span> </div>
+        <div class="col-6 col-12-small"><span class="image fit shift_right rounded"><img src="imgs/hayat_imgs_how-we-help_culture.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span>
+          <hr class="block offmob">
+        </div>
         <div class="col-5 col-12-small block_shift_left">
           <div class="box_text color_box_mb">
             <h3 class="md_w_tx">Уже много лет фонд &laquo;Хайат&raquo; организует культурно-досуговые мероприятия.</h3>
@@ -427,11 +434,7 @@
           <ul>
             <li><a href="https://webehoove.github.io/hayat/how-we-help/" class="button primary large md_tx upup">Читать подробнее</a></li>
           </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <hr class="block">
+          <hr>
         </div>
       </div>
     </div>
@@ -460,7 +463,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 col-12-small"><span class="image fit rounded"><img src="imgs/hayat_imgs_how-we-help_food.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span> </div>
+        <div class="col-6 col-12-small"><span class="image fit shift_right rounded"><img src="imgs/hayat_imgs_how-we-help_food.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span>
+          <hr class="block offmob">
+        </div>
         <div class="col-5 col-12-small block_shift_left">
           <div class="box_text color_box_lb">
             <h3 class="md_w_tx">Семья &#8212; это основа и опора государственности. И бывают ситуации, когда семья испытывает трудности.</h3>
@@ -473,11 +478,7 @@
           <ul>
             <li><a href="https://webehoove.github.io/hayat/how-we-help/" class="button primary large md_tx upup">Читать подробнее</a></li>
           </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <hr class="block">
+          <hr>
         </div>
       </div>
     </div>
@@ -506,12 +507,14 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 col-12-small"><span class="image fit rounded"><img src="imgs/hayat_imgs_how-we-help_donbass.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span> </div>
+        <div class="col-6 col-12-small"><span class="image fit rounded"><img src="imgs/hayat_imgs_how-we-help_donbass_1200.jpg" onContextMenu="return false;" alt="Фонд Хайат - Как мы помогаем" /></span>
+          <hr class="block offmob">
+        </div>
         <div class="col-5 col-12-small block_shift_left">
-          <div class="box_text color_box_mb">
+          <div class="box_text color_box_mb" style="height:auto;">
             <h3 class="md_w_tx">Фонд &laquo;Хайат&raquo; с напряжением следит за событиями на Донбассе и Украине.</h3>
           </div>
-          <hr class="block">
+          <hr>
           <h2 class="lt_tx">И особенно важно держаться всем вместе, помогать друг другу. Ведь вместе мы &#8212; сила!</h2>
           <hr>
           <h2 class="lt_tx">Поэтому систематически отправляем гуманитарные грузы на Донбасс.</h2>
@@ -519,11 +522,7 @@
           <ul>
             <li><a href="https://webehoove.github.io/hayat/how-we-help/" class="button primary large md_tx upup">Читать подробнее</a></li>
           </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <hr class="block">
+          <hr>
         </div>
       </div>
     </div>
@@ -584,14 +583,15 @@
           <div class="box_banner color_box_r">
             <div class="content" style="position:absolute; width:100%; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 2rem;">
               <h2 class="lt_tx t_color_w">
-                <div class="md_w_tx" style="line-height:1.1;">Ваша помощь может обеспечить безопасность и спасти жизнь.</div></h2>
-                <hr>
+                <div class="md_w_tx" style="line-height:1.1;">Ваша помощь может обеспечить безопасность и спасти жизнь.</div>
+              </h2>
+              <hr>
               <p class="lt_tx t_color_w">Во всем мире дети продолжают сталкиваться с чрезвычайными и все более серьезными проблемами.<br>
                 Их жизнь, безопасность, благополучие и будущее находятся под угрозой во всем мире. </p>
             </div>
-              <ul style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">
-                <li><a href="https://webehoove.github.io/hayat/your-help/" class="button forth large md_tx upup">Как помочь</a></li>
-              </ul>
+            <ul style="position:absolute; bottom:2rem; width:100%; left:50%; transform: translate(-50%,0%);">
+              <li><a href="https://webehoove.github.io/hayat/your-help/" class="button forth large md_tx upup">Как помочь</a></li>
+            </ul>
             <div class="videobg">
               <video data-src="imgs/videos/h_box_lines_02.mp4" data-mobsrc="imgs/videos/h_box_lines_02.mp4" placeholder="imgs/videos/h_box_lines_02.jpg" preload="auto" autoplay loop muted="" playsinline="" src="imgs/videos/h_box_lines_02.mp4"> </video>
             </div>
@@ -649,7 +649,7 @@
             <hr>
             <p class="lt_tx">После пожертвований мы предоставляем семье продукты. Туда могут входить консервы, сладости, молочные продукты, чай и т.д.</p>
             <hr>
-            <ul class="text_link md_tx upup">
+            <ul class="text_link rg_tx upup">
               <li>
                 <h6><a href="https://webehoove.github.io/hayat/your-help/">Подробнее</a></h6>
               </li>
@@ -663,7 +663,7 @@
             <hr>
             <p class="lt_tx">Вещи первой необходимости. Это включает всебя одежду и обувь, детские товары, лекарства, очки, строительные материалы для ремонта и т.д.</p>
             <hr>
-            <ul class="text_link md_tx upup">
+            <ul class="text_link rg_tx upup">
               <li>
                 <h6><a href="https://webehoove.github.io/hayat/your-help/">Подробнее</a></h6>
               </li>
@@ -677,7 +677,7 @@
             <hr>
             <p class="lt_tx">Мы даем подарочные сертификаты на определенную сумму, на них семья может приобрести предметы необходимые семье&#42;.</p>
             <hr>
-            <ul class="text_link md_tx upup">
+            <ul class="text_link rg_tx upup">
               <li>
                 <h6><a href="https://webehoove.github.io/hayat/your-help/">Подробнее</a></h6>
               </li>
@@ -710,7 +710,7 @@
               <h1 class="special lt_tx t_color_w" style="position:absolute; width:100%; top:50%; left:50%; transform: translate(-50%,-50%); padding:0 2rem;">Хотите учавствовать?<br>
                 <span class="md_w_tx">Вступайте<br>
                 в нашу команду.</span></h1>
-              <ul style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">
+              <ul style="position:absolute; bottom:2rem; width:100%; left:50%; transform: translate(-50%,0%);">
                 <li style="margin:0 2rem;">
                   <p class="lt_tx t_color_w">Вместе мы работаем рука об руку.<br>
                     И всегда рады тем, кто готов присоединится к нам.</p>
@@ -751,7 +751,7 @@
         </div>
       </div>
     </div>
-  </section> -->
+  </section> --> 
   
   <!-- FINANCE TITLE -->
   
@@ -770,26 +770,37 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 off-12-small">
-          <img src="imgs/hayat_banner_pattern_01.svg" onContextMenu="return false;" alt="Финансовый контроль" />
+        <div class="col-6 off-12-small block_shift_right"> <img src="imgs/hayat_banner_pattern_01.svg" onContextMenu="return false;" alt="Финансовый контроль" />
           <hr class="block2">
         </div>
-        <div class="col-6 col-12-small offdesk_all">
-          <img src="imgs/hayat_banner_pattern_01_mob.svg" onContextMenu="return false;" alt="Финансовый контроль" />
-        </div>
+        <div class="col-6 col-12-small offdesk_all"> <img src="imgs/hayat_banner_pattern_01_mob.svg" onContextMenu="return false;" alt="Финансовый контроль" /> </div>
         <div class="col-5 col-12-small block_shift_left">
           <h1 class="special_one lt_tx">Прозрачность &#8212;</h1>
           <h1 class="special_one md_w_tx">наш главный приоритет.</h1>
           <hr class="block">
-          <h2 class="lt_tx">Доверие &#8212; это хорошо, но тщательный контроль — гораздо лучше, и это особенно важно, когда речь идет о том, чтобы все пожертвования использовались по назначению.</h2>
+          <h2 class="rg_v_c_tx t_color_b">Доверие &#8212; это хорошо, но тщательный контроль — гораздо лучше, и это особенно важно, когда речь идет о том, чтобы все пожертвования использовались по назначению.</h2>
           <hr class="block">
           <p class="lt_tx">Прозрачность всегда была для нас первостепенной задачей. Комплексная система внутреннего и внешнего контроля обеспечивает надлежащее использование пожертвований и подтверждает эффективность нашей работы.</p>
           <hr>
           <p class="lt_tx">Мы предоставляем нашим донаторам подробные бухгалтерские отчеты о том, как расходуются пожертвования.</p>
           <hr>
           <p class="lt_tx">Для дальнейшего повышения прозрачности мы придерживаемся общепризнанных кодексов поведения.</p>
-          <!-- <hr>
-          <p class="lt_tx">Доверие &#8212; это хорошо, но тщательный контроль — гораздо лучше, и это особенно важно, когда речь идет о том, чтобы все пожертвования использовались по назначению.</p> -->
+          <hr class="block2">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-12-small">
+          <hr class="lineer">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 col-12-small">
+          <h1 class="special_one md_w_tx" style="line-height:1.1;">Наш подход</h1>
+          <h1 class="special_one lt_tx" style="line-height:1.1;">к мониторингу фонда.</h1>
+          <hr>
+        </div>
+        <div class="col-5 off-12-small block_shift_left">
+          <p class="lt_tx">Благотворительный фонд &laquo;Хайат&raquo; проводит всесторонние внутренние и внешние аудиты, как и наши местные партнерские организации, которые сотрудничают с нами в реализации проектов на местах.</p>
           <hr class="block2">
         </div>
       </div>
@@ -802,26 +813,45 @@
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small t_color_w">
-          <div class="box_text heigh_fix_50 color_box_b">
-          <h1 class="special md_w_tx" style="line-height:1.1; width:80%;">Мониторинг и соответствующие системы внутреннего контроля</h1>
+          <div class="box_text heigh_fix_50 color_box_b"> <span class="icons_s"><img src="imgs/icons/icon_plus_fin_b.svg" onContextMenu="return false;" alt="О фонде Хайат" /></span>
             <hr>
-            <p class="lt_tx" style="position:absolute; bottom:2rem; width:100%; left:50%; transform: translate(-50%,0%); padding:0 1.5rem;">Внутренний мониторинг обеспечивает правильное протекание рабочих процессов, соблюдение законов и нормативных актов, а также предотвращение коррупционных действий. Кодекс корпоративного управления, утвержденный в 20013 году, призван способствовать этим усилиям. Он определяет, как органы взаимодействуют друг с другом и как осуществляется мониторинг деятельности управляющих фондом.</p>
+            <h1 class="special md_w_tx" style="line-height:1.1; width:80%;">Мониторинг и соответствующие системы внутреннего контроля</h1>
+            <hr class="block2">
+            <p class="lt_tx" style="width:60%;">Внутренний мониторинг обеспечивает правильное протекание рабочих процессов, соблюдение законов и нормативных актов, а также предотвращение коррупционных действий. Кодекс корпоративного управления, утвержденный в 2013 году, призван способствовать этим усилиям. Он определяет, как органы взаимодействуют друг с другом и как осуществляется мониторинг деятельности управляющих фондом.</p>
+            <hr>
+            <ul class="text_link rg_tx upup">
+              <li>
+                <h6><a href="https://webehoove.github.io/hayat/finance/">Подробнее</a></h6>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-12 col-12-small">
-          <div class="box_text heigh_fix_50 color_box_b"> <span class="icons"><img src="imgs/icons/icon_help_stuff_c.svg" onContextMenu="return false;" alt="О фонде Хайат" /></span>
-            <hr class="block2">
-            <h2 class="special_one md_w_tx" style="line-height:1.1;">Внешние<br>аудиты</h2>
+          <div class="box_text heigh_fix_50 color_box_mb"> <span class="icons_s"><img src="imgs/icons/icon_plus_fin_b.svg" onContextMenu="return false;" alt="О фонде Хайат" /></span>
             <hr>
-            <p class="lt_tx" style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">Оперативная и финансовая деятельность фонда, ее партнеров по проектам и сами проекты регулярно проверяются аудиторскими органами. Это требует соблюдения стандартов бухгалтерского учета и составления финансовой отчетности и подготовки годовой отчетности, которая проверяется и анализируется аудитором.</p>
+            <h1 class="special md_w_tx" style="line-height:1.1;">Внешние аудиты и составления финансовой отчетности</h1>
+            <hr class="block2">
+            <p class="lt_tx" style="width:60%;">Оперативная и финансовая деятельность фонда, ее партнеров по проектам и сами проекты регулярно проверяются аудиторскими органами. Это требует соблюдения стандартов бухгалтерского учета и составления финансовой отчетности и подготовки годовой отчетности, которая проверяется и анализируется аудитором.</p>
+            <hr>
+            <ul class="text_link rg_tx upup">
+              <li>
+                <h6><a href="https://webehoove.github.io/hayat/finance/">Подробнее</a></h6>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-12 col-12-small">
-          <div class="box_text heigh_fix_50 color_box_b"> <span class="icons"><img src="imgs/icons/icon_help_money_c.svg" onContextMenu="return false;" alt="О фонде Хайат" /></span>
-            <hr class="block2">
-            <h2 class="special_one md_w_tx" style="line-height:1.1;">Эффективный мониторинг</h2>
+          <div class="box_text heigh_fix_50 color_box_lb"> <span class="icons_s"><img src="imgs/icons/icon_plus_fin_b.svg" onContextMenu="return false;" alt="О фонде Хайат" /></span>
             <hr>
-            <p class="lt_tx" style="position:absolute; bottom:1.5rem; width:100%; left:50%; transform: translate(-50%,0%);">Устав и соответствующие правила процедуры фонда предусматривают четкое разделение ответственности между ее органами. Фонд &laquo;Хайат&raquo; использует кодекс надлежащего управления, который определяет мониторинг системы отчетности и представление годового и бюджетного плана на утверждение совету попечителей.</p>
+            <h1 class="special_one md_w_tx" style="line-height:1.1;">Эффективный мониторинг системы отчетности фонда</h1>
+            <hr class="block2">
+            <p class="lt_tx" style="width:60%;">Устав и соответствующие правила процедуры фонда предусматривают четкое разделение ответственности между ее органами. Фонд &laquo;Хайат&raquo; использует кодекс надлежащего управления, который определяет мониторинг системы отчетности и представление годового и бюджетного плана на утверждение совету попечителей.</p>
+            <hr>
+            <ul class="text_link rg_tx upup">
+              <li>
+                <h6><a href="https://webehoove.github.io/hayat/finance/">Подробнее</a></h6>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
@@ -839,41 +869,32 @@
     <div class="inner">
       <div class="row">
         <div class="col-12 col-12-small t_color_w">
-          <div class="collapsible">
-                                                <span class="image fit" style="width:2rem; opacity:.5"><img src="imgs/icons/icon_b_list_check_w.svg" onContextMenu="return false;" alt="" /></span>
-                                                <hr class="block2">
-                                                <h1 class="coltitle semibold_tt">Внутренний мониторинг</h1>
-                                             </div>
-                                             <div class="coltext">
-                                                <p style="margin-top:2rem;">Мы всегда даём заказчику полную и правдивую картину стоимости реализации проекта. Подавая коммерческое предложение, мы гарантируем, что проект может быть реализован в рамках согласованного бюджета.</p>
-                                                <p>Точный расчет объема работ, количества, стоимости материалов и оборудования помогает избежать необоснованных трат. Комплексное проектирование инженерных систем обеспечивает бесперебойную эксплуатацию всех узлов.</p>
-                                                <p>Разработка проектной документации на все виды сетей в одной организации не требует постоянной координации между несколькими разработчиками. Профессиональный подход к проектированию поможет избежать проблем при получении разрешений на строительство и ввод систем в эксплуатацию. В итоге собственник экономит средства и время.</p>
-                                                <hr class="block2">
-                                             </div>
-                                             
-                                             <div class="collapsible">
-                                                 <span class="image fit" style="width:1.8rem; opacity:.5""><img src="imgs/icons/icon_b_safe_check_w.svg" onContextMenu="return false;" alt="" /></span>
-                                                 <hr class="block2">
-                                                 <h1 class="semibold_tt">Внешние аудиты</h1>
-                                             </div>
-                                             <div class="coltext">
-                                                 <p style="margin-top:2rem;">Мы дорожим своей репутацией и неизменно выполняем работы на таком уровне качества, который превращает новых заказчиков в наших постоянных партнеров.</p>
-                                                 <p>Нами выработана и воплощена собственная система внутреннего контроля качества. Эффективность системы проверена годами и подтверждается десятками успешно завершенных проектов.</p>
-                                                 <p>Наши преимущества &#8212; это 10&#8211;летний опыт, широкая география проектов и здоровый перфекционизм, к которому каждый из нас стремится. Этот опыт продолжает заряжать нас энтузиазмом в своем деле, а слаженность команды позволяет работать как единый организм ради достижения наилучшего результата.</p>
-                                                 <hr class="block2">
-                                             </div>
-                                             
-                                             <div class="collapsible">
-                                                 <span class="image fit" style="width:1.8rem; opacity:.5"><img src="imgs/icons/icon_b_clock_w.svg" onContextMenu="return false;" alt="" /></span>
-                                                 <hr class="block2">
-                                                 <h1 class="semibold_tt">Эффективный мониторинг</h1>
-                                             </div>
-                                             <div class="coltext">
-                                                 <p style="margin-top:2rem;">Мы реально оцениваем сроки, в которые проект возможно воплотить без ущерба для качества, учитывая как потребности заказчика, так и объективные факторы, влияющие на время выполнения работ.</p>
-                                                 <p>Мы умеем строить без иллюзий. Наша команда работает с реальностью, поэтому мы точно знаем, как проект будет фунционировать, и сколько  в точности потребуется времени на его реализацию.</p>
-                                                 <p>Объективно оценивая поставленные задачи и условия, а также имея четко разработанные алгоритмы для их выполнения, мы всегда исполняем взятые на себя обязательства в срок.</p>
-                                                 <hr class="block2">
-                                             </div>
+          <div class="collapsible"> <span class="image fit" style="width:2rem; opacity:.5"><img src="imgs/icons/icon_b_list_check_w.svg" onContextMenu="return false;" alt="" /></span>
+            <hr class="block2">
+            <h1 class="coltitle md_w_tx">Внутренний мониторинг</h1>
+          </div>
+          <div class="coltext">
+            <p class="lt_tx" style="margin-top:2.5rem;">Внутренний мониторинг обеспечивает правильное протекание рабочих процессов, соблюдение законов и нормативных актов, а также предотвращение коррупционных действий.</p>
+            <p class="lt_tx" style="margin:1.5rem 0 2.5rem 0;">Кодекс корпоративного управления, утвержденный в 2013 году, призван способствовать этим усилиям.
+            <br>Он определяет, как органы взаимодействуют друг с другом и как осуществляется мониторинг деятельности управляющих фондом.</p>
+          </div>
+          <div class="collapsible"> <span class="image fit" style="width:1.8rem; opacity:.5""><img src="imgs/icons/icon_b_safe_check_w.svg" onContextMenu="return false;" alt="" /></span>
+            <hr class="block2">
+            <h1 class="md_w_tx">Внешние аудиты отчетности</h1>
+          </div>
+          <div class="coltext">
+            <p class="lt_tx" style="margin-top:2.5rem;">Оперативная и финансовая деятельность фонда, ее партнеров по проектам и сами проекты регулярно проверяются аудиторскими органами.</p>
+            <p class="lt_tx" style="margin:1.5rem 0 2.5rem 0;">Это требует соблюдения стандартов бухгалтерского учета и составления финансовой отчетности и подготовки годовой отчетности, которая проверяется и анализируется аудитором.</p>
+          </div>
+          <div class="collapsible"> <span class="image fit" style="width:1.8rem; opacity:.5"><img src="imgs/icons/icon_b_clock_w.svg" onContextMenu="return false;" alt="" /></span>
+            <hr class="block2">
+            <h1 class="md_w_tx">Эффективный мониторинг</h1>
+          </div>
+          <div class="coltext">
+            <p class="lt_tx" style="margin-top:2.5rem;">Устав и соответствующие правила процедуры фонда предусматривают четкое разделение ответственности между ее органами.</p>
+            <p class="lt_tx" style="margin:1.5rem 0 2.5rem 0;">Объективно оценивая поставленные задачи и условия, а также имея четко разработанные алгоритмы для их выполнения, мы всегда исполняем взятые на себя обязательства в срок.</p>
+           
+          </div>
         </div>
       </div>
       <div class="row">
@@ -882,7 +903,7 @@
         </div>
       </div>
     </div>
-  </section>  
+  </section>
   
   <!-- CONTACT US -->
   
@@ -948,9 +969,10 @@
             <span class="md_w_tx">вместе с нами.</span></h1>
           <div class="row block_bottom" style="position:absolute; width:100%; left:50%; transform: translate(-50%,0%);">
             <div class="col-12 col-12-small">
-              <p class="lt_tx" style="margin-bottom:3rem;">Мы ценим сотрудничество<br>с различными организациями и активно развиваем это направление в фонде.</p>
+              <p class="lt_tx" style="margin-bottom:3rem;">Мы ценим сотрудничество<br>
+                с различными организациями и активно развиваем это направление в фонде.</p>
               <ul>
-                <li style="margin-right:0.35rem;"><a href="https://webehoove.github.io/hayat/partners/" class="button primary large md_tx upup">Сотрудничество</a></li>
+                <li style="margin-bottom:3rem;"><a href="https://webehoove.github.io/hayat/partners/" class="button primary large md_tx upup">Сотрудничество</a></li>
               </ul>
             </div>
           </div>
