@@ -617,10 +617,14 @@ a:active, a:visited:active {
 	border-radius: 2rem;
 }
 .box_text.heigh_fix_50 {
-	height: 60svh;
+	height: auto;
+	padding: 2.5rem;
 }
 .box_text .icons img {
 	width: 6rem;
+}
+.box_text .icons_s img {
+	width: 4rem;
 }
 .color_box_ab {
 	background-color: rgba(225, 237, 255, 1);
@@ -655,6 +659,9 @@ a:active, a:visited:active {
 .color_box_g20 {
 	background-color: rgba(217, 220, 230, 1);
 }
+.color_box_w {
+	background-color: rgba(255, 255, 255, 1);
+}
 .box_news {
 	overflow: hidden;
 	-ms-flex-positive: 1;
@@ -682,7 +689,7 @@ a:active, a:visited:active {
 }
 .box_news_text {
 	position: relative;
-	padding: 1.75rem 1.5rem;
+	padding: 2rem 1.5rem;
 	height: 34vh;
 }
 .box_news_but {
@@ -697,9 +704,6 @@ ul.box_link_w li a:hover {
 	border-color: rgba(255, 255, 255, .5);
 	color: #fff;
 	opacity: .8;
-}
-.block_shift_left {
-	margin-left: 3rem;
 }
  @media screen and (max-width: 1366px) {
 .box_banner {
@@ -749,13 +753,10 @@ ul.box_link_w li a:hover {
 }
 .box_news_text {
 	min-height: 26svh;
-	padding: 1.25rem 1rem;
+	padding: 2rem 1rem;
 }
 .box_news_but {
 	bottom: 1rem;
-}
-.block_shift_left {
-	margin-left: 0;
 }
 }
  @media screen and (max-width: 375px) {
@@ -987,7 +988,13 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 .image.fit video {
 	width: 100%;
 }
+.image.shift_right {
+	padding-right: 1rem;
+}
  @media screen and (max-width: 736px) {
+.image.shift_right {
+	padding-right: 0;
+}
 }
 /* List */
 
@@ -1627,7 +1634,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
  @media screen and (max-width: 1024px) {
 	 
 .banner.style2 .content {
-	height: 60svh;
+	height: 70svh;
 }
 }
  @media screen and (max-width: 980px) {
@@ -1640,7 +1647,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: 75svh;
 }
 .banner.style2 .content .block_bottom {
-	bottom: 0.5rem;
+	bottom: 1rem;
 }
 }
 .banner.style2.fullscreen {
@@ -1754,7 +1761,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	padding: 0 1.5rem;
 }
 .banner.style5 .content .block_bottom {
-	bottom: 1.5rem;
+	bottom: 2rem;
 }
 }
  @media screen and (max-width: 1280px) {
@@ -1770,7 +1777,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	padding: 0 1rem;
 }
 .banner.style5 .content .block_bottom {
-	bottom: 0.5rem;
+	bottom: 1rem;
 }
 }
 .banner.style5.fullscreen {
@@ -1816,6 +1823,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .wrapper.style1 > .inner.medium {
 	width: 75%;
 }
+.wrapper.style1 > .inner .block_shift_left {
+	margin-left: 3rem;
+}
+.wrapper.style1 > .inner .block_shift_right img {
+	padding-right: 3rem;
+}
  @media screen and (max-width: 1680px) {
 .wrapper.style1 > .inner {
 	padding: 0 5rem;
@@ -1841,6 +1854,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 .wrapper.style1 > .inner.medium {
 	width: 100%;
+}
+.wrapper.style1 > .inner .block_shift_left {
+	margin-left: 0;
+}
+.wrapper.style1 > .inner .block_shift_right img {
+	padding-right: 0;
 }
 }
  @media screen and (max-width: 390px) {
@@ -1972,6 +1991,18 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .invert a:visited {
 	color: rgba(255, 255, 255, 1);
+}
+#wrapper > .invert .text_link a {
+	color: rgba(255, 255, 255, .8);
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+#wrapper > .invert .text_link a:hover {
+	color: rgba(255, 255, 255, 1);
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+#wrapper > .invert .text_link a:active, .text_link a:visited:active {
+	color: rgba(255, 255, 255, 1);
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 #wrapper > .invert .topmenu a, #wrapper > .invert .topmenu_block a {
 	color: rgba(255, 255, 255, 1);
