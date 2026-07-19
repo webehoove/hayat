@@ -1,70 +1,87 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+/*___________Aeonic______________*/
 @font-face {
-	font-family: "HAYAT Sans Lt";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Light.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Light.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Lt';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-Light.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-Light.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans Rg";
-	src: url(../webfonts/h_pp_sans/PPRightGroteskText-Regular.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGroteskText-Regular.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Lt It';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-LightItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-LightItalic.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans Md";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Medium.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-Medium.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Rg';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-Regular.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-Regular.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans W Md";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideMedium.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideMedium.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Rg It';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-RegularItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-RegularItalic.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans C Dk";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CompactDark.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CompactDark.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Md';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-Medium.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-Medium.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans W Bk";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideBlack.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideBlack.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Md It';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-MediumItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-MediumItalic.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans S Fn";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-SpatialFine.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-SpatialFine.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Bd';
+	font-weight: normal;
 	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-Bold.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-Bold.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans V W";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-WideVariable.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Bd It';
+	font-weight: normal;
 	font-style: normal;
-	font-optical-sizing: auto;
+	src: url(../webfonts/wbsans/AeonikPro-BoldItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-BoldItalic.woff) format('woff');
+}
+
+/*___________Aeonic Ext______________*/
+
+@font-face {
+	font-family: 'Hayat Ext Lt';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Light.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-Light.woff) format('woff');
 }
 @font-face {
-	font-family: "HAYAT Sans V C";
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CasualVariable.woff) format('woff');
-	src: url(../webfonts/h_pp_sans/PPRightGrotesk-CasualVariable.woff2) format('woff2');
-	font-display: swap;
+	font-family: 'Hayat Ext Rg';
+	font-weight: normal;
 	font-style: normal;
-	font-optical-sizing: auto;
+	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Regular.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-regular.woff) format('woff');
 }
+@font-face {
+	font-family: 'Hayat Ext Sb';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-SemiBold.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-SemiBold.woff) format('woff');
+}
+@font-face {
+	font-family: 'Hayat Ext Bd';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Bold.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-Bold.woff) format('woff');
+}
+
+
+/*___________________________________*/
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -196,13 +213,13 @@ body {
 	color: rgba(4, 30, 70, 1);
 }
 body, input, select, textarea {
-	font-family: "HAYAT Sans Rg", Helvetica, sans-serif;
+	font-family: "Hayat Rg", Helvetica, sans-serif;
 	letter-spacing: normal;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-feature-settings: "ss01" 1, "ss02" 1;
+	font-feature-settings: "ss01" 0, "ss02" 0;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -219,7 +236,7 @@ a:hover {
 	text-decoration: none;
 }
 strong, b {
-	font-family: "HAYAT Sans Bd", Helvetica, sans-serif;
+	font-family: "Hayat Bd", Helvetica, sans-serif;
 	font-weight: normal;
 }
 em, i {
@@ -236,52 +253,40 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	text-transform: uppercase;
 }
 .lt_tx {
-	font-family: 'HAYAT Sans Lt', Helvetica, sans-serif;
+	font-family: 'Hayat Lt', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .rg_tx {
-	font-family: 'HAYAT Sans Rg', Helvetica, sans-serif;
+	font-family: 'Hayat Rg', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .md_tx {
-	font-family: 'HAYAT Sans Md', Helvetica, sans-serif;
+	font-family: 'Hayat Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.md_w_tx {
-	font-family: 'HAYAT Sans W Md', Helvetica, sans-serif;
+.bd_tx {
+	font-family: 'Hayat Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.d_c_tx {
-	font-family: 'HAYAT Sans C Dk', Helvetica, sans-serif;
+.lt_ext_tx {
+	font-family: 'Hayat Ext Lt', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.b_w_tx {
-	font-family: 'HAYAT Sans W Bk', Helvetica, sans-serif;
+.rg_ext_tx {
+	font-family: 'Hayat Ext Rg', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.rg_v_tx {
-	font-family: 'HAYAT Sans V W', Helvetica, sans-serif;
+.sb_ext_tx {
+	font-family: 'Hayat Ext Sb', Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-weight: 360;
 }
-.bd_v_tx {
-	font-family: 'HAYAT Sans V W', Helvetica, sans-serif;
+.bd_ext_tx {
+	font-family: 'Hayat Ext Bd', Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
 	font-weight: 520;
-}
-.rg_v_c_tx {
-	font-family: 'HAYAT Sans V C', Helvetica, sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-weight: 320;
-}
-.md_v_c_tx {
-	font-family: 'HAYAT Sans V C', Helvetica, sans-serif;
-	font-optical-sizing: auto;
-	font-style: normal;
-	font-weight: 450;
 }
 p {
 	font-size: 1.75rem;
@@ -463,7 +468,7 @@ h2 {
 }
  @media screen and (max-width: 736px) {
 p {
-	font-size: 1.6rem;
+	font-size: 1.35rem;
 	line-height: 1.25;
 }
 h1 {
@@ -474,12 +479,12 @@ h1.special_banner {
 	font-size: 2.6rem;
 }
 h1.special {
-	font-size: 2.85rem;
-	line-height: 1.1;
+	font-size: 2.75rem;
+	line-height: 1;
 }
 h1.special_one {
-	font-size: 3.15rem;
-	line-height: 1;
+	font-size: 2.25rem;
+	line-height: 1.1;
 }
 h2 {
 	font-size: 2.25rem;
