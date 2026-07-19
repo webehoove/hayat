@@ -219,7 +219,6 @@ body, input, select, textarea {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	letter-spacing: -0.05rem;
 	font-feature-settings: "ss01" 0, "ss02" 0;
 }
 a {
@@ -266,26 +265,31 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight: normal;
 }
 .bd_tx {
-	font-family: 'Hayat Md', Helvetica, sans-serif;
+	font-family: 'Hayat Bd', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .rg_exp_tx {
 	font-family: 'Hayat Exp Rg', Helvetica, sans-serif;
+	letter-spacing: -0.08rem;
 	font-weight: normal;
 }
 .md_exp_tx {
 	font-family: 'Hayat Exp Md', Helvetica, sans-serif;
+	letter-spacing: -0.08rem;
 	font-weight: normal;
 }
 .db_exp_tx {
 	font-family: 'Hayat Exp Db', Helvetica, sans-serif;
-	font-optical-sizing: auto;
+	letter-spacing: -0.08rem;
 	font-style: normal;
 }
 .bd_exp_tx {
 	font-family: 'Hayat Exp Bd', Helvetica, sans-serif;
-	font-optical-sizing: auto;
+	letter-spacing: -0.08rem;
 	font-style: normal;
+}
+.nols {
+	letter-spacing: 0;
 }
 p {
 	font-size: 1.75rem;
