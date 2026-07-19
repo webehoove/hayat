@@ -54,28 +54,28 @@
 /*___________Aeonic Ext______________*/
 
 @font-face {
-	font-family: 'Hayat Ext Lt';
+	font-family: 'Hayat Exp Rg';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Light.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-Light.woff) format('woff');
+	src: url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Regular.woff2) format('woff2'), url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Regular.woff) format('woff');
 }
 @font-face {
-	font-family: 'Hayat Ext Rg';
+	font-family: 'Hayat Exp Md';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Regular.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-regular.woff) format('woff');
+	src: url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Medium.woff2) format('woff2'), url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Medium.woff) format('woff');
 }
 @font-face {
-	font-family: 'Hayat Ext Sb';
+	font-family: 'Hayat Exp Db';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-SemiBold.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-SemiBold.woff) format('woff');
+	src: url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_DemiBold.woff2) format('woff2'), url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_DemiBold.woff) format('woff');
 }
 @font-face {
-	font-family: 'Hayat Ext Bd';
+	font-family: 'Hayat Exp Bd';
 	font-weight: normal;
 	font-style: normal;
-	src: url(../webfonts/wbsans_ext/AeonikExtendedPro-Bold.woff2) format('woff2'), url(../webfonts/wbsans_ext/AeonikExtendedPro-Bold.woff) format('woff');
+	src: url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Bold.woff2) format('woff2'), url(../webfonts/h_sans_exp/TT_Commons_Pro_Expanded_Bold.woff) format('woff');
 }
 
 
@@ -213,12 +213,13 @@ body {
 	color: rgba(4, 30, 70, 1);
 }
 body, input, select, textarea {
-	font-family: "Hayat Rg", Helvetica, sans-serif;
+	font-family: "Hayat Exp Rg", Helvetica, sans-serif;
 	letter-spacing: normal;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
+	letter-spacing: -0.05rem;
 	font-feature-settings: "ss01" 0, "ss02" 0;
 }
 a {
@@ -236,7 +237,7 @@ a:hover {
 	text-decoration: none;
 }
 strong, b {
-	font-family: "Hayat Bd", Helvetica, sans-serif;
+	font-family: "Hayat Exp Bd", Helvetica, sans-serif;
 	font-weight: normal;
 }
 em, i {
@@ -268,28 +269,27 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'Hayat Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.lt_ext_tx {
-	font-family: 'Hayat Ext Lt', Helvetica, sans-serif;
+.rg_exp_tx {
+	font-family: 'Hayat Exp Rg', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.rg_ext_tx {
-	font-family: 'Hayat Ext Rg', Helvetica, sans-serif;
+.md_exp_tx {
+	font-family: 'Hayat Exp Md', Helvetica, sans-serif;
 	font-weight: normal;
 }
-.sb_ext_tx {
-	font-family: 'Hayat Ext Sb', Helvetica, sans-serif;
+.db_exp_tx {
+	font-family: 'Hayat Exp Db', Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	font-weight: 360;
 }
-.bd_ext_tx {
-	font-family: 'Hayat Ext Bd', Helvetica, sans-serif;
+.bd_exp_tx {
+	font-family: 'Hayat Exp Bd', Helvetica, sans-serif;
 	font-optical-sizing: auto;
 	font-style: normal;
-	font-weight: 520;
 }
 p {
 	font-size: 1.75rem;
+	letter-spacing: 0;
 	line-height: 1.15;
 }
 h1 {
