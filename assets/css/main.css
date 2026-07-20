@@ -488,12 +488,12 @@ h1.special {
 	line-height: 1;
 }
 h1.special_one {
-	font-size: 2.35rem;
-	line-height: 1.05;
+	font-size: 2.4rem;
+	line-height: 1;
 }
 h2 {
-	font-size: 2.25rem;
-	line-height: 1.35;
+	font-size: 2.15rem;
+	line-height: 1.25;
 }
 h3 {
 	font-size: 1.75rem;
@@ -939,8 +939,8 @@ button.fifth:active, .button.fifth:active {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: .85rem;
 	height: 4.25rem;
-	line-height: 4.5;
-	padding: 0 1.5rem;
+	line-height: 4.8;
+	padding: 0 1.4rem;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.85rem;
