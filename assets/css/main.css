@@ -518,7 +518,7 @@ h6 {
 hr {
 	margin: 1rem 0;
 }
-hr {
+hr.mini {
   margin: 0.5rem 0;
 }
 hr.block {
