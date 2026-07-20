@@ -1,23 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
-<style type="text/css">
-	.bg-purple{fill: rgba(74, 62, 181, 1);}
-	.light-blue{fill: rgba(123, 179, 245, 1);}
-	.dark-navy{fill: rgba(22, 46, 101, 1);}
-	.vibrant-blue{fill: rgba(43, 118, 238, 1);}
-</style>
+<circle cx="500" cy="800" r="300" fill="#1C357E" />
 
-<!-- Фиолетово-синий базовый фон -->
-<rect class="bg-purple" width="500" height="500"/>
+    <!-- Верхний левый светло-голубой круг -->
+    <circle cx="260" cy="245" r="280" fill="#8BB2F9" />
 
-<!-- 1. Верхний левый светло-голубой круг -->
-<circle class="light-blue" cx="190" cy="50" r="240"/>
-
-<!-- 2. Большой нижний тёмно-синий круг -->
-<circle class="dark-navy" cx="215" cy="525" r="335"/>
-
-<!-- 3. Правый ярко-синий круг -->
-<circle class="vibrant-blue" cx="495" cy="170" r="195"/>
-
+    <!-- Верхний правый синий круг -->
+    <circle cx="840" cy="315" r="250" fill="#3B7DFA" />
 </svg>
