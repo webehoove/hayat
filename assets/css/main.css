@@ -213,7 +213,7 @@ body {
 	color: rgba(4, 30, 70, 1);
 }
 body, input, select, textarea {
-	font-family: "Hayat Exp Rg", Helvetica, sans-serif;
+	font-family: "Hayat Rg", Helvetica, sans-serif;
 	letter-spacing: normal;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
@@ -236,7 +236,7 @@ a:hover {
 	text-decoration: none;
 }
 strong, b {
-	font-family: "Hayat Exp Bd", Helvetica, sans-serif;
+	font-family: "Hayat Md", Helvetica, sans-serif;
 	font-weight: normal;
 }
 em, i {
