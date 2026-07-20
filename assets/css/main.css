@@ -195,12 +195,12 @@ html {
 }
  @media screen and (max-width: 480px) {
 html {
-	font-size: 11px;
+	font-size: 12px;
 }
 }
  @media screen and (max-width: 395px) {
 html {
-	font-size: 11px;
+	font-size: 12px;
 }
 }
  @media screen and (max-width: 360px) {
