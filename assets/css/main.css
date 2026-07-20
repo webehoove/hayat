@@ -939,8 +939,8 @@ button.fifth:active, .button.fifth:active {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
 	height: 4.25rem;
-	line-height: 4.65;
-	padding: 0 1.35rem;
+	line-height: 4.35;
+	padding: 0 1.5rem;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.85rem;
