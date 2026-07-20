@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Layer_1" xmlns="http://w3.org" xmlns:xlink="http://w3.org" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<style type="text/css">
+	.bg-purple{fill: rgba(74, 62, 181, 1);}
+	.light-blue{fill: rgba(123, 179, 245, 1);}
+	.dark-navy{fill: rgba(22, 46, 101, 1);}
+	.vibrant-blue{fill: rgba(43, 118, 238, 1);}
+</style>
+
+<!-- Фиолетово-синий фон -->
+<rect class="bg-purple" width="500" height="500"/>
+
+<!-- Верхний левый светло-голубой круг -->
+<circle class="light-blue" cx="150" cy="-20" r="260"/>
+
+<!-- Большой нижний тёмно-синий круг (с учётом кропа) -->
+<circle class="dark-navy" cx="100" cy="420" r="320"/>
+
+<!-- Верхний правый ярко-синий круг на переднем плане -->
+<circle class="vibrant-blue" cx="460" cy="60" r="160"/>
+
+</svg>
