@@ -748,7 +748,7 @@ ul.box_link_w li a:hover {
 	height: 60svh;
 }
 .box_news_text {
-	height: 25svh;
+	height: auto;
 }
 }
  @media screen and (max-width: 736px) {
@@ -756,7 +756,7 @@ ul.box_link_w li a:hover {
 	height: 85svh;
 }
 .box_news_text {
-	height: 24svh;
+	height: auto;
 }
 .box_text .icons img {
 	width: 6rem;
@@ -783,7 +783,7 @@ ul.box_link_w li a:hover {
 }
  @media screen and (max-width: 360px) {
 .box_news_text {
-	height: 38svh;
+	height: auto;
 }
 }
 /* Button */
