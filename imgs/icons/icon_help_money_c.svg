@@ -3,7 +3,7 @@
 	 viewBox="0 0 232 232" style="enable-background:new 0 0 232 232;" xml:space="preserve">
 <g>
 	<!-- 1. Большой круглый фон (Темно-синий) -->
-	<circle id="bg_circle" cx="116" cy="116" r="116" fill="#1C2E72"/>
+	<circle id="bg_circle" cx="116" cy="116" r="116" fill="#ffffff"/>
 	
 	<!-- 2. Тонкая верхняя полоса внутри иконки (Светло-синяя) -->
 	<polygon id="top_line" points="125.8,108.3 125.8,103 56.4,103 56.4,108.3 125.7,108.3" fill="#4682FA"/>
