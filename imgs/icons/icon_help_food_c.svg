@@ -2,11 +2,14 @@
 <!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://w3.org" xmlns:xlink="http://w3.org" x="0px" y="0px"
 	 viewBox="0 0 232 232" style="enable-background:new 0 0 232 232;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#ffffff;}
+</style>
 <g id="First_Icon_Group">
 	<!-- ВАРИАНТ 1: Центральная иконка (Светло-синий фон) -->
 	
 	<!-- 1. Главный большой круглый фон -->
-	<circle id="icon1_bg" cx="116" cy="116" r="116" fill="#4682FA"/>
+	<circle id="icon1_bg" cx="116" cy="116" r="116" fill="rgba(70, 130, 250, 1)"/>
 	
 	<!-- 2. Иконка галочки (Checkmark) слева внизу -->
 	<polygon id="icon1_checkmark" points="153.6,175.8 138.9,161 135.2,164.8 153.6,183.1 182.9,153.8 179.2,150.1" fill="#ffffff"/>
@@ -28,10 +31,10 @@
 </g>
 
 <g id="Second_Icon_Group">
-	<!-- ВАРИАНТ 2: Смещенная иконка (Темно-синий фон, координаты X~393, Y~369) -->
+	<!-- ВАРИАНТ 2: Смещенная иконка (Темно-синий фон) -->
 	
 	<!-- 5. Маленький фоновый круг в углу второй иконки -->
-	<circle id="icon2_small_bg" cx="393.3" cy="369.6" r="34.2" fill="#041E46"/>
+	<circle id="icon2_small_bg" cx="393.3" cy="369.6" r="34.2" fill="rgba(4, 30, 70, 1)"/>
 	
 	<!-- 6. Маленький круг со встроенной галочкой -->
 	<path id="icon2_checkmark_circle" d="M393.3,335.4c-18.8,0-34.2,15.3-34.2,34.2c0,18.8,15.3,34.2,34.2,34.2c18.9,0,34.2-15.3,34.2-34.2
