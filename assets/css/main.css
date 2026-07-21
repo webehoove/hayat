@@ -292,7 +292,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	letter-spacing: 0;
 }
 p {
-	font-size: 1.75rem;
+	font-size: 1.5rem;
 	letter-spacing: 0;
 	line-height: 1.15;
 }
@@ -638,13 +638,15 @@ a:active, a:visited:active {
 	padding: 2.5rem;
 }
 .box_text .icons img {
-	width: 6rem;
+	position: relative;
+	width: 12rem;
+	top: 1.5rem;
 }
 .box_text .icons_s img {
 	width: 4rem;
 }
 .color_box_ab {
-	background-color: rgba(225, 237, 255, 1);
+	background-color: rgba(233, 242, 255, 1);
 }
 .color_box_lb {
 	background-color: rgba(70, 130, 250, 1);
@@ -762,11 +764,18 @@ ul.box_link_w li a:hover {
 .box_banner {
 	height: 85svh;
 }
-.box_news_text {
-	height: auto;
+.box_text .icons {
+	display: grid;
+    justify-content: center;
 }
 .box_text .icons img {
-	width: 6rem;
+	position: relative;
+	width: 10rem;
+	top: 1rem;
+	
+}  
+.box_news_text {
+	height: auto;
 }
 .box_news_text {
 	min-height: 26svh;
