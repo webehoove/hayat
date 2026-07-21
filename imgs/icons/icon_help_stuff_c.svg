@@ -3,11 +3,11 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 232 232" style="enable-background:new 0 0 232 232;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:rgba(28, 46, 114, 1);}
+	.st0{fill:rgba(255, 255, 255, 1);}
 </style>
 <g>
 	<!-- Белая подложка для маленького смещенного круга -->
-	<circle cx="522.7" cy="271.6" r="34.3" fill="#FFFFFF"/>
+	<circle cx="522.7" cy="271.6" r="34.3" fill="rgba(4, 30, 70, 1)"/>
 	
 	<path class="st0" d="M445.4,223.4h31v-44.8c-9.8-1.1-17.8-8.2-20.1-17.6c-12.9,1.2-24.8,7.5-33.1,17.6l-12.2,15l16.3,22.4l18.1-8.4
 		V223.4z"/>
