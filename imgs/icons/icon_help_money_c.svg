@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 232 232" style="enable-background:new 0 0 232 232;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:rgba(70, 130, 250, 1);}
 </style>
 <g>
-	<!-- Белая подложка для первого смещенного круга -->
 	<circle cx="401.8" cy="216.5" r="34.2" fill="rgba(28, 46, 114, 1)"/>
 	
 	<path class="st0" d="M401.8,177.1c4.7,0,9.3,0.8,13.5,2.4v-32.4H289v62.1c0,10.3,8.4,18.6,18.6,18.6h56.6
@@ -19,7 +17,6 @@
 		c7.9,0,13,4.8,13,12.1C419.2,217.5,414.1,222.2,406.2,222.2z"/>
 </g>
 <g>
-	<!-- Белая подложка для основного большого круга -->
 	<circle cx="116" cy="116" r="116" fill="rgba(28, 46, 114, 1)"/>
 	
 	<polygon class="st0" points="125.8,108.3 125.8,103 56.4,103 56.4,108.3 125.7,108.3 	"/>
