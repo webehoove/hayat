@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1200 1200" style="enable-background:new 0 0 1200 1200;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#88B9FF;}
+	.st1{fill:#CFE0FF;}
+	.st2{fill:#4249C1;}
+	.st3{fill:#4682FA;}
+</style>
+<path class="st0" d="M700,1200H300c-55.2,0-100-44.8-100-100v0c0-55.2,44.8-100,100-100h400c55.2,0,100,44.8,100,100v0
+	C800,1155.2,755.2,1200,700,1200z"/>
+<path class="st1" d="M700,400H500c-55.2,0-100-44.8-100-100v0c0-55.2,44.8-100,100-100h200c55.2,0,100,44.8,100,100v0
+	C800,355.2,755.2,400,700,400z"/>
+<path class="st1" d="M900,400H700c-55.2,0-100-44.8-100-100v0c0-55.2,44.8-100,100-100h200c55.2,0,100,44.8,100,100v0
+	C1000,355.2,955.2,400,900,400z"/>
+<circle class="st2" cx="700" cy="300" r="100"/>
+<circle class="st3" cx="100" cy="300" r="100"/>
+<circle class="st3" cx="1100" cy="100" r="100"/>
+<circle class="st2" cx="100" cy="700" r="100"/>
+<circle class="st1" cx="900" cy="700" r="100"/>
+<circle class="st3" cx="500" cy="900" r="100"/>
+<circle class="st3" cx="900" cy="900" r="100"/>
+<circle class="st0" cx="700" cy="100" r="100"/>
+<rect y="800" class="st1" width="200" height="200"/>
+<rect class="st1" width="200" height="200"/>
+<rect y="400" class="st0" width="200" height="200"/>
+<rect x="200" y="200" class="st0" width="200" height="200"/>
+<rect x="1000" y="800" class="st2" width="200" height="200"/>
+<rect x="800" y="1000" class="st1" width="200" height="200"/>
+<path class="st3" d="M1100,1200L1100,1200c-55.2,0-100-44.8-100-100v-100h200v100C1200,1155.2,1155.2,1200,1100,1200z"/>
+<path class="st3" d="M300,1000L300,1000c55.2,0,100,44.8,100,100v100H200v-100C200,1044.8,244.8,1000,300,1000z"/>
+<rect x="200" y="800" class="st2" width="200" height="200"/>
+<path class="st3" d="M400,200H200V100C200,44.8,244.8,0,300,0h0c55.2,0,100,44.8,100,100V200z"/>
+<path class="st2" d="M1200,400h-200V300c0-55.2,44.8-100,100-100h0c55.2,0,100,44.8,100,100V400z"/>
+<rect x="400" y="400" class="st2" width="200" height="200"/>
+<rect x="800" class="st2" width="200" height="200"/>
+<rect x="800" y="400" class="st3" width="400" height="200"/>
+<path class="st0" d="M700,800H500c-55.2,0-100-44.8-100-100v0c0-55.2,44.8-100,100-100h200c55.2,0,100,44.8,100,100v0
+	C800,755.2,755.2,800,700,800z"/>
+<circle class="st2" cx="700" cy="700" r="100"/>
+</svg>
