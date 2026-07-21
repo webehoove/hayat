@@ -3,25 +3,24 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 228 228" style="enable-background:new 0 0 228 228;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{fill:#1C2E72;}
-	.st2{fill:#4682FA;}
+	.st0{fill:#1C2E72;}
+	.st1{fill:#4682FA;}
+	.st2{fill:#FFFFFF;}
 </style>
-<rect class="st0" width="228" height="228"/>
 <g>
-	<path class="st1" d="M162,174H62c-8.3,0-15-6.7-15-15V69h130v90C177,167.3,170.3,174,162,174z"/>
-	<path class="st2" d="M177,69H47V46c0-8.3,6.7-15,15-15h100c8.3,0,15,6.7,15,15V69z"/>
-	<circle class="st2" cx="160.5" cy="157.5" r="43.5"/>
+	<path class="st0" d="M168,174H56c-8.3,0-15-6.7-15-15V69h142v90C183,167.3,176.3,174,168,174z"/>
+	<path class="st1" d="M183,69H41V46c0-8.3,6.7-15,15-15h112c8.3,0,15,6.7,15,15V69z"/>
 	<g>
-		<path class="st0" d="M157.8,162.1v3.7h13v5.1h-13v5.2h-6.1v-5.2h-5.6v-5.1h5.6v-3.7h-5.6v-5.2h5.6V139h13.8
-			c7.7,0,12.8,4.4,12.8,11.5c0,7.1-5.1,11.6-12.8,11.6H157.8z M157.8,144.2v12.7h7.2c4.3,0,7.1-2.4,7.1-6.4c0-3.9-2.8-6.4-7.1-6.4
-			H157.8z"/>
+		<rect x="54" y="85.5" class="st2" width="84" height="7"/>
 	</g>
 	<g>
-		<rect x="60" y="85.5" class="st0" width="78" height="7"/>
+		<rect x="54" y="105" class="st2" width="44.5" height="7"/>
 	</g>
-	<g>
-		<rect x="60" y="105" class="st0" width="38.5" height="7"/>
-	</g>
+</g>
+<circle class="st1" cx="160.5" cy="157.5" r="43.5"/>
+<g>
+	<path class="st2" d="M157.8,162.1v3.7h13v5.1h-13v5.2h-6.1v-5.2h-5.6v-5.1h5.6v-3.7h-5.6v-5.2h5.6V139h13.8
+		c7.7,0,12.8,4.4,12.8,11.5s-5.1,11.6-12.8,11.6H157.8z M157.8,144.2v12.7h7.2c4.3,0,7.1-2.4,7.1-6.4c0-3.9-2.8-6.4-7.1-6.4
+		L157.8,144.2L157.8,144.2z"/>
 </g>
 </svg>
