@@ -953,7 +953,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.85rem;
-	height: 2.9rem;
+	height: 3rem;
 	display: flex;
     align-items: center; 
     justify-content: center;
