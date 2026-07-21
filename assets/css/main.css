@@ -1829,7 +1829,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	background-color: rgba(0, 0, 0, 0);
 }
 .banner.invert .image video {
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(0, 0, 0, 1);
 }
 /* Wrapper (style1) */
 
