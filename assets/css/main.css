@@ -633,6 +633,9 @@ a:active, a:visited:active {
 	border: none;
 	border-radius: 2rem;
 }
+.box_text.box_shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .01), 0 6px 20px 0 rgba(0, 0, 0, .01);
+}
 .box_text.heigh_fix_50 {
 	height: auto;
 	padding: 2.5rem;
@@ -964,7 +967,7 @@ input[type="submit"].large, input[type="reset"].large, input[type="button"].larg
 	display: flex;
     align-items: center; 
     justify-content: center;
-	padding: 0 1.75rem;
+	padding: 0 1.5rem;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
 	font-size: 0.85rem;
