@@ -3,7 +3,7 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 232 232" style="enable-background:new 0 0 232 232;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:rgba(4, 30, 70, 1);}
+	.st0{fill:rgba(255, 255, 255,1);}
 </style>
 <g>
 	<!-- Белая подложка для маленького смещенного круга -->
@@ -19,7 +19,7 @@
 </g>
 <g>
 	<!-- Белая подложка для основного большого круга -->
-	<circle cx="116" cy="116" r="116" fill="#FFFFFF"/>
+	<circle cx="116" cy="116" r="116" fill="rgba(4, 30, 70, 1)"/>
 	
 	<polygon class="st0" points="152.4,177.4 137.6,162.6 133.9,166.3 152.3,184.8 181.8,155.4 178.1,151.7 	"/>
 	<path class="st0" d="M116,0C51.9,0,0,51.9,0,116s51.9,116,116,116s116-51.9,116-116S180.1,0,116,0z M117,71.9
