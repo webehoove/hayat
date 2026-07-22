@@ -1137,7 +1137,7 @@ $(function() {
   
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
-        if (scroll >= 20) {
+        if (scroll >= 80) {
             header.addClass("scrolled");
         } else {
             header.removeClass("scrolled");
@@ -1149,7 +1149,7 @@ var initialSrc = "imgs/brand/hayat_symbol_w.svg";
 var scrollSrc = "imgs/brand/hayat_symbol_c_g.svg";
 $(window).scroll(function() {
    var value = $(this).scrollTop();
-   if (value > 50)
+   if (value > 80)
       $(".logo").attr("src", scrollSrc);
    else
       $(".logo").attr("src", initialSrc);
@@ -1159,7 +1159,7 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 50) {
+        if (scroll >= 80) {
             header.removeClass('logotype_wm_w').addClass("logotype_wm_db");
         } else {
             header.removeClass("logotype_wm_db").addClass('logotype_wm_w');
@@ -1171,7 +1171,7 @@ $(function() {
     $(window).scroll(function() {    
         var scroll = $(window).scrollTop();
     
-        if (scroll >= 50) {
+        if (scroll >= 80) {
             header.removeClass('menu-btn').addClass("menu-btnb");
         } else {
             header.removeClass("menu-btnb").addClass('menu-btn');
