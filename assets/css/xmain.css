@@ -218,11 +218,11 @@ ul li .logotype_wm_tag {
 	width: 13rem;
 }
 .logotype_lockup_b_d li.symbol_b {
-	width: 5.5rem;
-	padding-right: 0;
+	width: 3.25rem;
+	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	display: none;
+	font-size: 2.8rem;
 }
 ul.bottommenu li {
 	font-size: 1.1rem;
@@ -244,11 +244,11 @@ ul.bottommenu_hor li {
 	width: 93%;
 }
 .logotype_lockup_b_d li.symbol_b {
-	width: 5.5rem;
+	width: 3.25rem;
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	display: none;
+	font-size: 2.8rem;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;
