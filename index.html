@@ -1017,7 +1017,7 @@
         <div class="col-5 col-12-small">
           <ul class="logotype_lockup_b_d">
             <li class="symbol_b"><a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_symbol_c.svg" onContextMenu="return false;" alt="Фонд Хайат" /></a></li>
-            <li class="wm_b md_tx"><span>Hayat</span></li>
+            <li class="wm_b md_tx"><span id="dynamic-text" class="fade">Hayat</span></li>
           </ul>
           <hr class="block">
         </div>
@@ -1204,7 +1204,7 @@ for (i = 0; i < coll.length; i++) {
 </script> 
 <script>
 const textElement = document.getElementById("dynamic-text");
-const words = ["Hayat", "Хайат", "Жизнь"];
+const words = ["Hayat", "Life", "Хайат", "Жизнь"];
 let index = 0;
 
 function changeTextSmoothly() {
