@@ -1219,7 +1219,7 @@ body.is-preload .banner.onload-content-fade-in .content {
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onload-image-fade-up .image img {
+.banner.onload-image-fade-up .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1229,14 +1229,14 @@ body.is-preload .banner.onload-content-fade-in .content {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-body.is-preload .banner.onload-image-fade-up .image {
+body.is-preload .banner.onload-image-fade-up .image, .image video {
 	-moz-transform: translateY(1rem);
 	-webkit-transform: translateY(1rem);
 	-ms-transform: translateY(1rem);
 	transform: translateY(1rem);
 	opacity: 0;
 }
-body.is-preload .banner.onload-image-fade-up .image img {
+body.is-preload .banner.onload-image-fade-up .image img, .image video {
 	opacity: 0;
 }
 .banner.onload-image-fade-down .image {
@@ -1245,7 +1245,7 @@ body.is-preload .banner.onload-image-fade-up .image img {
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onload-image-fade-down .image img {
+.banner.onload-image-fade-down .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1255,23 +1255,23 @@ body.is-preload .banner.onload-image-fade-up .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-body.is-preload .banner.onload-image-fade-down .image {
+body.is-preload .banner.onload-image-fade-down .image, .image video {
 	-moz-transform: translateY(-1rem);
 	-webkit-transform: translateY(-1rem);
 	-ms-transform: translateY(-1rem);
 	transform: translateY(-1rem);
 	opacity: 0;
 }
-body.is-preload .banner.onload-image-fade-down .image img {
+body.is-preload .banner.onload-image-fade-down .image img, .image video {
 	opacity: 0;
 }
-.banner.onload-image-fade-left .image {
+.banner.onload-image-fade-left .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onload-image-fade-left .image img {
+.banner.onload-image-fade-left .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1281,23 +1281,23 @@ body.is-preload .banner.onload-image-fade-down .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-body.is-preload .banner.onload-image-fade-left .image {
+body.is-preload .banner.onload-image-fade-left .image, .image video {
 	-moz-transform: translateX(1rem);
 	-webkit-transform: translateX(1rem);
 	-ms-transform: translateX(1rem);
 	transform: translateX(1rem);
 	opacity: 0;
 }
-body.is-preload .banner.onload-image-fade-left .image img {
+body.is-preload .banner.onload-image-fade-left .image img, .image video {
 	opacity: 0;
 }
-.banner.onload-image-fade-right .image {
+.banner.onload-image-fade-right .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onload-image-fade-right .image img {
+.banner.onload-image-fade-right .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1307,23 +1307,23 @@ body.is-preload .banner.onload-image-fade-left .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-body.is-preload .banner.onload-image-fade-right .image {
+body.is-preload .banner.onload-image-fade-right .image, .image video {
 	-moz-transform: translateX(-1rem);
 	-webkit-transform: translateX(-1rem);
 	-ms-transform: translateX(-1rem);
 	transform: translateX(-1rem);
 	opacity: 0;
 }
-body.is-preload .banner.onload-image-fade-right .image img {
+body.is-preload .banner.onload-image-fade-right .image img, .image video {
 	opacity: 0;
 }
-.banner.onload-image-fade-in .image img {
+.banner.onload-image-fade-in .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out;
 }
-body.is-preload .banner.onload-image-fade-in .image img {
+body.is-preload .banner.onload-image-fade-in .image img, .image video {
 	opacity: 0;
 }
 .banner.onscroll-content-fade-up .content {
@@ -1387,13 +1387,13 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.onscroll-content-fade-in.is-inactive .content {
 	opacity: 0;
 }
-.banner.onscroll-image-fade-up .image {
+.banner.onscroll-image-fade-up .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onscroll-image-fade-up .image img {
+.banner.onscroll-image-fade-up .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1403,23 +1403,23 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-.banner.onscroll-image-fade-up.is-inactive .image {
+.banner.onscroll-image-fade-up.is-inactive .image, .image video {
 	-moz-transform: translateY(1rem);
 	-webkit-transform: translateY(1rem);
 	-ms-transform: translateY(1rem);
 	transform: translateY(1rem);
 	opacity: 0;
 }
-.banner.onscroll-image-fade-up.is-inactive .image img {
+.banner.onscroll-image-fade-up.is-inactive .image img, .image video {
 	opacity: 0;
 }
-.banner.onscroll-image-fade-down .image {
+.banner.onscroll-image-fade-down .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onscroll-image-fade-down .image img {
+.banner.onscroll-image-fade-down .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1429,23 +1429,23 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-.banner.onscroll-image-fade-down.is-inactive .image {
+.banner.onscroll-image-fade-down.is-inactive .image, .image video {
 	-moz-transform: translateY(-1rem);
 	-webkit-transform: translateY(-1rem);
 	-ms-transform: translateY(-1rem);
 	transform: translateY(-1rem);
 	opacity: 0;
 }
-.banner.onscroll-image-fade-down.is-inactive .image img {
+.banner.onscroll-image-fade-down.is-inactive .image img, .image video {
 	opacity: 0;
 }
-.banner.onscroll-image-fade-left .image {
+.banner.onscroll-image-fade-left .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onscroll-image-fade-left .image img {
+.banner.onscroll-image-fade-left .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1455,23 +1455,23 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	-ms-transition-delay: 0.5625s;
 	transition-delay: 0.5625s;
 }
-.banner.onscroll-image-fade-left.is-inactive .image {
+.banner.onscroll-image-fade-left.is-inactive .image, .image video {
 	-moz-transform: translateX(1rem);
 	-webkit-transform: translateX(1rem);
 	-ms-transform: translateX(1rem);
 	transform: translateX(1rem);
 	opacity: 0;
 }
-.banner.onscroll-image-fade-left.is-inactive .image img {
+.banner.onscroll-image-fade-left.is-inactive .image img, .image video {
 	opacity: 0;
 }
-.banner.onscroll-image-fade-right .image {
+.banner.onscroll-image-fade-right .image, .image video {
 	-moz-transition: opacity 0.75s ease-in-out, -moz-transform 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out, -webkit-transform 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out, -ms-transform 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out, transform 0.75s ease-in-out;
 }
-.banner.onscroll-image-fade-right .image img {
+.banner.onscroll-image-fade-right .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
@@ -1488,16 +1488,16 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	transform: translateX(-1rem);
 	opacity: 0;
 }
-.banner.onscroll-image-fade-right.is-inactive .image img {
+.banner.onscroll-image-fade-right.is-inactive .image img, .image video {
 	opacity: 0;
 }
-.banner.onscroll-image-fade-in .image img {
+.banner.onscroll-image-fade-in .image img, .image video {
 	-moz-transition: opacity 0.75s ease-in-out;
 	-webkit-transition: opacity 0.75s ease-in-out;
 	-ms-transition: opacity 0.75s ease-in-out;
 	transition: opacity 0.75s ease-in-out;
 }
-.banner.onscroll-image-fade-in.is-inactive .image img {
+.banner.onscroll-image-fade-in.is-inactive .image img, .image video {
 	opacity: 0;
 }
 /* Banner (style1) */
