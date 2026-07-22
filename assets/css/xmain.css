@@ -72,6 +72,9 @@ ul.bottommenu_hor {
 	padding: 0;
 	margin: 0;
 }
+ul li.bottommenu_big {
+	font-size: 1.15rem;
+}
 ul.bottommenu_hor li {
 	display: inline-block;
 	margin-bottom: 3rem;
@@ -229,6 +232,9 @@ ul.bottommenu li {
 	font-size: 1.1rem;
 	line-height: 1.5;
 	margin-bottom: 1rem;
+}
+ul li.bottommenu_big {
+	font-size: 1.2rem;
 }
 ul.bottommenu_hor li {
 	display: block;
