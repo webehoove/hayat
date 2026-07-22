@@ -36,7 +36,7 @@
 .logotype_lockup_b_d li.wm_b {
 	position: relative;
 	font-size: 4.25rem;
-	letter-spacing: -0.02rem;
+	letter-spacing: -0.025rem;
 }
 ul.topmenu {
 	position: relative;
@@ -219,11 +219,11 @@ ul li .logotype_wm_tag {
 	width: 13rem;
 }
 .logotype_lockup_b_d li.symbol_b {
-	width: 3.25rem;
+	width: 4.35rem;
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	font-size: 2.6rem;
+	font-size: 3.45rem;
 }
 ul.bottommenu li {
 	font-size: 1.1rem;
@@ -245,11 +245,11 @@ ul.bottommenu_hor li {
 	width: 93%;
 }
 .logotype_lockup_b_d li.symbol_b {
-	width: 3.25rem;
+	width: 4.35rem;
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	font-size: 2.6rem;
+	font-size: 3.45rem;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;
