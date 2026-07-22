@@ -36,6 +36,7 @@
 .logotype_lockup_b_d li.wm_b {
 	position: relative;
 	font-size: 4.25rem;
+	letter-spacing: -0.02rem;
 }
 ul.topmenu {
 	position: relative;
@@ -222,7 +223,7 @@ ul li .logotype_wm_tag {
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 }
 ul.bottommenu li {
 	font-size: 1.1rem;
@@ -248,7 +249,7 @@ ul.bottommenu_hor li {
 	padding-right: 1rem;
 }
 .logotype_lockup_b_d li.wm_b {
-	font-size: 2.8rem;
+	font-size: 2.6rem;
 }
 .offdesk_all, .off_news_desk, .off_news_desk {
 	display: block;
