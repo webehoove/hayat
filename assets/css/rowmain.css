@@ -706,7 +706,7 @@
 	padding: 1.5rem 0 0 1.5rem;
 }
 .row.gtr-uniform {
-	margin-top: -1.75rem;
+	margin-top: -1.5rem;
 }
 .row.gtr-uniform > * {
 	padding-top: 0;
@@ -1073,7 +1073,7 @@
 	margin-left: -1rem;
 }
 .row > * {
-	padding: 1rem 0 1rem 1rem;
+	padding: 1rem 0 0 1rem;
 }
 .row.gtr-uniform {
 	margin-top: -1rem;
@@ -1258,7 +1258,7 @@
 	margin-left: -1rem;
 }
 .row > * {
-	padding: 1rem 0 1rem 1rem;
+	padding: 1rem 0 0 1rem;
 }
 .row.gtr-uniform {
 	margin-top: -1rem;
@@ -1443,7 +1443,7 @@
 	margin-left: -1rem;
 }
 .row > * {
-	padding: 1rem 1rem 0 1rem;
+	padding: 1rem 0 0 1rem;
 }
 .row.gtr-uniform {
 	margin-top: -1rem;
