@@ -363,13 +363,17 @@ pre code {
 	padding: 0.75rem 1rem;
 	overflow-x: auto;
 }
-hr {
+hr.mini {
 	border: 0;
 	margin: 1.25rem 0;
 }
 hr {
 	border: 0;
 	margin: 1rem 0;
+}
+hr.block1 {
+	border: 0;
+	margin: 1.65rem 0;
 }
 hr.block {
 	border: 0;
@@ -415,8 +419,8 @@ hr.lineer_zero {
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
 }
-.t_color_70 {
-	opacity: .7;
+.t_color_60 {
+	opacity: .6;
 }
  @media screen and (max-width: 1366px) {
 h1 {
@@ -492,6 +496,10 @@ h1.special_one {
 	line-height: 1;
 }
 h2 {
+	font-size: 2.15rem;
+	line-height: 1.15;
+}
+h2.special {
 	font-size: 2.15rem;
 	line-height: 1.25;
 }
@@ -632,28 +640,39 @@ a:active, a:visited:active {
 .box_text.box_shadow {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .01), 0 6px 20px 0 rgba(0, 0, 0, .01);
 }
-.box_text.heigh_fix_50 {
-	height: auto;
-	padding: 2.5rem;
-}
 .box_text .icons img {
 	position: relative;
 	width: 12rem;
 	top: 1.5rem;
 }
 .box_text .icons_s img {
-	width: 4rem;
+	height: 4rem;
+}
+.box_grid {
+	display: flex;
+	gap: 2rem;
+}
+.box_grid .block {
+	display: flex;
+	flex-direction: column;
+}
+.block .block_link {
+	position: absolute;
+	bottom: 2rem;
 }
 .color_box_ab {
 	background-color: rgba(233, 242, 255, 1);
 }
 .color_box_lb {
+	background-color: rgba(136, 185, 255, 1);
+}
+.color_box_b {
 	background-color: rgba(70, 130, 250, 1);
 }
 .color_box_mb {
-	background-color: rgba(66, 68, 213, 1);
+	background-color: rgba(66, 73, 193, 1);
 }
-.color_box_b {
+.color_box_nb {
 	background-color: rgba(28, 46, 114, 1);
 }
 .color_box_db {
