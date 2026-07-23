@@ -118,7 +118,7 @@
           </ul>
         </div>
         <div class="menumob col-1 col-12-small">
-          <input type="checkbox" id="active">
+          <input type="checkbox" id="active" name="x">
           <label for="active" id="menubut" class="menu-btn"></label>
           <label class="close"></label>
           <div class="wrapper_menu requires-no-scroll">
@@ -386,12 +386,11 @@
     <div class="inner medium">
       <div class="row">
         <div class="col-12 col-12-small">
-        <hr class="block_space">
+          <hr class="block_space">
         </div>
       </div>
       <div class="row">
         <div class="col-12 col-12-small">
-          
           <h1 class="special lt_tx" style="padding:0 2rem;">Мы воплощаем свои</h1>
           <h1 class="special md_tx" style="padding:0 2rem;">обязательства в действия.</h1>
           <hr class="block">
@@ -554,7 +553,7 @@
           <div class="image fit">
             <video data-src="imgs/videos/h_box_lines_dot_05.mp4" data-mobsrc="imgs/videos/h_box_lines_dot_05.mp4" placeholder="imgs/videos/h_box_lines_dot_05.jpg" preload="auto" autoplay loop muted="" playsinline="" src="imgs/videos/h_box_lines_dot_05.mp4"> </video>
           </div>
-        </div> -->
+        </div> --> 
       </div>
     </div>
   </section>
@@ -839,7 +838,7 @@
         <div class="col-6 col-12-small">
           <h1 class="special_one md_tx" style="line-height:1.1;">Наш подход</h1>
           <h1 class="special_one lt_tx" style="line-height:1.1;">к мониторингу фонда.</h1>
-          <hr>
+          <hr class="block">
         </div>
         <div class="col-5 off-12-small block_shift_left">
           <p class="rg_tx">Благотворительный фонд &laquo;Хайат&raquo; проводит всесторонние внутренние и внешние аудиты, как и наши местные партнерские организации, которые сотрудничают с нами в реализации проектов на местах.</p>
@@ -990,6 +989,15 @@
                 <textarea name="message" id="message" style="padding:1rem;" rows="6"></textarea>
               </div>
             </div>
+            <div style="margin-bottom:1rem;">
+              <input type="radio" id="copy" name="copy" />
+              <label for="copy"><div style="padding-top:0.25rem;">Я даю согласие обработку своих персональных данных</div></label>
+            </div>
+            <div>
+              <input type="radio" id="human" name="human" checked />
+              <label for="human"><div style="padding-top:0.35rem;">Я согласен на публикацию отзывов</div></label>
+            </div>
+            <hr>
             <ul class="special">
               <li style="padding-right:0.5rem; padding-bottom:0.75rem;">
                 <input class="button primary large md_tx upup" type="submit" name="submit" id="submit" value="Отправить сообщение" />
