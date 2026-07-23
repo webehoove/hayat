@@ -11,7 +11,27 @@
 	transition: 0.3s;
 }
 .logotype_lockup {
-	width: 12rem;
+	width: 13rem;
+	transform: scale(1);
+}
+.logotype_lockup_t {
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.logotype_lockup_t li.symbol_t {
+	width: 4rem;
+	margin-right: 0.8rem;
+}
+.logotype_lockup_t li.wm_t {
+	font-size: 1.8rem;
+	line-height: 0.4;
+	margin-top: 0.58rem;
+}
+.logotype_lockup_t li.wm_t .tag {
+	font-size: 1rem;
+	line-height: 1;
+	letter-spacing: 0.02rem;
 }
 .logotype_lockup_b {
 	width: 19rem;
@@ -153,16 +173,16 @@ ul.goup li {
 	line-height: 0.75;
 	top: 1.65rem;
 }
+ul li .logotype_wm_tag {
+	position: relative;
+	font-size: 1.1rem;
+	padding: 0;
+}
 ul li .logotype_wm_w {
 	color: rgba(255, 255, 255, 1);
 }
 ul li .logotype_wm_db {
 	color: rgba(4, 30, 70, 1);
-}
-ul li .logotype_wm_tag {
-	position: relative;
-	font-size: 1.1rem;
-	padding: 0;
 }
 .logotype_lockup_b_d li.symbol_b {
 	width: 5rem;
@@ -216,7 +236,8 @@ ul li .logotype_wm_tag {
 	top: 1.75rem;
 }
 ul li .logotype_wm_tag {
-	font-size: 1rem;
+	font-size: 1.15rem;
+	letter-spacing: 0.02rem;
 }
 .logotype_lockup_b {
 	width: 13rem;
