@@ -32,6 +32,10 @@
 <link rel="apple-touch-icon" sizes="180x180" href="imgs/support/apple-touch-icon.png">
 <link rel="manifest" href="imgs/support/site.webmanifest">
 <style>
+.svg, svg {
+    shape-rendering: geometricPrecision;
+    text-rendering: geometricPrecision;
+}
 .collapsible {
 	transition: opacity .2s ease-out;
 	-moz-transition: opacity .2s ease-out;
@@ -113,7 +117,7 @@
           <ul id="logotype_wm">
             <li class="md_tx align-center">
               <div id="logo_wm" class="logotype_wm_w">Hayat<br>
-                <span class="logotype_wm_tag rg_tx upup">Благотворительный фонд</span></div>
+                <span class="logotype_wm_tag rg_tx">Благотворительный Фонд</span></div>
             </li>
           </ul>
         </div>
@@ -168,8 +172,9 @@
     <div class="content align-center">
       <div class="row">
         <div id="hideitlow" class="col-4 off-12-small">
-          <ul>
-            <div class="logotype_lockup"><a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_logotype_lockup_w_w.svg" onContextMenu="return false;" alt="Фонд Хайат" /></a></div>
+          <ul class="logotype_lockup_t">
+            <li class="symbol_t"><a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_symbol_w.svg" onContextMenu="return false;" alt="Фонд Хайат" /></a></li>
+            <li class="wm_t md_tx align-left"><div class="name">Hayat</div><br><div class="lt_tx tag">Благотворительный<br>Фонд «Хайат»</div></li>
           </ul>
         </div>
         <div id="hideitlow" class="col-8 off-12-small">
@@ -1066,7 +1071,7 @@
         <div class="col-5 col-12-small">
           <ul class="logotype_lockup_b_d">
             <li class="symbol_b"><a href="https://webehoove.github.io/hayat/"><img src="imgs/brand/hayat_symbol_c.svg" onContextMenu="return false;" alt="Фонд Хайат" /></a></li>
-            <li class="wm_b md_tx"><span id="dynamic-text" class="fade">Hayat</span></li>
+            <li class="wm_b md_tx fade"><span id="dynamic-text">Hayat</span></li>
           </ul>
           <hr class="block">
         </div>
