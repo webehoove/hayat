@@ -416,6 +416,9 @@ hr.lineer_zero {
 .t_color_b {
 	color: rgba(70, 130, 250, 1);
 }
+.t_color_lb {
+	color: rgba(136, 185, 255, 1);
+}
 .t_color_r {
 	color: rgba(255, 80, 93, 1);
 }
