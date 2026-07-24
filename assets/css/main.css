@@ -489,7 +489,7 @@ h2 {
  @media screen and (max-width: 736px) {
 p {
 	font-size: 1.45rem;
-	line-height: 1.25;
+	line-height: 1.2;
 }
 h1 {
 	font-size: 2.5rem;
@@ -513,7 +513,7 @@ h2 {
 }
 h2.special {
 	font-size: 2.15rem;
-	line-height: 1.2;
+	line-height: 1.15;
 }
 h3 {
 	font-size: 1.75rem;
@@ -521,15 +521,15 @@ h3 {
 }
 h3.special {
 	font-size: 1.75rem;
-	line-height: 1.15;
+	line-height: 1.1;
 }
 h4 {
 	font-size: 1.35rem;
-	line-height: 1.2;
+	line-height: 1;
 }
 h5 {
 	font-size: 1.35rem;
-	line-height: 1.1;
+	line-height: 1;
 }
 h6 {
 	font-size: 1rem;
