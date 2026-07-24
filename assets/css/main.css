@@ -410,8 +410,11 @@ hr.lineer_zero {
 .t_color_db {
 	color: rgba(4, 30, 70, 1);
 }
+.t_color_nb {
+	color: rgba(28, 46, 114, 1);
+}
 .t_color_mb {
-	color: rgba(66, 68, 213, 1);
+	color: rgba(66, 73, 193, 1);
 }
 .t_color_b {
 	color: rgba(70, 130, 250, 1);
