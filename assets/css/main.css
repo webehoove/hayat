@@ -192,14 +192,14 @@ body {
 	color: rgba(4, 30, 70, 1);
 }
 body, input, select, textarea {
-	font-family: "Hayat C Vf", Helvetica, sans-serif;
-	letter-spacing: 0;
+	font-family: "Hayat Rg", Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
-	font-weight: 300;
-	font-feature-settings: "ss01" 0, "ss02" 0;
+	font-weight: normal;
+	font-feature-settings: "ss01" 0, "ss05" 1;
+	letter-spacing: 0;
 }
 a {
 	-webkit-tap-highlight-color: transparent !important;
@@ -215,10 +215,6 @@ a {
 a:hover {
 	text-decoration: none;
 }
-strong, b {
-	font-family: "Hayat C Vf", Helvetica, sans-serif;
-	font-weight: 600;
-}
 em, i {
 	font-style: italic;
 }
@@ -232,7 +228,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .upup {
 	text-transform: uppercase;
 }
-/*
+
 .lt_tx {
 	font-family: 'Hayat Lt', Helvetica, sans-serif;
 	font-weight: normal;
@@ -249,7 +245,8 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-family: 'Hayat Bd', Helvetica, sans-serif;
 	font-weight: normal;
 }
- */
+
+ /*
 .lt_tx {
 	font-family: 'Hayat C Vf', Helvetica, sans-serif;
 	font-weight: 300;
@@ -257,7 +254,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .rg_tx {
 	font-family: 'Hayat C Vf', Helvetica, sans-serif;
-	font-weight: 360;
+	font-weight: 400;
 	font-style: oblique 0deg;
 }
 .sb_tx {
@@ -270,6 +267,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	font-weight: 600;
 	font-style: oblique 0deg;
 }
+ */
 .nols {
 	letter-spacing: 0;
 }
@@ -853,7 +851,7 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	text-decoration: none;
 	white-space: nowrap;
 	font-size: 0.9rem;
-	letter-spacing: 0;
+	letter-spacing: 0.05rem;
 	width: auto;
 	height: 3.25rem;
 	line-height: 4;
@@ -993,7 +991,7 @@ button.fifth:active, .button.fifth:active {
 }
  @media screen and (max-width: 736px) {
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
-    font-size: 0.9rem;
+ font-size: .9rem;
 	height: 4.2rem;
 	display: flex;
 	align-items: center;
