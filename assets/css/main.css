@@ -865,6 +865,7 @@ input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="b
 }
 input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, button.fit, .button.fit {
 	width: 100%;
+	margin: 0;
 }
 button.blur, .button.blur {
 	background: rgba(255, 255, 255, 0.25);
@@ -1006,6 +1007,16 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	justify-content: center;
 	border-radius: 1.5rem;
 	padding: 0 1.25rem;
+}
+.button_grid {
+	display: flex;
+	gap: 0;
+	width: 100%;
+}
+.button_grid .block {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
 }
 }
 /* Image */
@@ -1770,6 +1781,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .banner.style5 .content .block_bottom {
 	position: absolute;
 	bottom: 2rem;
+	width: 100%;
 }
 .banner.style5 .image {
 	-moz-flex-grow: 0;
