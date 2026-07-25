@@ -198,7 +198,7 @@ body, input, select, textarea {
 	-moz-osx-font-smoothing: grayscale;
 	font-size: 1rem;
 	font-weight: normal;
-	font-feature-settings: "ss01" 0, "ss05" 1;
+	font-feature-settings: "ss01" 0, "ss05" 0;
 	letter-spacing: 0;
 }
 a {
