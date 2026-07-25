@@ -133,7 +133,7 @@ html {
 }
  @media screen and (max-width: 1680px) {
 html {
-	font-size: 14px;
+	font-size: 13px;
 }
 }
  @media screen and (max-width: 1366px) {
@@ -300,6 +300,10 @@ h2 {
 	font-size: 2.5rem;
 	line-height: 1.25;
 }
+h2 {
+	font-size: 2.5rem;
+	line-height: 1.1;
+}
 h3 {
 	font-size: 1.75rem;
 	line-height: 1.25;
@@ -359,13 +363,13 @@ hr {
 	border: 0;
 	margin: 1rem 0;
 }
-hr.block1 {
-	border: 0;
-	margin: 1.65rem 0;
-}
 hr.block {
 	border: 0;
 	margin: 3rem 0;
+}
+hr.block1 {
+	border: 0;
+	margin: 1.65rem 0;
 }
 hr.block2 {
 	border: 0;
@@ -1025,7 +1029,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	display: flex;
 	align-items: center;
     justify-content: center;
-	gap: 0.5rem;
+	gap: 0.35rem;
 	width: 100%;
 }
 .button_grid .block {
