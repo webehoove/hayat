@@ -357,11 +357,11 @@ pre code {
 }
 hr.mini {
 	border: 0;
-	margin: 1.25rem 0;
+	margin: 0.5rem 0;
 }
 hr {
 	border: 0;
-	margin: 1rem 0;
+	margin: 0.75rem 0;
 }
 hr.block {
 	border: 0;
@@ -427,7 +427,7 @@ hr.lineer_zero {
 	opacity: .55;
 }
 .t_color_80 {
-	opacity: .8;
+	opacity: .85;
 }
  @media screen and (max-width: 1366px) {
 h1 {
@@ -447,10 +447,6 @@ h2 {
 }
 h3 {
 	font-size: 1.5rem;
-}
-hr {
-	border: 0;
-	margin: 1.25rem 0;
 }
 }
  @media screen and (max-width: 1080px) {
@@ -534,7 +530,7 @@ hr.mini {
 	margin: 0.25rem 0;
 }
 hr {
-	margin: 1rem 0;
+	margin: 0.75rem 0;
 }
 hr.block {
 	margin: 2rem 0;
@@ -1922,10 +1918,10 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	width: 75%;
 }
 .wrapper.style1 > .inner .block_shift_left {
-	margin-left: 3rem;
+	margin-left: 4rem;
 }
 .wrapper.style1 > .inner .block_shift_right img {
-	padding-right: 3rem;
+	padding-right: 4rem;
 }
  @media screen and (max-width: 1680px) {
 .wrapper.style1 > .inner {
