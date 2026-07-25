@@ -860,8 +860,17 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	text-overflow: ellipsis;
 	overflow: hidden;
 }
-input[type="submit"].icon:before, input[type="reset"].icon:before, input[type="button"].icon:before, button.icon:before, .button.icon:before {
-	margin-right: 0.5rem;
+.button_grid {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	gap: 0.5rem;
+	width: 100%;
+}
+.button_grid .block {
+	display: flex;
+	flex-direction: column;
+	width: 25svh;
 }
 input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, button.fit, .button.fit {
 	width: 100%;
@@ -1010,7 +1019,9 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 }
 .button_grid {
 	display: flex;
-	gap: 0;
+	align-items: center;
+    justify-content: center;
+	gap: 0.5rem;
 	width: 100%;
 }
 .button_grid .block {
