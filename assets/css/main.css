@@ -127,6 +127,10 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 html {
 	font-size: 16px;
 }
+ @media screen and (max-width: 1920px) {
+html {
+	font-size: 15px;
+}
  @media screen and (max-width: 1680px) {
 html {
 	font-size: 14px;
@@ -134,17 +138,17 @@ html {
 }
  @media screen and (max-width: 1366px) {
 html {
-	font-size: 14px;
+	font-size: 13px;
 }
 }
  @media screen and (max-width: 1280px) {
 html {
-	font-size: 14px;
+	font-size: 12px;
 }
 }
  @media screen and (max-width: 1180px) {
 html {
-	font-size: 13px;
+	font-size: 12px;
 }
 }
  @media screen and (max-width: 1080px) {
@@ -850,8 +854,8 @@ input[type="submit"], input[type="reset"], input[type="button"], button, .button
 	text-align: center;
 	text-decoration: none;
 	white-space: nowrap;
-	font-size: 0.9rem;
-	letter-spacing: 0.05rem;
+	font-size: 1rem;
+	letter-spacing: 0.02rem;
 	width: auto;
 	height: 3.25rem;
 	line-height: 4;
@@ -887,14 +891,14 @@ button.blur, .button.blur {
 	transition: background 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
-	font-size: 0.85rem;
+	font-size: 1rem;
 	height: 4.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	width: auto;
 	border-radius: 1rem;
-	padding: 0 1.5rem;
+	padding: 0 2.5rem;
 	text-align: center;
 }
 input[type="submit"].medium, input[type="reset"].medium, input[type="button"].medium, button.medium, .button.medium {
@@ -909,7 +913,7 @@ input[type="submit"].medium, input[type="reset"].medium, input[type="button"].me
 	text-align: center;
 }
 input[type="submit"].small, input[type="reset"].small, input[type="button"].small, button.small, .button.small {
-	font-size: 0.75rem;
+	font-size: 0.8rem;
 	width: auto;
 	height: 2.5rem;
 	display: flex;
