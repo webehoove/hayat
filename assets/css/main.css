@@ -38,6 +38,18 @@
 	src: url(../webfonts/wbsans/AeonikPro-MediumItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-MediumItalic.woff) format('woff');
 }
 @font-face {
+	font-family: 'Hayat Sb';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-SemiBold.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-SemiBold.woff) format('woff');
+}
+@font-face {
+	font-family: 'Hayat Sb It';
+	font-weight: normal;
+	font-style: normal;
+	src: url(../webfonts/wbsans/AeonikPro-SemiBoldItalic.woff2) format('woff2'), url(../webfonts/wbsans/AeonikPro-SemiBoldItalic.woff) format('woff');
+}
+@font-face {
 	font-family: 'Hayat Bd';
 	font-weight: normal;
 	font-style: normal;
@@ -243,6 +255,10 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .md_tx {
 	font-family: 'Hayat Md', Helvetica, sans-serif;
+	font-weight: normal;
+}
+.sb_tx {
+	font-family: 'Hayat Sb', Helvetica, sans-serif;
 	font-weight: normal;
 }
 .bd_tx {
@@ -1094,6 +1110,15 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 .small_lable.go:hover {
 	background-image: url(../../imgs/icons/icon_arrow_right_but_pill_dgr.svg);
 }
+.small_lable.go_w {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_pill_w.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	aspect-ratio: 1 / 1;
+}
+.small_lable.go_w:hover {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_pill_w.svg);
+}
 .small_lable.dgr {
 	background-color: rgba(0, 90, 70, 1);
 	color: rgba(255, 255, 255, 1);
@@ -1104,11 +1129,43 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 }
 .small_lable.gr {
 	background-color: rgba(123, 239, 178, 1);
-	color: rgba(0, 90, 70, 1);
+	color: rgba(0, 90, 70, 1) !important;
 }
 .small_lable.gr:hover {
 	background-color: rgba(0, 90, 70, 1);
-	color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.nb {
+	background-color: rgba(28, 46, 114, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.nb:hover {
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.mb {
+	background-color: rgba(37, 73, 186, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.mb:hover {
+	background-color: rgba(136, 185, 255, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.lb {
+	background-color: rgba(136, 185, 255, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.lb:hover {
+	background-color: rgba(37, 73, 186, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.b {
+	background-color: rgba(70, 130, 250, 1);
+	color: rgba(255, 255, 255, 1) !important;
+}
+.small_lable.b:hover {
+	background-color: rgba(28, 46, 114, 1);
+	color: rgba(255, 255, 255, 1) !important;
 }
 
 
@@ -2320,6 +2377,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_Hlb {
 	background-color: rgba(136, 185, 255, 1);
+}
+#wrapper > .color_Hsb {
+	background-color: rgba(192, 221, 255, 1);
 }
 #wrapper > .color_Hab {
 	background-color: rgba(225, 242, 255, 1);
