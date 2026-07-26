@@ -308,6 +308,10 @@ h3 {
 	font-size: 1.75rem;
 	line-height: 1.25;
 }
+h3.special {
+	font-size: 2rem;
+	line-height: 1.25;
+}
 h4 {
 	font-size: 1.35rem;
 	line-height: 1.2;
@@ -419,6 +423,12 @@ hr.lineer_zero {
 }
 .t_color_r {
 	color: rgba(255, 80, 93, 1);
+}
+.t_color_dgn {
+	color: rgba(0, 41, 32, 1);
+}
+.t_color_gn {
+	color: rgba(0, 90, 70, 1);
 }
 .t_color_w {
 	color: rgba(255, 255, 255, 1);
@@ -564,10 +574,19 @@ a:active, a:visited:active {
 }
 .text_link a:hover {
 	color: rgba(70, 130, 250, 1);
-	border-bottom: 1px solid rgba(4, 30, 70, 1);
 }
 .text_link a:active, .text_link a:visited:active {
 	color: rgba(70, 130, 250, 1);
+}
+.text_link_gr a {
+	color: rgba(0, 90, 70, 1);
+	border-bottom: 1px solid rgba(0, 90, 70, 1);
+}
+.text_link_gr a:hover {
+	color: rgba(0, 168, 129, 1);
+}
+.text_link_gr a:active, .text_link_gr a:visited:active {
+	color: rgba(0, 168, 129, 1);
 }
 .text_link_arrow {
 	position: relative;
@@ -882,14 +901,14 @@ input[type="submit"].fit, input[type="reset"].fit, input[type="button"].fit, but
 	margin: 0;
 }
 button.blur, .button.blur {
+	-webkit-backdrop-filter: blur(20px);
+	transition: background 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
 	background: rgba(255, 255, 255, 0.25);
 	color: rgba(255, 255, 255, 1) !important;
 	cursor: pointer;
 	border: none;
 	box-shadow: none;
 	backdrop-filter: blur(20px);
-	-webkit-backdrop-filter: blur(20px);
-	transition: background 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
 }
 input[type="submit"].large, input[type="reset"].large, input[type="button"].large, button.large, .button.large {
 	font-size: 1rem;
@@ -923,7 +942,7 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	border-radius: 1.25rem;
 	padding: 0 1rem;
 }
-input[type="button"].small_a, button.small_a, .button.small_a {
+button.small_a, .button.small_a {
 	background-image: url(../../imgs/icons/icon_arrow_right_but_d.svg);
 	background-repeat: no-repeat;
 	background-position: right;
@@ -1034,19 +1053,65 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	border-radius: 1.5rem;
 	padding: 0 1.25rem;
 }
-.button_grid {
+}
+/* Lables */
+
+.lable {
 	display: flex;
 	align-items: center;
-    justify-content: center;
-	gap: 0.35rem;
-	width: 100%;
+    justify-content: left;
+	gap: 0;
+	
 }
-.button_grid .block {
+.lable li {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	
 }
+.small_lable {
+	transition: background 0.3s ease, backdrop-filter 0.3s ease, border-radius 0.3s ease;
+	font-size: 0.9rem;
+	width: auto;
+	height: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding: 0 1.15rem;
+	margin: 0;
 }
+.small_lable.cir {
+	border-radius: 1.5rem;
+}
+.small_lable.rec {
+	border-radius: 0;
+}
+.small_lable.go {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_pill_w.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	aspect-ratio: 1 / 1;
+}
+.small_lable.go:hover {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_pill_dgr.svg);
+}
+.small_lable.dgr {
+	background-color: rgba(0, 90, 70, 1);
+	color: rgba(255, 255, 255, 1);
+}
+.small_lable.dgr:hover {
+	background-color: rgba(123, 239, 178, 1);
+	color: rgba(0, 90, 70, 1);
+}
+.small_lable.gr {
+	background-color: rgba(123, 239, 178, 1);
+	color: rgba(0, 90, 70, 1);
+}
+.small_lable.gr:hover {
+	background-color: rgba(0, 90, 70, 1);
+	color: rgba(255, 255, 255, 1);
+}
+
+
 /* Image */
 
 .image {
@@ -1107,8 +1172,8 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 
 ol {
 	list-style: decimal;
-	margin: 0 0 0 0;
-	padding: 0 0 0 0.25rem;
+	margin: 0;
+	padding: 0;
 }
 ol li {
 	padding-bottom: 1rem;
@@ -1140,7 +1205,7 @@ ul.actions {
 	padding-left: 0;
 }
 ul.actions li {
-	padding: 0 0 0 1rem;
+	padding: 0;
 	vertical-align: middle;
 }
 ul.actions.special {
@@ -2127,8 +2192,8 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .invert hr, #wrapper > .invert hr.lineer_small, #wrapper > .invert hr.lineer_zero {
 	border-bottom-color: rgba(255, 255, 255, .35);
 }
-#wrapper > .invert input[type="button"].small_a, button.small_a, .button.small_a {
-	background-image: url(../../imgs/icons/icon_arrow_right_but_w.svg);
+#wrapper > .invert button.small_a, .button.small_a {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_d.svg);
 }
 #wrapper > .invert input[type="submit"], #wrapper > .invert input[type="reset"], #wrapper > .invert input[type="button"], #wrapper > .invert .button {
 	background-color: inherit;
@@ -2259,17 +2324,23 @@ body.is-preload .banner.onload-image-fade-in .image img {
 #wrapper > .color_Hab {
 	background-color: rgba(225, 242, 255, 1);
 }
-#wrapper > .color_Hr {
-	background-color: rgba(255, 61, 69, 1);
-}
 #wrapper > .color_Hdr {
 	background-color: rgba(121, 15, 53, 1);
+}
+#wrapper > .color_Hr {
+	background-color: rgba(255, 61, 69, 1);
 }
 #wrapper > .color_Har {
 	background-color: rgba(255, 225, 232, 1);
 }
+#wrapper > .color_Hdgr {
+	background-color: rgba(0, 90, 70, 1);
+}
+#wrapper > .color_Hgr {
+	background-color: rgba(116, 241, 181, 1);
+}
 #wrapper > .color_Hagr {
-	background-color: rgba(211, 239, 224, 1);
+	background-color: rgba(220, 249, 233, 1);
 }
 #wrapper > .color_Hg10 {
 	background-color: rgba(236, 238, 246, 1);
