@@ -290,7 +290,7 @@ h1.special_banner {
 }
 h1.special {
 	font-size: 3.75rem;
-	line-height: 1.1;
+	line-height: 1.05;
 }
 h1.special_one {
 	font-size: 4rem;
@@ -665,6 +665,7 @@ a:active, a:visited:active {
 .box_grid .block {
 	display: flex;
 	flex-direction: column;
+	width: 100%;
 }
 .block .block_link {
 	position: absolute;
@@ -919,7 +920,19 @@ input[type="submit"].small, input[type="reset"].small, input[type="button"].smal
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	line-height: 3.5;
+	border-radius: 1.25rem;
+	padding: 0 1rem;
+}
+input[type="button"].small_a, button.small_a, .button.small_a {
+	background-image: url(../../imgs/icons/icon_arrow_right_but_d.svg);
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 0.8rem;
+	width: 12rem;
+	height: 2.5rem;
+	display: flex;
+	align-items: center;
+	justify-content: left;
 	border-radius: 1.25rem;
 	padding: 0 1rem;
 }
