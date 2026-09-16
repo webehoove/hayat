@@ -7,7 +7,7 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: var(--primary-grey);
+	background-color: var(--primary-nblue);
 	transition: 0.3s;
 }
 .container_logotype_lockup_t {
@@ -229,7 +229,7 @@ ul.bottommenu_hor li {
 	width: 9rem;
 }
 ul.topmenu_right {
-	top: 1rem;
+	top: 1.25rem;
 	right: 0;
 }
 ul.topmenu_right img {
