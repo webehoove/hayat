@@ -267,6 +267,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .t_color_r {
 	color: var(--primary-red);
 }
+.t_color_gr {
+	color: var(--primary-green);
+}
 .nols_s {
 	letter-spacing: -0.25rem;
 }
@@ -289,8 +292,12 @@ h1.special_one {
 	font-size: 6rem;
 	line-height: .9;
 }
+h1.tap {
+	font-size: 9rem;
+	line-height: 1;
+}
 h2 {
-	font-size: 3.5rem;
+	font-size: 3rem;
 	line-height: 1;
 }
 h2.special {
@@ -402,7 +409,7 @@ hr.lineer_zero {
 	text-align: right;
 }
  @media screen and (max-width: 1366px) {
-h1.special_one {
+h1, h1.special_one {
 	font-size: 5rem;
 }
 hr {
@@ -418,12 +425,6 @@ hr.block_start {
 }
 }
  @media screen and (max-width: 1080px) {
-h1 {
-	font-size: 2.75rem;
-}
-h2 {
-	font-size: 2.5rem;
-}
 }
  @media screen and (max-width: 820px) {
 h1 {
@@ -451,8 +452,11 @@ h1.special {
 h1.special_one {
 	font-size: 3rem;
 }
+h1.tap {
+	font-size: 5rem;
+}
 h2 {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	line-height: 1;
 }
 h2.special {
@@ -1829,13 +1833,13 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
  @media screen and (max-width: 736px) {
 .wrapper.style1 > .inner.medium {
-	padding: 0 1rem;
+	padding: 0 1.5rem;
 	width: 100%;
 }
 }
  @media screen and (max-width: 390px) {
 .wrapper.style1 > .inner {
-	padding: 0 1rem;
+	padding: 0 1.5rem;
 }
 }
 /* Wrapper (style2) */
