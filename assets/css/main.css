@@ -237,7 +237,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 }
 .xbd_tx {
 	font-family: 'TW Xbd', Helvetica, sans-serif;
-	letter-spacing: -0.035rem;
+	letter-spacing: -0.05rem;
 }
 .blk_tx {
 	font-family: 'TW Blk', Helvetica, sans-serif;
@@ -469,7 +469,7 @@ h2.special {
 	line-height: 1;
 }
 h3 {
-	font-size: 1.5rem;
+	font-size: 1.35rem;
 }
 h4 {
 	font-size: 1.35rem;
@@ -720,7 +720,7 @@ button.dblue, .button.dblue {
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.dblue:hover, .button.dblue:hover {
-	background-color: var(--primary-mblue) !important;
+	background-color: var(--primary-bblue) !important;
 	color: rgba(255, 255, 255, 1) !important;
 }
 button.dblue:active, .button.dblue:active {
@@ -1954,7 +1954,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow-x: hidden;
 }
 #wrapper > .invert {
-	background-color: var(--primary-black);
+	background-color: var(--primary-bblue);
 	color: rgba(255, 255, 255, 1);
 }
 #wrapper > .invert input, #wrapper > .invert select, #wrapper > .invert textarea {

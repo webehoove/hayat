@@ -226,10 +226,10 @@ ul.bottommenu_hor li {
 }
  @media screen and (max-width: 736px) {
 #logotype_sym {
-	width: 8rem;
+	width: 9rem;
 }
 ul.topmenu_right {
-	top: 0.75rem;
+	top: 1rem;
 	right: 0;
 }
 ul.topmenu_right img {
