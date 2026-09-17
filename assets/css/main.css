@@ -1560,7 +1560,6 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	display: block;
 	width: 100%;
 	height: auto;
-	top: -5rem;
 	overflow: hidden;
 	z-index: 2;
 }
@@ -1574,7 +1573,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .mobile-only {
 	display: block !important;
 }
- @media (min-width: 1366px) {
+ @media screen and (max-width: 1920px) {
+.banner.style2 .content {
+	top: -6rem;
+}
+}
+ @media screen and (max-width: 1366px) {
 .banner.style2 .content {
 	top: -4rem;
 }
@@ -2013,6 +2017,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 }
 #wrapper > .color_nblue {
 	background-color: var(--primary-nblue);
+}
+#wrapper > .color_blue {
+	background-color: var(--primary-blue);
 }
 #wrapper > .color_red {
 	background-color: var(--primary-red);

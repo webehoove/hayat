@@ -7,7 +7,7 @@
 	z-index: 4;
 }
 .scrolled {
-	background-color: var(--primary-nblue);
+	background-color: var(--primary-blue);
 	transition: 0.3s;
 }
 .container_logotype_lockup_t {
