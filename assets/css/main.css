@@ -1563,15 +1563,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	overflow: hidden;
 	z-index: 2;
 }
-.responsive-video {
+.banner.style2 .content video {
 	width: 100%;
 	height: auto;
-}
-.desktop-only {
-	display: none !important;
-}
-.mobile-only {
-	display: block !important;
 }
  @media screen and (max-width: 1920px) {
 .banner.style2 .content {
@@ -1593,13 +1587,9 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	height: auto;
 	top: 0;
 }
-}
- @media (min-width: 768px) {
-.desktop-only {
-	display: block !important;
-}
-.mobile-only {
-	display: none !important;
+.banner.style2 .content video {
+	width: 100%;
+	height: auto;
 }
 }
 .banner.style2.fullscreen {
