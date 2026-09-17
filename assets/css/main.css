@@ -421,7 +421,7 @@ hr.block_start {
 }
  @media screen and (max-width: 1180px) {
 hr.block_start {
-	margin: 3rem 0;
+	margin: 0;
 }
 }
  @media screen and (max-width: 1080px) {
@@ -453,11 +453,11 @@ h1.special_one {
 	font-size: 3rem;
 }
 h1.tap {
-	font-size: 5rem;
+	font-size: 5.35rem;
 }
 h2 {
 	font-size: 1.8rem;
-	line-height: 1;
+	line-height: 1.1;
 }
 h2.special {
 	font-size: 2.5rem;
@@ -495,9 +495,6 @@ hr.block2 {
 }
 hr.block_space {
 	margin: 4rem 0;
-}
-hr.block_start {
-	margin: 3.25rem 0;
 }
 hr.lineer {
 	margin: 2rem 0;
@@ -1563,6 +1560,7 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	display: block;
 	width: 100%;
 	height: auto;
+	top: -5rem;
 	overflow: hidden;
 	z-index: 2;
 }
@@ -1576,27 +1574,12 @@ body.is-preload .banner.onload-image-fade-in .image img {
 .mobile-only {
 	display: block !important;
 }
- @media (min-width: 768px) {
-.desktop-only {
-	display: block !important;
-}
-.mobile-only {
-	display: none !important;
+ @media (min-width: 1366px) {
+.banner.style2 .content {
+	top: -4rem;
 }
 }
- @media screen and (max-width: 1680px) {
-}
- @media screen and (max-width: 1366px) {
-}
- @media screen and (max-width: 1280px) {
-}
- @media screen and (max-width: 1080px) {
-}
- @media screen and (max-width: 1024px) {
-}
- @media screen and (max-width: 980px) {
-}
- @media screen and (max-width: 736px) {
+ @media screen and (max-width: 1180px) {
 .banner.style2 {
 	padding: 0;
 }
@@ -1604,6 +1587,15 @@ body.is-preload .banner.onload-image-fade-in .image img {
 	display: block;
 	width: 100%;
 	height: auto;
+	top: 0;
+}
+}
+ @media (min-width: 768px) {
+.desktop-only {
+	display: block !important;
+}
+.mobile-only {
+	display: none !important;
 }
 }
 .banner.style2.fullscreen {
