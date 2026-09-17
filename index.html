@@ -127,9 +127,9 @@ video {
   <section class="banner style2 align-left">
     <div class="content">
       <video id="introVideo" autoplay loop muted playsinline poster="videos/tw_banner_cat_hero_english_for.jpg" class="responsive-video mobile-only" style="filter: brightness(104%) contrast(100%);">
-        <source id="videoSource" src="videos/tw_banner_cat_hero_english_for_mob.mp4" type="video/mp4">
+        <source id="videoSource" src="videos/tw_banner_cat_hero_english_for_blue_mob.mp4" type="video/mp4">
       </video>
-      <video id="introVideo" autoplay loop muted playsinline poster="videos/tw_banner_cat_hero_english_for_mob.jpg" class="responsive-video desktop-only" style="filter: brightness(100%) contrast(100%);">
+      <video id="introVideo" autoplay loop muted playsinline poster="videos/tw_banner_cat_hero_english_for.jpg" class="responsive-video desktop-only" style="filter: brightness(100%) contrast(100%);">
         <source id="videoSource" src="videos/tw_banner_cat_hero_english_for.mp4" type="video/mp4">
       </video>
     </div>
@@ -591,8 +591,8 @@ for (i = 0; i < coll.length; i++) {
     const video = document.getElementById('introVideo');
     
     const targetSrc = window.innerWidth < 768 
-      ? 'videos/tw_banner_cat_hero_english_for.mp4' 
-      : 'videos/tw_banner_cat_hero_english_for_mob.mp4';
+      ? 'videos/tw_banner_cat_hero_english_for_blue_mob.mp4' 
+      : 'videos/tw_banner_cat_hero_english_for.mp4';
 
    if (!source.src.includes(targetSrc)) {
       source.src = targetSrc;
